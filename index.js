@@ -11,11 +11,13 @@ app.get('/', (req, res) => {
 });
 
 app.get('/api/match/:id', (req, res) => {
-    const match = cache.get(req.params.id);
+    const matchId = '' + req.params.id;
+    const match = cache.get(matchId);
     res.send(match);
 });
 
 app.post('/api/match', function (req, res) {
+    req.body.id = '' + req.body.id;
     cache.set(req.body.id, req.body, duration);
     res.send(req.body);
 })
