@@ -1,13 +1,15 @@
 const express = require("express");
+var cors = require('cors');
 const app = express();
 app.use(express.json());
+app.use(cors());
 
 const cache = require('map-expire');
 
 const duration = 10 * 60 * 1000; // 10 minutes
 
 app.get('/', (req, res) => {
-    res.send("Express on Vercel");
+    res.send("Express on Vercel with CORS");
 });
 
 app.get('/api/match/:id', (req, res) => {
