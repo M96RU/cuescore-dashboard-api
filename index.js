@@ -9,7 +9,7 @@ const cache = require('map-expire');
 const duration = 10 * 60 * 1000; // 10 minutes
 
 app.get('/', (req, res) => {
-    res.send("Express on Vercel with CORS");
+    res.send("Express on Vercel with CORS 2");
 });
 
 app.get('/api/match/:id', (req, res) => {
