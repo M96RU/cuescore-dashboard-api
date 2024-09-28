@@ -1,0 +1,56 @@
+{
+    "tournamentId": 45870400,
+    "name": "BB_TN1_SAINT LOUIS_TOURNOI HANDI BILLARD",
+    "type": 0,
+    "format": 1,
+    "url": "https://cuescore.com/tournament/BB_TN1_SAINT+LOUIS_TOURNOI+HANDI+BILLARD/45870400",
+    "timezone": "Europe/Paris",
+    "displayDate": "September 28 - September 29, 2024",
+    "starttime": "2024-09-28T16:15:00+02:00",
+    "stoptime": "2024-09-29T12:00:00+02:00",
+    "deadline": "2024-09-20T23:55:00+02:00",
+    "status": "À venir",
+    "discipline": "Blackball",
+    "contacts": [
+        {
+            "playerId": 29963665,
+            "name": "Directeur de Jeux",
+            "firstname": "Directeur de",
+            "lastname": "Jeux",
+            "url": "https://cuescore.com/player/Directeur+de+Jeux/29963665",
+            "image": "https://img.cuescore.com/image/8/4/862c792ba8eb7f97e626fbe6cbcc59f6.png",
+            "country": {
+                "name": "France",
+                "alpha3": "FRA",
+                "image": "https://cuescore.com/img/flags/png-country-4x2-none/res-640x480/fr.png",
+                "continent": "Europe"
+            },
+            "represents": []
+        }
+    ],
+    "owner": {
+        "organizationId": 11304865,
+        "stub": "ffb",
+        "name": "FF Billard",
+        "url": "https://cuescore.com/ffb",
+        "logo": "//img.cuescore.com/image/6/2/64c15e92da31b5e500b6abb0d14be0dc.png",
+        "profileColor": ""
+    },
+    "venues": [
+        {
+            "venueId": 29972050,
+            "name": "BLACKBALL_PARC TN_ 2024-2025",
+            "url": "https://cuescore.com/venue/BLACKBALL_PARC+TN_+2024-2025/29972050",
+            "owner": {
+                "organizationId": 11304865,
+                "stub": "ffb",
+                "name": "FF Billard",
+                "url": "https://cuescore.com/ffb",
+                "logo": "//img.cuescore.com/image/6/2/64c15e92da31b5e500b6abb0d14be0dc.png",
+                "profileColor": ""
+            }
+        }
+    ],
+    "standings": [],
+    "matches": []
+}
