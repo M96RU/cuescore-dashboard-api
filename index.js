@@ -1,5 +1,6 @@
 const express = require("express");
 var cors = require('cors');
+var cuescore = require('./cuescore.js');
 const app = express();
 app.use(express.json());
 app.use(cors());
@@ -23,6 +24,8 @@ app.post('/api/match', function (req, res) {
     cache.set(req.body.id, req.body, duration);
     res.send(req.body);
 })
+
+cuescore.init(app);
 
 app.listen(5000, () => {
     console.log("Running on port 5000.");
