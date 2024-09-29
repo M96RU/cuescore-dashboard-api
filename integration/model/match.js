@@ -14,8 +14,12 @@ module.exports = class Match {
         this.tournamentId = cuescore.tournamentId;
         this.status = cuescore.status;
         this.round = cuescore.round;
-        this.playerAid = cuescore.playerA?.playerId;
-        this.playerBid = cuescore.playerB?.playerId;
+        if (cuescore.playerA && cuescore.playerA.playerId) {
+            this.playerAid = cuescore.playerA.playerId;
+        }
+        if (cuescore.playerB && cuescore.playerB.playerId) {
+            this.playerBid = cuescore.playerB.playerId;
+        }
         this.playerAscore = cuescore.scoreA;
         this.playerBscore = cuescore.scoreB;
         this.raceTo = cuescore.raceTo;

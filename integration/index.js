@@ -1,6 +1,7 @@
 httpRequest = require('./../services/http-request');
 Tournament = require('./model/tournament');
 Match = require('./model/match');
+Player = require('./model/player');
 
 const ids = [49128523, 46509868, 49439956, 49540879];
 
@@ -11,13 +12,11 @@ now = function () {
 // store the timestamp when integration begins to avoid duplicates
 let started = 0;
 
-let cpt = 0;
-let response = undefined;
+let players = {};
 let tournaments = {};
 let matches = {};
 
 function everyTime() {
-    cpt++;
     if (started > 0 && Math.round(now() - started) < 60000) {
         console.info('Integration in progress since ' + started + ' - will be retry when previous finish or 60s');
     } else {
@@ -37,6 +36,17 @@ function everyTime() {
 
                     if (res.matches && res.matches.length > 0) {
                         res.matches.forEach(cuescore => {
+
+                            // // todo check walk over 1000615
+                            if (cuescore.playerA && cuescore.playerA.playerId) {
+                                const player = new Player(cuescore.playerA);
+                                players[player.id] = player;
+                            }
+                            if (cuescore.playerB && cuescore.playerB.playerId) {
+                                const player = new Player(cuescore.playerB);
+                                players[player.id] = player;
+                            }
+
                             const match = new Match(cuescore);
                             matches[match.id] = match;
                         });
@@ -65,9 +75,9 @@ setInterval(everyTime, 30 * 1000); // 30 seconds
 everyTime();
 
 module.exports.getData = () => {
-    if (tournaments) {
-        return '{"tournaments" : ' + JSON.stringify(tournaments) + ', "matches" : ' + JSON.stringify(matches) + '}';
-        // return  response.tournamentId;
-    }
-    return '{"cpt": "' + cpt + '"}';
+    return {
+        tournaments: tournaments,
+        matches: matches,
+        players: players
+    };
 };
