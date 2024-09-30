@@ -69,10 +69,11 @@ function everyTime() {
     }
 }
 
-setInterval(everyTime, 30 * 1000); // 30 seconds
-
 // init at startup
 everyTime();
+
+// then schedule update every 30 seconds
+setInterval(everyTime, 30 * 1000);
 
 module.exports.getData = () => {
     return {
