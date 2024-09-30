@@ -3,7 +3,7 @@ Tournament = require('./model/tournament');
 Match = require('./model/match');
 Player = require('./model/player');
 
-const ids = [49128523, 46509868, 49439956, 49540879];
+const ids = [44493889, 48138685, 49221085, 49636825, 49684933];
 
 now = function () {
     return new Date().getTime();
