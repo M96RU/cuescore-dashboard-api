@@ -1,6 +1,6 @@
 const express = require("express");
 var cors = require('cors');
-var cuescore = require('./cuescore.js');
+var cuescore = require('./cuescore');
 const app = express();
 app.use(express.json());
 app.use(cors());

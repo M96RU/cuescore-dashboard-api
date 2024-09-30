@@ -12,7 +12,7 @@ module.exports = class Match {
     constructor(cuescore) {
         this.id = cuescore.matchId;
         this.tournamentId = cuescore.tournamentId;
-        this.status = cuescore.status;
+        this.status = cuescore.matchstatus;
         this.round = cuescore.round;
         if (cuescore.playerA && cuescore.playerA.playerId) {
             this.playerAid = cuescore.playerA.playerId;
