@@ -2,6 +2,7 @@ httpRequest = require('./../services/http-request');
 Tournament = require('./model/tournament');
 Match = require('./model/match');
 Player = require('./model/player');
+const cache = require('map-expire');
 
 const ids = [44493889, 48138685, 49221085, 49636825, 49684933];
 
@@ -84,6 +85,13 @@ module.exports.getData = () => {
 };
 
 module.exports.test = async () => {
+    const cached = cache.get("49944664");
+    if (cached) {
+        return cached;
+    }
     const response = await fetch('https://api.cuescore.com/tournament/?id=49944664');
-    return await response.json();
+    const toCache = await response.json();
+    const duration = 30 * 1000; // 10 seconds
+    cache.set("49944664", toCache, duration);
+    return toCache;
 }
