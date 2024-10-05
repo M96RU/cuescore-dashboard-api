@@ -26,6 +26,11 @@ const init = (app) => {
             matches: Object.values(data.matches).filter(match => match.status === 'playing'),
         });
     });
+
+    app.get('/api/cuescore/test', async (req, res) => {
+        const test = await integration.test();
+        res.send(test);
+    });
 }
 
 module.exports.init = init;

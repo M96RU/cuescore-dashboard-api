@@ -82,3 +82,8 @@ module.exports.getData = () => {
         players: players
     };
 };
+
+module.exports.test = async () => {
+    const response = await fetch('https://api.cuescore.com/tournament/?id=49944664');
+    return await response.json();
+}
