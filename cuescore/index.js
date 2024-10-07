@@ -1,7 +1,9 @@
+const results = require('./results');
 const integration = require('./../integration');
 
-const init = (app) => {
+const fs = require("fs");
 
+const init = (app) => {
 
     app.get('/api/cuescore', (req, res) => {
         const response = {
@@ -27,9 +29,9 @@ const init = (app) => {
         });
     });
 
-    app.get('/api/cuescore/test', async (req, res) => {
-        const test = await integration.test();
-        res.send(test);
+    app.get('/api/cuescore/matches', async (req, res) => {
+//        const matches = await integration.getMatches();
+        res.send(results.getMatches());
     });
 }
 

@@ -84,14 +84,14 @@ module.exports.getData = () => {
     };
 };
 
-module.exports.test = async () => {
-    const cached = cache.get("49944664");
+module.exports.getMatches = async () => {
+    const cached = cache.get("matches");
     if (cached) {
         return cached;
     }
     const response = await fetch('https://api.cuescore.com/tournament/?id=49944664');
     const toCache = await response.json();
     const duration = 30 * 1000; // 10 seconds
-    cache.set("49944664", toCache, duration);
+    cache.set("matches", toCache, duration);
     return toCache;
 }
