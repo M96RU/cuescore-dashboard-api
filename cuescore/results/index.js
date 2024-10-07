@@ -1,3 +1,6 @@
+Match = require('./../model/match');
+Player = require('./../model/player');
+
 const fs = require("fs");
 
 const results = [
@@ -46,22 +49,37 @@ const results = [
     }
 ]
 
-
 const matches = []
+let players = {};
 
-results.forEach(config => {
-    const path = __dirname + '/' + config.organization + '/' + config.event + '/' + config.id + '.json';
-    fs.readFile(path, (error, data) => {
-        if (error) {
-            console.log(error);
-            return;
-        }
+for (let result of results) {
+    const path = __dirname + '/' + result.organization + '/' + result.event + '/' + result.id + '.json';
+    try {
+        const data = fs.readFileSync(path, 'utf8');
         const json = JSON.parse(data);
-        console.log(json.matches);
-        matches.push(...json.matches);
-    });
-});
+
+        for (let cuescore of json.matches) {
+            const match = new Match(cuescore);
+            matches.push(match);
+
+            if (match.playerAid) {
+                const player = new Player(cuescore.playerA);
+                players[player.id] = player;
+            }
+            if (match.playerBid) {
+                const player = new Player(cuescore.playerB);
+                players[player.id] = new Player(player);
+            }
+        }
+    } catch (err) {
+        console.error(err);
+    }
+}
 
 module.exports.getMatches = () => {
     return matches;
+};
+
+module.exports.getPlayers = () => {
+    return Object.values(players);
 };
