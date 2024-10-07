@@ -49,7 +49,7 @@ const results = [
     }
 ]
 
-const matches = []
+const matches = {};
 let players = {};
 
 for (let result of results) {
@@ -60,7 +60,7 @@ for (let result of results) {
 
         for (let cuescore of json.matches) {
             const match = new Match(cuescore);
-            matches.push(match);
+            matches[match.id] = match;
 
             if (match.playerAid) {
                 const player = new Player(cuescore.playerA);
@@ -76,10 +76,9 @@ for (let result of results) {
     }
 }
 
-module.exports.getMatches = () => {
-    return matches;
-};
-
-module.exports.getPlayers = () => {
-    return Object.values(players);
+module.exports.getData = () => {
+    return {
+        matches: matches,
+        players: players
+    };
 };

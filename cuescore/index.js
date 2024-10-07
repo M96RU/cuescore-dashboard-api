@@ -7,19 +7,28 @@ const init = (app) => {
 
     app.get(baseUrl + '/matches', async (req, res) => {
         // live: match.status === 'playing'
-        const matches = await proxy.getMatches();
-        res.send({
-            proxy: matches,
-            matches: results.getMatches()
-        });
+
+        const resultsData = results.getData();
+        const matches = resultsData.matches;
+        const data = await proxy.getData();
+
+        for (let match of Object.values(data.matches)) {
+            matches[match.id] = match;
+        }
+
+        res.send(Object.values(matches));
     });
 
     app.get(baseUrl + '/players', async (req, res) => {
-        const players = await proxy.getPlayers();
-        res.send({
-            proxy: players,
-            results: results.getPlayers()
-        });
+        const resultsData = results.getData();
+        const players = resultsData.players;
+        const data = await proxy.getData();
+
+        for (let player of Object.values(data.players)) {
+            players[player.id] = player;
+        }
+
+        res.send(Object.values(players));
     });
 }
 

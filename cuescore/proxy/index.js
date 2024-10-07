@@ -21,15 +21,9 @@ const draws = [
 const duration = 25 * 1000; // 25 seconds
 
 async function getProxy () {
-    const cached = cache.get("proxy");
-    if (cached) {
-        return cached;
-    }
-
-    console.log('Refreshing proxy cache...');
 
     const proxy = {
-        matches: [],
+        matches: {},
         players: {}
     };
 
@@ -40,7 +34,7 @@ async function getProxy () {
 
         for (let cuescore of json.matches) {
             const match = new Match(cuescore);
-            proxy.matches.push(match);
+            proxy.matches[match.id] = match;
 
             if (match.playerAid) {
                 const player = new Player(cuescore.playerA);
@@ -52,17 +46,20 @@ async function getProxy () {
             }
         }
     }
-    cache.set("proxy", proxy, duration);
-    console.log('Refreshing proxy cache OK');
     return proxy;
 }
 
-module.exports.getMatches = async () => {
-    const proxy = await getProxy();
-    return proxy.matches;
-}
+module.exports.getData = async () => {
 
-module.exports.getPlayers = async () => {
+    const cached = cache.get("proxy");
+    if (cached) {
+        return cached;
+    }
+
+    console.log('Refreshing proxy cache...');
     const proxy = await getProxy();
-    return Object.values(proxy.players);
-};
+    cache.set("proxy", proxy, duration);
+
+    console.log('Refreshing proxy cache OK');
+    return proxy;
+}
