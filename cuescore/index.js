@@ -1,8 +1,5 @@
+const proxy = require('./proxy');
 const results = require('./results');
-
-const integration = require('./../integration');
-
-const fs = require("fs");
 
 const init = (app) => {
 
@@ -31,11 +28,18 @@ const init = (app) => {
     });
 
     app.get('/api/cuescore/matches', async (req, res) => {
-//        const matches = await integration.getMatches();
-        res.send(results.getMatches());
+        const matches = await proxy.getMatches();
+        res.send({
+            proxy: matches,
+            matches: results.getMatches()
+        });
     });
     app.get('/api/cuescore/players', async (req, res) => {
-        res.send(results.getPlayers());
+        const players = await proxy.getPlayers();
+        res.send({
+            proxy: players,
+            results: results.getPlayers()
+        });
     });
 }
 
