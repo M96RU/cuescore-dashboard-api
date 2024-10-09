@@ -3,11 +3,32 @@ const results = require('./results');
 
 const baseUrl = '/api/cuescore'
 
+const matchIsLive = (match) => {
+    return match && match.status === 'playing';
+}
+
 const init = (app) => {
 
-    app.get(baseUrl + '/matches', async (req, res) => {
-        // live: match.status === 'playing'
+    app.get(baseUrl + '/live', async (req, res) => {
+        const matches = [];
+        const data = await proxy.getData();
 
+        for (let match of Object.values(data.matches).filter(matchIsLive)) {
+            if (match.playerAid) {
+                match['playerA'] = data.players[match.playerAid];
+                delete match.playerAid;
+            }
+            if (match.playerBid) {
+                match['playerB'] = data.players[match.playerBid];
+                delete match.playerBid;
+            }
+            matches.push(match);
+        }
+
+        res.send(matches);
+    });
+
+    app.get(baseUrl + '/matches', async (req, res) => {
         const resultsData = results.getData();
         const matches = resultsData.matches;
         const data = await proxy.getData();
