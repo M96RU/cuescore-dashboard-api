@@ -4,19 +4,52 @@ Player = require('./../model/player');
 
 const draws = [
     {
-        id: '49201309',
+        id: '49072816',
         organization: 'lbara',
         event: 1,
         type: 'prestige',
         local: 'true'
     }, {
-        id: '50434783',
+        id: '50312830',
         organization: 'lbara',
         event: 1,
         type: 'mixte',
         local: 'true'
+    }, {
+        id: '50414236',
+        organization: 'lbara',
+        event: 1,
+        type: 'women',
+        local: 'true'
+    }, {
+        id: '50414236',
+        organization: 'lbara',
+        event: 1,
+        type: 'juniors',
+        local: 'true' // pas de tables
+    }, {
+        id: '50508148',
+        organization: 'lbara',
+        event: 1,
+        type: 'veteran',
+        local: 'true'
     }
 ]
+
+/*
+    }, {
+        id: '50508121',
+        organization: 'lbara',
+        event: 1,
+        type: 'mixte',
+        local: 'true'
+    }, {
+        id: '50373061',
+        organization: 'lbara',
+        event: 1,
+        type: 'mixte',
+        local: 'true'
+ */
 
 const duration = 25 * 1000; // 25 seconds
 
