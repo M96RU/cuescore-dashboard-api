@@ -1,4 +1,11 @@
 module.exports = class Match {
+
+    // Context
+    organization;
+    event;
+    draw;
+
+    // Match
     id; // pk
     tournamentId; // pk of tournament
     status;
@@ -9,7 +16,14 @@ module.exports = class Match {
     scoreB;
     raceTo;
 
-    constructor(cuescore) {
+    // Table
+    tableId;
+    tableName;
+
+    starttime;
+    stoptime;
+
+    constructor(context, cuescore) {
         this.id = cuescore.matchId;
         this.tournamentId = cuescore.tournamentId;
         this.status = cuescore.matchstatus;
@@ -23,5 +37,22 @@ module.exports = class Match {
         this.scoreA = cuescore.scoreA;
         this.scoreB = cuescore.scoreB;
         this.raceTo = cuescore.raceTo;
+
+        if (cuescore.starttime) {
+            this.starttime = new Date(cuescore.starttime);
+        }
+        if (cuescore.stoptime) {
+            this.stoptime = new Date(cuescore.stoptime);
+        }
+        if (cuescore.table) {
+            this.tableId = cuescore.table.tableId;
+            this.tableName = cuescore.table.name;
+        }
+
+        if (context) {
+            this.organization = context.organization;
+            this.event = context.event;
+            this.draw = context.draw;
+        }
     }
 }

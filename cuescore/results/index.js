@@ -8,58 +8,56 @@ const results = [
         id: '45838186',
         organization: 'ffb',
         event: 1,
-        type: 'bbm',
-        local: 'true'
+        draw: 'bbm'
     }, {
         id: '45853384',
         organization: 'ffb',
         event: 1,
-        type: 'women',
-        local: 'true'
+        draw: 'women'
     }, {
         id: '45853969',
         organization: 'ffb',
         event: 1,
-        type: 'junior',
-        local: 'true'
+        draw: 'junior'
     }, {
         id: '45870364',
         organization: 'ffb',
         event: 1,
-        type: 'espoir',
-        local: 'true'
+        draw: 'espoir'
     }, {
         id: '45870379',
         organization: 'ffb',
         event: 1,
-        type: 'veteran',
-        local: 'true'
+        draw: 'veteran'
     }, {
         id: '49086748',
         organization: 'ffb',
         event: 1,
-        type: 'mixte_a',
-        local: 'true'
+        draw: 'mixte_a'
     }, {
         id: '49369981',
         organization: 'ffb',
         event: 1,
-        type: 'mixte_b',
-        local: 'true'
+        draw: 'mixte_b'
     }
-]
+];
 
+const tournaments = {};
 const matches = {};
 let players = {};
 
 for (let result of results) {
+
+    tournaments[result.id] = result;
+
     const path = __dirname + '/' + result.organization + '/' + result.event + '/' + result.id + '.json';
+
     try {
         const data = fs.readFileSync(path, 'utf8');
         const json = JSON.parse(data);
 
         for (let cuescore of json.matches) {
-            const match = new Match(cuescore);
+            const match = new Match(result, cuescore);
             matches[match.id] = match;
 
             if (match.playerAid) {
@@ -78,6 +76,7 @@ for (let result of results) {
 
 module.exports.getData = () => {
     return {
+        tournaments: tournaments,
         matches: matches,
         players: players
     };

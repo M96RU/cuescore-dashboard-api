@@ -2,71 +2,62 @@ const cache = require("map-expire");
 Match = require('./../model/match');
 Player = require('./../model/player');
 
-const draws = [
+const tournaments = [
     {
-        id: '49072816',
+        id: '38686123',
         organization: 'lbara',
         event: 1,
         type: 'prestige',
-        local: 'true'
-    }, {
-        id: '50312830',
-        organization: 'lbara',
-        event: 1,
-        type: 'mixte',
-        local: 'true'
-    }, {
-        id: '50414236',
-        organization: 'lbara',
-        event: 1,
-        type: 'women',
-        local: 'true'
-    }, {
-        id: '50414236',
-        organization: 'lbara',
-        event: 1,
-        type: 'juniors',
-        local: 'true' // pas de tables
-    }, {
-        id: '50508148',
-        organization: 'lbara',
-        event: 1,
-        type: 'veteran',
-        local: 'true'
+        live: true
     }
-]
+
+];
 
 /*
     }, {
-        id: '50508121',
+        id: '46620286',
         organization: 'lbara',
         event: 1,
         type: 'mixte',
-        local: 'true'
+        live: true
     }, {
-        id: '50373061',
+        id: '47512555',
         organization: 'lbara',
         event: 1,
-        type: 'mixte',
-        local: 'true'
+        type: 'women',
+        live: true
+    }, {
+        id: '49853869',
+        organization: 'lbara',
+        event: 1,
+        type: 'juniors',
+        live: true
+    }, {
+        id: '38686123',
+        organization: 'lbara',
+        event: 1,
+        type: 'other',
+        live: true
+
  */
 
 const duration = 25 * 1000; // 25 seconds
 
-async function getProxy () {
+async function getProxy() {
 
     const proxy = {
+        tournaments: {},
         matches: {},
         players: {}
     };
 
-    for (let draw of draws) {
-        const url = 'https://api.cuescore.com/tournament/?id=' + draw.id;
+    for (let tournament of tournaments) {
+        const url = 'https://api.cuescore.com/tournament/?id=' + tournament.id;
         const response = await fetch(url);
         const json = await response.json();
 
         for (let cuescore of json.matches) {
-            const match = new Match(cuescore);
+            const match = new Match(tournament, cuescore);
             proxy.matches[match.id] = match;
 
             if (match.playerAid) {
