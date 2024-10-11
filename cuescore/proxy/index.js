@@ -1,4 +1,4 @@
-const cache = require("map-expire");
+const cache = require('map-expire');
 Match = require('./../model/match');
 Player = require('./../model/player');
 
@@ -57,8 +57,10 @@ async function getProxy() {
         const response = await fetch(url);
         const json = await response.json();
 
+        const timezone = json['timezone'];
+
         for (let cuescore of json.matches) {
-            const match = new Match(tournament, cuescore);
+            const match = new Match(tournament, cuescore, timezone);
             proxy.matches[match.id] = match;
 
             if (match.playerAid) {
