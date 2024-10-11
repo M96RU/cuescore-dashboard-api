@@ -4,42 +4,43 @@ Player = require('./../model/player');
 
 const tournaments = [
     {
-        id: '38686123',
+        id: '50635249',
         organization: 'lbara',
         event: 1,
         type: 'prestige',
         live: true
-    }
-
-];
-
-/*
     }, {
-        id: '46620286',
+        id: '50312752',
         organization: 'lbara',
         event: 1,
         type: 'mixte',
         live: true
     }, {
-        id: '47512555',
+        id: '50273917',
         organization: 'lbara',
         event: 1,
         type: 'women',
         live: true
     }, {
-        id: '49853869',
+        id: '50375566',
         organization: 'lbara',
         event: 1,
         type: 'juniors',
         live: true
     }, {
-        id: '38686123',
-        organization: 'lbara',
+        id: '50621485',
+        organization: 'ffb',
         event: 1,
-        type: 'other',
+        type: 'bbm',
         live: true
-
- */
+    }, {
+        id: '49870510',
+        organization: 'ffb',
+        event: 1,
+        type: 'women',
+        live: true
+    }
+];
 
 const duration = 25 * 1000; // 25 seconds
 
