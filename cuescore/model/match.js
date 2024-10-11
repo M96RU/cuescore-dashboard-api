@@ -42,14 +42,14 @@ module.exports = class Match {
 
         if (cuescore.starttime) {
             if (timezone) {
-                this.starttime = moment.tz(cuescore.starttime, timezone);
+                this.starttime = moment.tz(cuescore.starttime, timezone).utc();
             } else {
                 this.starttime = moment(cuescore.starttime);
             }
         }
         if (cuescore.stoptime) {
             if (timezone) {
-                this.stoptime = moment.tz(cuescore.stoptime, timezone);
+                this.stoptime = moment.tz(cuescore.stoptime, timezone).utc();
             } else {
                 this.stoptime = moment(cuescore.stoptime);
             }
