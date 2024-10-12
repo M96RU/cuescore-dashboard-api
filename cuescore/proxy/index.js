@@ -4,31 +4,41 @@ Player = require('./../model/player');
 
 const tournaments = [
     {
-        id: '50635249',
+        id: '47652208',
         organization: 'lbara',
         event: 1,
         type: 'prestige',
         live: true
     }, {
-        id: '50312752',
+        id: '47631238',
         organization: 'lbara',
         event: 1,
         type: 'mixte',
         live: true
     }, {
-        id: '50273917',
+        id: '47643448',
         organization: 'lbara',
         event: 1,
         type: 'women',
         live: true
     }, {
-        id: '50375566',
+        id: '47646070',
         organization: 'lbara',
         event: 1,
         type: 'juniors',
         live: true
     }, {
-        id: '50621485',
+        id: '47646256',
+        organization: 'ffb',
+        event: 1,
+        type: 'bbm',
+        live: true
+    }
+];
+
+/*
+    }, {
+        id: '47646256',
         organization: 'ffb',
         event: 1,
         type: 'bbm',
@@ -39,9 +49,7 @@ const tournaments = [
         event: 1,
         type: 'women',
         live: true
-    }
-];
-
+ */
 const duration = 25 * 1000; // 25 seconds
 
 async function getProxy() {
