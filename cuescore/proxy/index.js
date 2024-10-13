@@ -2,36 +2,55 @@ const cache = require('map-expire');
 Match = require('./../model/match');
 Player = require('./../model/player');
 
+const labels = {
+    // Organizations
+    'ffb' : 'FF Billard',
+    'lbara' : 'LBARA',
+
+    // Common draws
+    'mixte': 'Mixte',
+    'women' : 'Féminin',
+    'juniors': 'Jeunes',
+
+    // FFB draws
+    'bbm' : 'BBM',
+
+    // LBARA draws
+    'prestige': 'Prestige',
+
+
+}
+
 const tournaments = [
     {
         id: '47652208',
         organization: 'lbara',
         event: 1,
-        type: 'prestige',
+        draw: 'prestige',
         live: true
     }, {
         id: '47631238',
         organization: 'lbara',
         event: 1,
-        type: 'mixte',
+        draw: 'mixte',
         live: true
     }, {
         id: '47643448',
         organization: 'lbara',
         event: 1,
-        type: 'women',
+        draw: 'women',
         live: true
     }, {
         id: '47646070',
         organization: 'lbara',
         event: 1,
-        type: 'juniors',
+        draw: 'juniors',
         live: true
     }, {
         id: '47646256',
         organization: 'ffb',
         event: 1,
-        type: 'bbm',
+        draw: 'bbm',
         live: true
     }
 ];
@@ -41,13 +60,13 @@ const tournaments = [
         id: '47646256',
         organization: 'ffb',
         event: 1,
-        type: 'bbm',
+        draw: 'bbm',
         live: true
     }, {
         id: '49870510',
         organization: 'ffb',
         event: 1,
-        type: 'women',
+        draw: 'women',
         live: true
  */
 const duration = 25 * 1000; // 25 seconds
@@ -68,7 +87,7 @@ async function getProxy() {
         const timezone = json['timezone'];
 
         for (let cuescore of json.matches) {
-            const match = new Match(tournament, cuescore, timezone);
+            const match = new Match(cuescore, timezone);
             proxy.matches[match.id] = match;
 
             if (match.playerAid) {
@@ -79,6 +98,9 @@ async function getProxy() {
                 const player = new Player(cuescore.playerB);
                 proxy.players[player.id] = new Player(player);
             }
+
+            match.organization = labels[tournament.organization] ?? tournament.organization;
+            match.draw = labels[tournament.draw] ?? tournament.draw;
         }
     }
     return proxy;

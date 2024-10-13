@@ -2,9 +2,8 @@ const moment = require('moment-timezone');
 
 module.exports = class Match {
 
-    // Context
+    // Labels
     organization;
-    event;
     draw;
 
     // Match
@@ -25,7 +24,7 @@ module.exports = class Match {
     starttime;
     stoptime;
 
-    constructor(context, cuescore, timezone) {
+    constructor(cuescore, timezone) {
         this.id = cuescore.matchId;
         this.tournamentId = cuescore.tournamentId;
         this.status = cuescore.matchstatus;
@@ -57,12 +56,6 @@ module.exports = class Match {
         if (cuescore.table) {
             this.tableId = cuescore.table.tableId;
             this.tableName = cuescore.table.name;
-        }
-
-        if (context) {
-            this.organization = context.organization;
-            this.event = context.event;
-            this.draw = context.draw;
         }
     }
 }

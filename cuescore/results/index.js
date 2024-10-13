@@ -57,7 +57,7 @@ for (let result of results) {
         const json = JSON.parse(data);
 
         for (let cuescore of json.matches) {
-            const match = new Match(result, cuescore);
+            const match = new Match(cuescore);
             matches[match.id] = match;
 
             if (match.playerAid) {
