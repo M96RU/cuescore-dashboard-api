@@ -5,6 +5,7 @@ module.exports = class Match {
     // Labels
     organization;
     draw;
+    duration;
 
     // Match
     id; // pk

@@ -23,11 +23,16 @@ const labels = {
 
 const tournaments = [
     {
-        id: '47652208',
+        id: '50054326',
         organization: 'lbara',
         event: 1,
         draw: 'prestige',
         live: true
+
+    }
+];
+
+/*
     }, {
         id: '47631238',
         organization: 'lbara',
@@ -52,10 +57,8 @@ const tournaments = [
         event: 1,
         draw: 'bbm',
         live: true
-    }
-];
 
-/*
+
     }, {
         id: '47646256',
         organization: 'ffb',
@@ -101,6 +104,7 @@ async function getProxy() {
 
             match.organization = labels[tournament.organization] ?? tournament.organization;
             match.draw = labels[tournament.draw] ?? tournament.draw;
+            match.duration = 120
         }
     }
     return proxy;
