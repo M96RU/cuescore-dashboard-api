@@ -16,6 +16,7 @@ module.exports = class Match {
     scoreA;
     scoreB;
     raceTo;
+    roundName;
 
     // Table
     tableId;
@@ -38,6 +39,7 @@ module.exports = class Match {
         this.scoreA = cuescore.scoreA;
         this.scoreB = cuescore.scoreB;
         this.raceTo = cuescore.raceTo;
+        this.roundName = cuescore.roundName;
 
         if (cuescore.starttime) {
             if (timezone) {
