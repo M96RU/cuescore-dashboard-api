@@ -84,7 +84,11 @@ async function getProxy() {
 
     for (let tournament of tournaments) {
         const url = 'https://api.cuescore.com/tournament/?id=' + tournament.id;
-        const response = await fetch(url);
+        const response = await fetch(url, {
+            headers: {
+                'Cookie': 'locale=fr_FR.utf8;'
+            }
+        });
         const json = await response.json();
 
         const timezone = json['timezone'];
