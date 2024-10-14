@@ -23,7 +23,7 @@ const labels = {
 
 const tournaments = [
     {
-        id: '50054326',
+        id: '38986501',
         organization: 'lbara',
         event: 1,
         draw: 'prestige',
