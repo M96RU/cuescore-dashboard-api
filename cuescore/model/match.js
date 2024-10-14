@@ -6,6 +6,7 @@ module.exports = class Match {
     organization;
     draw;
     duration;
+    scorerUrl;
 
     // Match
     id; // pk
