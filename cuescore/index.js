@@ -37,7 +37,7 @@ const init = (app) => {
         }
         const data = await proxy.getData();
 
-        for (let match of Object.values(data.matches)) {
+        for (let match of Object.values(data.matches).filter(m => !req.query.organization || req.query.organization === m.organization)) {
 
             if (match.playerAid) {
                 match['playerA'] = data.players[match.playerAid];

@@ -3,9 +3,6 @@ Match = require('./../model/match');
 Player = require('./../model/player');
 
 const labels = {
-    // Organizations
-    'ffb': 'FF Billard',
-    'lbara': 'LBARA',
 
     // Common draws
     'mixte': 'Mixte',
@@ -17,8 +14,6 @@ const labels = {
 
     // LBARA draws
     'prestige': 'Prestige',
-
-
 }
 
 const SCORER_CODE = {
@@ -129,7 +124,7 @@ async function getProxy() {
                 proxy.players[player.id] = new Player(player);
             }
 
-            match.organization = labels[tournament.organization] ?? tournament.organization;
+            match.organization = tournament.organization;
             match.draw = labels[tournament.draw] ?? tournament.draw;
             match.duration = 120
             if (SCORER_CODE[match.tableId]) {
