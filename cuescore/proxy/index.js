@@ -46,8 +46,14 @@ const tournaments = [
         event: 1,
         draw: 'prestige',
         live: true
-
-    }
+    },
+    {
+        id: '48177508',
+        organization: 'ffb',
+        event: 1,
+        draw: 'bbm',
+        live: true
+    },
 ];
 
 /*
