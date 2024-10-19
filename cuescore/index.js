@@ -1,17 +1,22 @@
 const proxy = require('./proxy');
 const results = require('./results');
+const moment = require("moment-timezone");
 
 const baseUrl = '/api/cuescore'
 
 const matchIsLive = (match) => {
-    return match && match.status === 'playing';
+    return match && match.status === 'playing' && match.tableId;
+}
+
+const matchIsPlanned = (match) => {
+    return match && match.tableId && match.status !== 'finished' && match.status !== 'playing';
 }
 
 const matchJustFinished = (match) => {
     if (!match || match.status !== 'finished' || !match.stoptime) {
         return false;
     }
-    return true;
+    return moment().diff(match.stoptime) < 300000; // 5 minutes x 60 seconds x 1000 ms
 }
 
 const organizations = [
@@ -39,7 +44,9 @@ const init = (app) => {
     app.get(baseUrl + '/live', async (req, res) => {
 
         // keep last match per table
-        const tables = {};
+        const liveMatches = {};
+        const upcomingMatches = {};
+        const finishedMatches = {};
 
         const live = {
             organisations: organizations,
@@ -59,24 +66,25 @@ const init = (app) => {
             }
 
             if (matchIsLive(match)) {
-                live.matches.push(match);
-                if (match.tableId) {
-                    tables[match.tableId] = match;
-                }
+                liveMatches[match.tableId] = match;
 
+            } else if (matchIsPlanned(match)) {
+                upcomingMatches[match.tableId] = match;
             } else if (matchJustFinished(match)) {
                 if (match.tableId) {
-                    const matchOnTable = tables[match.tableId];
-                    if (!matchOnTable || !matchIsLive(matchOnTable) && match.stoptime > matchOnTable.stoptime) {
-                        tables[match.tableId] = match;
-                    }
+                    finishedMatches[match.tableId] = match;
                 }
             }
         }
 
-        for (let match of Object.values(tables).filter(match => !matchIsLive(match))) {
-            live.matches.push(match);
+        for (let match of Object.values(upcomingMatches).filter(m => !liveMatches[m.tableId])) {
+            liveMatches[match.tableId] = match;
         }
+        for (let match of Object.values(finishedMatches).filter(m => !liveMatches[m.tableId])) {
+            liveMatches[match.tableId] = match;
+        }
+
+        live.matches.push(Object.values(liveMatches))
 
         res.send(live);
     });
