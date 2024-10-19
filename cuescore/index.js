@@ -84,8 +84,7 @@ const init = (app) => {
             liveMatches[match.tableId] = match;
         }
 
-        live.matches.push(Object.values(liveMatches))
-
+        live.matches = Object.values(liveMatches);
         res.send(live);
     });
 
