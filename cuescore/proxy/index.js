@@ -2,6 +2,24 @@ const cache = require('map-expire');
 Match = require('./../model/match');
 Player = require('./../model/player');
 
+const computeDuration = {
+    ffb : (match) => {
+        return 0;
+    },
+    lbara : (match) => {
+        if (!match || !match.raceTo) {
+            return 0;
+        }
+        if (match.raceTo >= 5) {
+            return 105; // 1h45
+        }
+        if (match.raceTo >= 4) {
+            return 75; // 1h15
+        }
+        return 60; // 1h by default
+    }
+}
+
 const labels = {
 
     // Common draws
@@ -132,7 +150,8 @@ async function getProxy() {
 
             match.organization = tournament.organization;
             match.draw = labels[tournament.draw] ?? tournament.draw;
-            match.duration = 120
+
+            match.duration = computeDuration[match.organization] ? computeDuration[match.organization](match) : 0;
             if (SCORER_CODE[match.tableId]) {
                 match.scorerUrl = 'https://cuescore.com/scoreboard/?code=' + SCORER_CODE[match.tableId];
             }
