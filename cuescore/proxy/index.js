@@ -66,7 +66,7 @@ const tournaments = [
         live: true
     },
     {
-        id: '48177508',
+        id: '49852477',
         organization: 'ffb',
         event: 1,
         draw: 'bbm',
