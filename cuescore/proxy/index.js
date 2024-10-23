@@ -3,10 +3,10 @@ Match = require('./../model/match');
 Player = require('./../model/player');
 
 const computeDuration = {
-    ffb : (match) => {
+    ffb: (match) => {
         return 0;
     },
-    lbara : (match) => {
+    lbara: (match) => {
         if (!match || !match.raceTo) {
             return 0;
         }
@@ -25,13 +25,19 @@ const labels = {
     // Common draws
     'mixte': 'Mixte',
     'women': 'Féminin',
-    'juniors': 'Jeunes',
+    'veteran': 'Vétérans',
+    'handi': 'Handi',
 
     // FFB draws
     'bbm': 'BBM',
+    'espoir': 'Espoirs',
+    'junior': 'Juniors',
+    'mixte_a': 'Tableau A',
+    'mixte_b': 'Tableau B',
 
     // LBARA draws
     'prestige': 'Prestige',
+    'jeune': 'Jeunes',
 }
 
 const SCORER_CODE = {
@@ -59,61 +65,86 @@ const SCORER_CODE = {
 
 const tournaments = [
     {
-        id: '38986501',
+        id: '48186595',
         organization: 'lbara',
         event: 1,
         draw: 'prestige',
         live: true
-    },
-    {
-        id: '49852477',
-        organization: 'ffb',
-        event: 1,
-        draw: 'bbm',
-        live: true
-    },
-];
-
-/*
     }, {
-        id: '47631238',
+        id: '48186472',
         organization: 'lbara',
         event: 1,
         draw: 'mixte',
         live: true
     }, {
-        id: '47643448',
+        id: '48186733',
         organization: 'lbara',
         event: 1,
         draw: 'women',
         live: true
     }, {
-        id: '47646070',
+        id: '48186760',
         organization: 'lbara',
         event: 1,
-        draw: 'juniors',
+        draw: 'veteran',
         live: true
     }, {
-        id: '47646256',
-        organization: 'ffb',
+        id: '48186781',
+        organization: 'lbara',
         event: 1,
+        draw: 'jeune',
+        live: true
+    }, {
+        id: '49859473',
+        organization: 'ffb',
+        event: 2,
         draw: 'bbm',
         live: true
-
-
     }, {
-        id: '47646256',
+        id: '49940305',
         organization: 'ffb',
-        event: 1,
-        draw: 'bbm',
+        event: 2,
+        draw: 'espoir',
         live: true
     }, {
-        id: '49870510',
+        id: '49938313',
         organization: 'ffb',
-        event: 1,
+        event: 2,
+        draw: 'junior',
+        live: true
+    }, {
+        id: '49940263',
+        organization: 'ffb',
+        event: 2,
         draw: 'women',
         live: true
- */
+    }, {
+        id: '49940362',
+        organization: 'ffb',
+        event: 2,
+        draw: 'veteran',
+        live: true
+    }, {
+        id: '50731213',
+        organization: 'ffb',
+        event: 2,
+        draw: 'mixte_a',
+        live: true
+    }, {
+        id: '50736109',
+        organization: 'ffb',
+        event: 2,
+        draw: 'mixte_b',
+        live: true
+    }, {
+        id: '49940395',
+        organization: 'ffb',
+        event: 2,
+        draw: 'handi',
+        live: true
+    },
+];
+
 const duration = 25 * 1000; // 25 seconds
 
 async function getProxy() {
