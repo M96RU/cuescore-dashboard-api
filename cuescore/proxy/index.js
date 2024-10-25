@@ -32,8 +32,8 @@ const labels = {
     'bbm': 'BBM',
     'espoir': 'Espoirs',
     'junior': 'Juniors',
-    'mixte_a': 'Tableau A',
-    'mixte_b': 'Tableau B',
+    'mixte_a': 'National A',
+    'mixte_b': 'National B',
 
     // LBARA draws
     'prestige': 'Prestige',
