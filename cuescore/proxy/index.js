@@ -38,6 +38,7 @@ const labels = {
     // LBARA draws
     'prestige': 'Prestige',
     'jeune': 'Jeunes',
+    'consolante': 'Consolante',
 }
 
 const SCORER_CODE = {
@@ -93,6 +94,12 @@ const tournaments = [
         organization: 'lbara',
         event: 1,
         draw: 'jeune',
+        live: true
+    }, {
+        id: '51067966',
+        organization: 'lbara',
+        event: 1,
+        draw: 'consolante',
         live: true
     }, {
         id: '49859473',
