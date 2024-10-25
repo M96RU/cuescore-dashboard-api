@@ -65,16 +65,19 @@ const init = (app) => {
                 delete match.playerBid;
             }
 
-            if (matchIsLive(match)) {
-                liveMatches[match.tableId] = match;
+            if (match['playerA'] && match['playerB']) {
+                if (matchIsLive(match)) {
+                    liveMatches[match.tableId] = match;
 
-            } else if (matchIsPlanned(match)) {
-                upcomingMatches[match.tableId] = match;
-            } else if (matchJustFinished(match)) {
-                if (match.tableId) {
-                    finishedMatches[match.tableId] = match;
+                } else if (matchIsPlanned(match)) {
+                    upcomingMatches[match.tableId] = match;
+                } else if (matchJustFinished(match)) {
+                    if (match.tableId) {
+                        finishedMatches[match.tableId] = match;
+                    }
                 }
             }
+
         }
 
         for (let match of Object.values(upcomingMatches).filter(m => !liveMatches[m.tableId])) {
