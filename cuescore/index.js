@@ -1,5 +1,5 @@
-const proxy = require('./proxy');
-const results = require('./results');
+const proxy = require('./services/proxy');
+const results = require('./services/results');
 const moment = require("moment-timezone");
 
 const baseUrl = '/api/cuescore'
@@ -19,19 +19,9 @@ const matchJustFinished = (match) => {
     return moment().diff(match.stoptime) < 300000; // 5 minutes x 60 seconds x 1000 ms
 }
 
-const organizations = [
-    {
-        id: "ffb",
-        name: "Fédération Française de Billard",
-        url: "https://img.cuescore.com/image/6/2/64c15e92da31b5e500b6abb0d14be0dc.png",
-        display: true
-    }, {
-        id: "lbara",
-        name: "Ligue Auvergne-Rhône-Alpes",
-        url: "https://img.cuescore.com/image/0/2/0338989cafdd922c63cb57acd7be0329.png",
-        display: true
-    }
-];
+const organizations = require('./data/organizations').getData();
+const tables = require('./data/tables').getData();
+const tournaments = require('./data/tournaments').getData();
 
 const init = (app) => {
 
@@ -39,6 +29,48 @@ const init = (app) => {
         res.send({
             organizations: organizations
         });
+    });
+
+    app.get(baseUrl + '/organizations/:id', (req, res) => {
+        res.send(organizations.find(organization => organization.id === req.params.id) ?? "{}");
+    });
+
+    app.get(baseUrl + '/organizations/:id/events/:eventId', (req, res) => {
+        res.send(tournaments.filter(tournament => tournament.organization === req.params.id && tournament.event === +req.params.eventId));
+    });
+
+    app.get(baseUrl + '/tables/:id', async (req, res) => {
+        const table = tables.find(t => t.id === +req.params.id) ?? undefined;
+
+        if (!table) {
+            // table not found
+            return res.send({});
+        }
+
+        const response = {
+            table: table,
+            match: null
+        }
+
+        const data = await proxy.getData();
+        const matches = Object.values(data.matches).filter(match => table.id === match.tableId);
+
+        for (const filterMethod of [matchIsLive, matchIsPlanned, matchJustFinished]) {
+            const filtered = matches.filter(filterMethod);
+            if (filtered && filtered.length > 0) {
+                response.match = filtered[0];
+                // match found, retrieve response
+                return res.send(response);
+            }
+        }
+
+        // no match in progress
+        return res.send(response);
+    });
+
+    app.get(baseUrl + '/scanner/:code', async (req, res) => {
+        const table = tables.find(t => t.code === req.params.code.toLowerCase()) ?? {};
+        return res.send(table);
     });
 
     app.get(baseUrl + '/live', async (req, res) => {
