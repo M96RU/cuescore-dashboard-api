@@ -1,11 +1,41 @@
 const tournaments = [
 
-    // LBARA - DISTRICT
+    // LBARA - TR2
     {
+        id: '51040972',
+        organization: 'lbara',
+        event: 2,
+        draw: 'prestige',
+        live: true
+    }, {
+        id: '48186505',
+        organization: 'lbara',
+        event: 2,
+        draw: 'mixte',
+        live: true
+    }, {
+        id: '50901004',
+        organization: 'lbara',
+        event: 2,
+        draw: 'women',
+        live: true
+    }, {
+        id: '50901025',
+        organization: 'lbara',
+        event: 2,
+        draw: 'veteran',
+        live: true
+    }, {
+        id: '50901040',
+        organization: 'lbara',
+        event: 2,
+        draw: 'jeune',
+        live: true
+    }, {
         id: '38986501',
-        organization: 'lbara_district',
-        event: 1,
-        draw: 'dauphine',
+        organization: 'lbara',
+        event: 2,
+        draw: 'consolante',
         live: true
     },
 
