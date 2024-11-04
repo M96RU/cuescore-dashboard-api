@@ -23,8 +23,10 @@ for (let tournament of tournaments.filter(t => !t.live)) {
         const data = fs.readFileSync(path, 'utf8');
         const json = JSON.parse(data);
 
+        const timezone = json['timezone'];
+
         for (let cuescore of json.matches) {
-            const match = new Match(cuescore);
+            const match = new Match(cuescore, timezone);
             results.matches[match.id] = match;
 
             if (match.playerAid) {

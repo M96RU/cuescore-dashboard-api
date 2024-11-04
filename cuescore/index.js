@@ -39,6 +39,34 @@ const init = (app) => {
         res.send(tournaments.filter(tournament => tournament.organization === req.params.id && tournament.event === +req.params.eventId));
     });
 
+    app.get(baseUrl + '/tournaments/:id', async (req, res) => {
+        const tournamentId = +req.params.id;
+
+        const response = {
+            tournament: tournaments.find(t => t.id === tournamentId),
+            matches: []
+        }
+
+        if (response.tournament) {
+
+            const data = response.tournament.live ? await proxy.getData() : results.getData();
+
+            for (let match of Object.values(data.matches).filter(match => tournamentId === match.tournamentId)) {
+
+                if (match.playerAid) {
+                    match['playerA'] = data.players[match.playerAid];
+                    delete match.playerAid;
+                }
+                if (match.playerBid) {
+                    match['playerB'] = data.players[match.playerBid];
+                    delete match.playerBid;
+                }
+                response.matches.push(match);
+            }
+        }
+        res.send(response);
+    });
+
     app.get(baseUrl + '/tables/:id', async (req, res) => {
         const table = tables.find(t => t.id === +req.params.id) ?? undefined;
 
