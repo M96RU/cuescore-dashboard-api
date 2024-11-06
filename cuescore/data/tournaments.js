@@ -32,7 +32,7 @@ const tournaments = [
         draw: 'jeune',
         live: true
     }, {
-        id: '38986501',
+        id: '51710497',
         organization: 'lbara',
         event: 2,
         draw: 'consolante',
