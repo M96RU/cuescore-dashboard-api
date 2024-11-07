@@ -2,6 +2,8 @@ const proxy = require('./services/proxy');
 const results = require('./services/results');
 const moment = require("moment-timezone");
 
+const WALK_OVER_PLAYER_ID = 1000615;
+
 const baseUrl = '/api/cuescore'
 
 const matchIsLive = (match) => {
@@ -51,7 +53,7 @@ const init = (app) => {
 
             const data = response.tournament.live ? await proxy.getData() : results.getData();
 
-            for (let match of Object.values(data.matches).filter(match => tournamentId === match.tournamentId)) {
+            for (let match of Object.values(data.matches).filter(match => tournamentId === match.tournamentId && match.playerAid !== WALK_OVER_PLAYER_ID && match.playerBid !== WALK_OVER_PLAYER_ID)) {
 
                 if (match.playerAid) {
                     match['playerA'] = data.players[match.playerAid];

@@ -13,6 +13,7 @@ module.exports = class Match {
     tournamentId; // pk of tournament
     status;
     round;
+    order;
     playerAid; // pk of player
     playerBid; // pk of player
     scoreA;
@@ -32,6 +33,7 @@ module.exports = class Match {
         this.tournamentId = cuescore.tournamentId;
         this.status = cuescore.matchstatus;
         this.round = cuescore.round;
+        this.order = cuescore.matchno;
         if (cuescore.playerA && cuescore.playerA.playerId) {
             this.playerAid = cuescore.playerA.playerId;
         }
