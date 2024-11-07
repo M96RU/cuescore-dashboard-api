@@ -2,6 +2,7 @@ const cache = require('map-expire');
 Match = require('../model/match');
 Player = require('../model/player');
 
+const labelDraws = require('../label/draws.js');
 const tournaments = require('../data/tournaments.js').getData();
 const tablesService = require('../data/tables.js');
 
@@ -26,26 +27,6 @@ const computeDuration = {
     }
 }
 
-const labels = {
-
-    // Common draws
-    'mixte': 'Mixte',
-    'women': 'Féminin',
-    'veteran': 'Vétérans',
-    'handi': 'Handi',
-
-    // FFB draws
-    'bbm': 'BBM',
-    'espoir': 'Espoirs',
-    'junior': 'Juniors',
-    'mixte_a': 'National A',
-    'mixte_b': 'National B',
-
-    // LBARA draws
-    'prestige': 'Prestige',
-    'jeune': 'Jeunes',
-    'consolante': 'Consolante',
-}
 
 const duration = 25 * 1000; // 25 seconds
 
@@ -82,7 +63,7 @@ async function getProxy() {
             }
 
             match.organization = tournament.organization;
-            match.draw = labels[tournament.draw] ?? tournament.draw;
+            match.draw = labelDraws.getLabel(tournament.draw);
 
             match.duration = computeDuration[match.organization] ? computeDuration[match.organization](match) : 0;
 

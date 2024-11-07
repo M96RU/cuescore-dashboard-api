@@ -21,6 +21,8 @@ const matchJustFinished = (match) => {
     return moment().diff(match.stoptime) < 300000; // 5 minutes x 60 seconds x 1000 ms
 }
 
+const labelDraws = require('./label/draws');
+
 const organizations = require('./data/organizations').getData();
 const tables = require('./data/tables').getData();
 const tournaments = require('./data/tournaments').getData();
@@ -38,7 +40,13 @@ const init = (app) => {
     });
 
     app.get(baseUrl + '/organizations/:id/events/:eventId', (req, res) => {
-        res.send(tournaments.filter(tournament => tournament.organization === req.params.id && tournament.event === +req.params.eventId));
+        res.send(tournaments
+            .filter(tournament => tournament.organization === req.params.id && tournament.event === +req.params.eventId)
+            .map(tournament => {
+                tournament.draw = labelDraws.getLabel(tournament.draw);
+                return tournament;
+            })
+        );
     });
 
     app.get(baseUrl + '/tournaments/:id', async (req, res) => {
