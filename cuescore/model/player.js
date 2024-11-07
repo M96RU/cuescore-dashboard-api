@@ -6,7 +6,7 @@ module.exports = class Player {
     image;
 
     constructor(cuescore) {
-        this.id = cuescore.playerId;
+        this.id = cuescore.playerId ?? cuescore.id;
         this.name = cuescore.name;
         this.firstname = cuescore.firstname;
         this.lastname = cuescore.lastname;
