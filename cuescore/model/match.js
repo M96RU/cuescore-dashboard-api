@@ -31,6 +31,10 @@ module.exports = class Match {
     statusA;
     statusB;
 
+    // Players label (Winner of match 7)
+    labelA;
+    labelB;
+
     // Table
     tableId;
     tableName;
@@ -41,11 +45,19 @@ module.exports = class Match {
         this.status = cuescore['matchstatus'];
         this.round = cuescore.round;
         this.order = cuescore['matchno'];
-        if (cuescore.playerA && cuescore.playerA['playerId']) {
-            this.playerAid = cuescore.playerA['playerId'];
+        if (cuescore.playerA) {
+            if (cuescore.playerA['playerId']) {
+                this.playerAid = cuescore.playerA['playerId'];
+            } else if (cuescore.playerA['name']) {
+                this.labelA = cuescore.playerA['name'];
+            }
         }
-        if (cuescore.playerB && cuescore.playerB['playerId']) {
-            this.playerBid = cuescore.playerB['playerId'];
+        if (cuescore.playerB) {
+            if (cuescore.playerB['playerId']) {
+                this.playerBid = cuescore.playerB['playerId'];
+            } else if (cuescore.playerB['name']) {
+                this.labelB = cuescore.playerB['name'];
+            }
         }
         switch (cuescore['penalty']) {
             case 1: // Forfeit

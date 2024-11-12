@@ -63,11 +63,11 @@ const init = (app) => {
 
             for (let match of Object.values(data.matches).filter(match => tournamentId === match.tournamentId && match.playerAid !== WALK_OVER_PLAYER_ID && match.playerBid !== WALK_OVER_PLAYER_ID)) {
 
-                if (match.playerAid) {
+                if (match.playerAid > 0) {
                     match['playerA'] = data.players[match.playerAid];
                     delete match.playerAid;
                 }
-                if (match.playerBid) {
+                if (match.playerBid > 0) {
                     match['playerB'] = data.players[match.playerBid];
                     delete match.playerBid;
                 }
