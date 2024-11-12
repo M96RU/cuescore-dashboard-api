@@ -1,42 +1,51 @@
 const tournaments = [
 
+    // LBARA - TR3
+    {
+        id: 38986501,
+        organization: 'lbara',
+        event: 3,
+        draw: 'consolante',
+        live: true
+    },
+
     // LBARA - TR2
     {
         id: 51040972,
         organization: 'lbara',
         event: 2,
         draw: 'prestige',
-        live: true
+        live: false
     }, {
         id: 48186505,
         organization: 'lbara',
         event: 2,
         draw: 'mixte',
-        live: true
+        live: false
     }, {
         id: 50901004,
         organization: 'lbara',
         event: 2,
         draw: 'women',
-        live: true
+        live: false
     }, {
         id: 50901025,
         organization: 'lbara',
         event: 2,
         draw: 'veteran',
-        live: true
+        live: false
     }, {
         id: 50901040,
         organization: 'lbara',
         event: 2,
         draw: 'jeune',
-        live: true
+        live: false
     }, {
-        id: 38986501,
+        id: 51710497,
         organization: 'lbara',
         event: 2,
         draw: 'consolante',
-        live: true
+        live: false
     },
 
     // LBARA - TR1
