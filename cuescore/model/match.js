@@ -14,31 +14,50 @@ module.exports = class Match {
     status;
     round;
     order;
+    roundName;
+    starttime;
+    stoptime;
+
+    // Players
     playerAid; // pk of player
     playerBid; // pk of player
+
+    // Score
     scoreA;
     scoreB;
     raceTo;
-    roundName;
+
+    // Players status
+    statusA;
+    statusB;
 
     // Table
     tableId;
     tableName;
 
-    starttime;
-    stoptime;
-
     constructor(cuescore, timezone) {
-        this.id = cuescore.matchId;
+        this.id = cuescore['matchId'];
         this.tournamentId = cuescore.tournamentId;
-        this.status = cuescore.matchstatus;
+        this.status = cuescore['matchstatus'];
         this.round = cuescore.round;
-        this.order = cuescore.matchno;
-        if (cuescore.playerA && cuescore.playerA.playerId) {
-            this.playerAid = cuescore.playerA.playerId;
+        this.order = cuescore['matchno'];
+        if (cuescore.playerA && cuescore.playerA['playerId']) {
+            this.playerAid = cuescore.playerA['playerId'];
         }
-        if (cuescore.playerB && cuescore.playerB.playerId) {
-            this.playerBid = cuescore.playerB.playerId;
+        if (cuescore.playerB && cuescore.playerB['playerId']) {
+            this.playerBid = cuescore.playerB['playerId'];
+        }
+        switch (cuescore['penalty']) {
+            case 1: // Forfeit
+            case 4: // Disqualified
+            case 16: // Abandoned
+                this.statusA = 'DIS';
+                break;
+            case 2: // Forfeit
+            case 8: // Disqualified
+            case 32: // Disqualified
+                this.statusB = 'DIS';
+                break;
         }
         this.scoreA = cuescore.scoreA;
         this.scoreB = cuescore.scoreB;
