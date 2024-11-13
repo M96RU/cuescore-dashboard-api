@@ -60,7 +60,7 @@ const init = (app) => {
 
         if (response.tournament) {
 
-            const data = response.tournament.live ? await proxy.getTournament(tournamentId) : results.getData();
+            const data = response.tournament.live ? await proxy.getTournament(tournamentId) : results.getTournament(tournamentId);
 
             for (let match of Object.values(data.matches).filter(match => match.playerAid !== WALK_OVER_PLAYER_ID && match.playerBid !== WALK_OVER_PLAYER_ID)) {
 
@@ -75,7 +75,7 @@ const init = (app) => {
                 response.matches.push(match);
             }
 
-            response.players = Object.values(data.players);
+            response.players = Object.values(data.players).filter(player => player.id !== WALK_OVER_PLAYER_ID);
         }
         res.send(response);
     });

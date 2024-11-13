@@ -30,15 +30,15 @@ const computeDuration = {
 
 const duration = 25 * 1000; // 25 seconds
 
-async function getCachedTournament(tournamentId) {
-    const key = 'tournament#' + tournamentId;
+async function getCachedTournament(tournament) {
+    const key = 'tournament#' + tournament.id;
     const cached = cache.get(key);
     if (cached) {
         return cached;
     }
 
     console.log('Refreshing proxy cache ' + key + '...');
-    const proxy = await getTournament(tournamentId);
+    const proxy = await getTournament(tournament);
     cache.set(key, proxy, duration);
 
     console.log('Refreshing proxy cache ' + key + ' OK');
@@ -46,9 +46,7 @@ async function getCachedTournament(tournamentId) {
 
 }
 
-async function getTournament(tournamentId) {
-
-    const tournament = tournaments.find(t => t.id === tournamentId);
+async function getTournament(tournament) {
 
     const proxy = {
         matches: {},
@@ -125,13 +123,9 @@ async function getProxy() {
         if (tournamentProxy) {
             for (let match of Object.values(tournamentProxy.matches)) {
                 proxy.matches[match.id] = match;
-
-                if (match.playerA && match.playerA.id) {
-                    proxy.players[match.playerA.id] = match.playerA;
-                }
-                if (match.playerB && match.playerB.id) {
-                    proxy.players[match.playerB.id] = match.playerB;
-                }
+            }
+            for (let player of Object.values(tournamentProxy.players)) {
+                proxy.players[player.id] = player;
             }
         }
     }
@@ -139,20 +133,18 @@ async function getProxy() {
 }
 
 module.exports.getData = async () => {
-
-    const cached = cache.get("proxy");
-    if (cached) {
-        return cached;
-    }
-
-    console.log('Refreshing proxy cache...');
-    const proxy = await getProxy();
-    cache.set("proxy", proxy, duration);
-
-    console.log('Refreshing proxy cache OK');
-    return proxy;
+    return await getProxy();
 }
 
 module.exports.getTournament = async (tournamentId) => {
-    return getCachedTournament(tournamentId);
+    const tournament = tournaments.find(t => t.id === tournamentId);
+
+    if (!tournament) {
+        return {
+            matches: {},
+            players: {}
+        };
+    }
+
+    return getCachedTournament(tournament);
 }
