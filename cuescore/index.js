@@ -54,14 +54,15 @@ const init = (app) => {
 
         const response = {
             tournament: tournaments.find(t => t.id === tournamentId),
-            matches: []
+            matches: [],
+            players: undefined
         }
 
         if (response.tournament) {
 
-            const data = response.tournament.live ? await proxy.getData() : results.getData();
+            const data = response.tournament.live ? await proxy.getTournament(tournamentId) : results.getData();
 
-            for (let match of Object.values(data.matches).filter(match => tournamentId === match.tournamentId && match.playerAid !== WALK_OVER_PLAYER_ID && match.playerBid !== WALK_OVER_PLAYER_ID)) {
+            for (let match of Object.values(data.matches).filter(match => match.playerAid !== WALK_OVER_PLAYER_ID && match.playerBid !== WALK_OVER_PLAYER_ID)) {
 
                 if (match.playerAid > 0) {
                     match['playerA'] = data.players[match.playerAid];
@@ -73,6 +74,8 @@ const init = (app) => {
                 }
                 response.matches.push(match);
             }
+
+            response.players = Object.values(data.players);
         }
         res.send(response);
     });

@@ -30,15 +30,32 @@ const computeDuration = {
 
 const duration = 25 * 1000; // 25 seconds
 
-async function getProxy() {
+async function getCachedTournament(tournamentId) {
+    const key = 'tournament#' + tournamentId;
+    const cached = cache.get(key);
+    if (cached) {
+        return cached;
+    }
+
+    console.log('Refreshing proxy cache ' + key + '...');
+    const proxy = await getTournament(tournamentId);
+    cache.set(key, proxy, duration);
+
+    console.log('Refreshing proxy cache ' + key + ' OK');
+    return proxy;
+
+}
+
+async function getTournament(tournamentId) {
+
+    const tournament = tournaments.find(t => t.id === tournamentId);
 
     const proxy = {
-        tournaments: {},
         matches: {},
         players: {}
     };
 
-    for (let tournament of tournaments.filter(t => t.live)) {
+    if (tournament) {
         const url = 'https://api.cuescore.com/tournament/?id=' + tournament.id;
         const response = await fetch(url, {
             headers: {
@@ -72,6 +89,51 @@ async function getProxy() {
                 match.scorerUrl = 'https://cuescore.com/scoreboard/?code=' + table.code;
             }
         }
+
+        if (Object.values(proxy.matches).length === 0) {
+            const url = 'https://api.cuescore.com/tournament/?participants=Participants+list&id=' + tournament.id;
+
+            const response = await fetch(url, {
+                headers: {
+                    'Cookie': 'locale=fr_FR.utf8;'
+                }
+            });
+            const json = await response.json();
+
+            for (let cuescore of json) {
+                const player = new Player(cuescore);
+                proxy.players[player.id] = new Player(player);
+            }
+        }
+    }
+
+    return proxy;
+}
+
+async function getProxy() {
+
+    const proxy = {
+        tournaments: {},
+        matches: {},
+        players: {}
+    };
+
+    for (let tournament of tournaments.filter(t => t.live)) {
+
+        const tournamentProxy = await getCachedTournament(tournament);
+
+        if (tournamentProxy) {
+            for (let match of Object.values(tournamentProxy.matches)) {
+                proxy.matches[match.id] = match;
+
+                if (match.playerA && match.playerA.id) {
+                    proxy.players[match.playerA.id] = match.playerA;
+                }
+                if (match.playerB && match.playerB.id) {
+                    proxy.players[match.playerB.id] = match.playerB;
+                }
+            }
+        }
     }
     return proxy;
 }
@@ -89,4 +151,8 @@ module.exports.getData = async () => {
 
     console.log('Refreshing proxy cache OK');
     return proxy;
+}
+
+module.exports.getTournament = async (tournamentId) => {
+    return getCachedTournament(tournamentId);
 }
