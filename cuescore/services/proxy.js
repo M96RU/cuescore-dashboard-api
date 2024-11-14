@@ -78,7 +78,7 @@ async function getTournament(tournament) {
             }
 
             match.organization = tournament.organization;
-            match.draw = labelDraws.getLabel(tournament.draw);
+            match.draw = tournament.draw;
 
             match.duration = computeDuration[match.organization] ? computeDuration[match.organization](match) : 0;
 
@@ -136,8 +136,7 @@ module.exports.getData = async () => {
     return await getProxy();
 }
 
-module.exports.getTournament = async (tournamentId) => {
-    const tournament = tournaments.find(t => t.id === tournamentId);
+module.exports.getTournament = async (tournament) => {
 
     if (!tournament) {
         return {

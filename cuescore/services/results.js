@@ -69,9 +69,7 @@ module.exports.getData = () => {
     return results;
 };
 
-module.exports.getTournament = (tournamentId) => {
-
-    const tournament = tournaments.find(t => t.id === tournamentId);
+module.exports.getTournament = (tournament) => {
 
     if (!tournament) {
         return {

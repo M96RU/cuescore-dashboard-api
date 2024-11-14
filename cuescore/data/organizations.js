@@ -67,19 +67,24 @@ const organizations = [
         draws: [
             {
                 id: "prestige",
-                label: "Prestige"
+                label: "Prestige",
+                ranking: [440, 364, 292, 224, 160, 100]
             }, {
                 id: "mixte",
-                label: "Mixte"
+                label: "Mixte",
+                ranking: [220, 182, 146, 112, 80, 50, 25, 10, 5]
             }, {
                 id: "women",
-                label: "Féminin"
+                label: "Féminin",
+                ranking: [220, 182, 146, 112, 80, 50, 25, 10, 5]
             }, {
                 id: "veteran",
-                label: "Vétérans"
+                label: "Vétérans",
+                ranking: [220, 182, 146, 112, 80, 50, 25, 10, 5]
             }, {
                 id: "jeune",
-                label: "Jeunes"
+                label: "Jeunes",
+                ranking: [220, 182, 146, 112, 80, 50, 25, 10, 5]
             }
         ]
     }, {

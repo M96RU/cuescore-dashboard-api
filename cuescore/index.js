@@ -1,5 +1,6 @@
 const proxy = require('./services/proxy');
 const results = require('./services/results');
+const tournamentService = require('./services/tournament');
 const moment = require("moment-timezone");
 
 const WALK_OVER_PLAYER_ID = 1000615;
@@ -22,6 +23,7 @@ const matchJustFinished = (match) => {
 }
 
 const labelDraws = require('./label/draws');
+const Rank = require("./model/rank");
 
 const organizations = require('./data/organizations').getData();
 const tables = require('./data/tables').getData();
@@ -42,11 +44,60 @@ const init = (app) => {
     app.get(baseUrl + '/organizations/:id/events/:eventId', (req, res) => {
         res.send(tournaments
             .filter(tournament => tournament.organization === req.params.id && tournament.event === +req.params.eventId)
-            .map(tournament => {
-                tournament.draw = labelDraws.getLabel(tournament.draw);
-                return tournament;
-            })
         );
+    });
+
+    app.get(baseUrl + '/organizations/:id/rankings/:draw', async (req, res) => {
+
+        const organization = organizations.find(organization => organization.id === req.params.id);
+        if (!organization || !organization.ranking) {
+            return res.send({});
+        }
+
+        const draw = organization.draws.find(draw => draw.id === req.params.draw);
+        if (!draw || !draw.ranking || !draw.ranking.length) {
+            return res.send({});
+        }
+
+        const drawTournaments = tournaments.filter(tournament => tournament.organization === organization.id && tournament.draw === draw.id);
+
+        const ranking = {};
+
+        for (let tournament of drawTournaments) {
+            const data = tournament.live ? await proxy.getTournament(tournament) : results.getTournament(tournament);
+
+            const tournamentRanking = tournamentService.getRanking(Object.values(data.matches), draw.ranking);
+
+            for (let eventRank of Object.values(tournamentRanking)) {
+                eventRank.event = tournament.event;
+                const seasonRanking = ranking[eventRank.playerId] ?? new Rank();
+                seasonRanking.playerId = eventRank.playerId;
+                if (seasonRanking.points === undefined) {
+                    seasonRanking.points = 0; // init
+                }
+                seasonRanking.points += eventRank.points;
+                seasonRanking.won += eventRank.won;
+                seasonRanking.lost += eventRank.lost;
+                seasonRanking.gameAverage += eventRank.gameAverage;
+                seasonRanking.events.push(eventRank);
+
+                if (data.players[seasonRanking.playerId]) {
+                    seasonRanking['player'] = data.players[seasonRanking.playerId];
+                }
+
+                ranking[eventRank.playerId] = seasonRanking;
+            }
+        }
+
+        res.send(Object.values(ranking).sort((p1, p2) => {
+            if (p2.points === p1.points) {
+                if (p2.gameAverage === p1.gameAverage) {
+                    return p2.won - p1.won;
+                }
+                return p2.gameAverage - p1.gameAverage;
+            }
+            return p2.points - p1.points;
+        }));
     });
 
     app.get(baseUrl + '/tournaments/:id', async (req, res) => {
@@ -60,7 +111,7 @@ const init = (app) => {
 
         if (response.tournament) {
 
-            const data = response.tournament.live ? await proxy.getTournament(tournamentId) : results.getTournament(tournamentId);
+            const data = response.tournament.live ? await proxy.getTournament(response.tournament) : results.getTournament(response.tournament);
 
             for (let match of Object.values(data.matches).filter(match => match.playerAid !== WALK_OVER_PLAYER_ID && match.playerBid !== WALK_OVER_PLAYER_ID)) {
 
