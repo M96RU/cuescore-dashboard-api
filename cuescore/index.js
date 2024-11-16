@@ -89,7 +89,7 @@ const init = (app) => {
             }
         }
 
-        res.send(Object.values(ranking).sort((p1, p2) => {
+        const rankings = Object.values(ranking).sort((p1, p2) => {
             if (p2.points === p1.points) {
                 if (p2.gameAverage === p1.gameAverage) {
                     return p2.won - p1.won;
@@ -97,7 +97,13 @@ const init = (app) => {
                 return p2.gameAverage - p1.gameAverage;
             }
             return p2.points - p1.points;
-        }));
+        });
+
+        res.send({
+            organization: organization,
+            draw: draw,
+            rankings: rankings
+        });
     });
 
     app.get(baseUrl + '/tournaments/:id', async (req, res) => {
