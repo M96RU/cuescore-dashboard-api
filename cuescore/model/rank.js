@@ -1,4 +1,5 @@
 module.exports = class Rank {
+    order;
     playerId;
     event;
     points = undefined;

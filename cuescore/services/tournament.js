@@ -46,6 +46,9 @@ module.exports.getRanking = (matches, rankingPoints) => {
             const winner = match.scoreA > match.scoreB ? playerA : playerB;
             const loser = match.scoreA > match.scoreB ? playerB : playerA;
 
+            if (isFinalRound) {
+                winner.order = 1;
+            }
             if (winner.points === undefined) {
                 winner.points = winnerPoints;
             }

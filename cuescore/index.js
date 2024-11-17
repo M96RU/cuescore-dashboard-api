@@ -89,7 +89,7 @@ const init = (app) => {
             }
         }
 
-        const rankings = Object.values(ranking).sort((p1, p2) => {
+        const rankings = Object.values(ranking).filter(p => p.playerId !== WALK_OVER_PLAYER_ID).sort((p1, p2) => {
             if (p2.points === p1.points) {
                 if (p2.gameAverage === p1.gameAverage) {
                     return p2.won - p1.won;
@@ -98,6 +98,18 @@ const init = (app) => {
             }
             return p2.points - p1.points;
         });
+
+        let previous = undefined;
+        let order = 1;
+        for (let playerRanking of rankings) {
+            if (previous === undefined || previous.points > playerRanking.points || previous.gameAverage > playerRanking.gameAverage) {
+                playerRanking.order = order;
+            } else {
+                playerRanking.order = previous.order;
+            }
+            order++;
+            previous = playerRanking;
+        }
 
         res.send({
             organization: organization,
