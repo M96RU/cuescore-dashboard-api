@@ -22,7 +22,6 @@ const matchJustFinished = (match) => {
     return moment().diff(match.stoptime) < 300000; // 5 minutes x 60 seconds x 1000 ms
 }
 
-const labelDraws = require('./label/draws');
 const Rank = require("./model/rank");
 
 const organizations = require('./data/organizations').getData();
@@ -114,7 +113,7 @@ const init = (app) => {
         res.send({
             organization: organization,
             draw: draw,
-            rankings: rankings
+            rankings: rankings.filter(r => r.playerId > 0), // required for live tournament
         });
     });
 

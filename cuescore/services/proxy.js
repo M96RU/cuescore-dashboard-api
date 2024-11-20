@@ -2,7 +2,6 @@ const cache = require('map-expire');
 Match = require('../model/match');
 Player = require('../model/player');
 
-const labelDraws = require('../label/draws.js');
 const tournaments = require('../data/tournaments.js').getData();
 const tablesService = require('../data/tables.js');
 
