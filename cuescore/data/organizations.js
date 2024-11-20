@@ -85,6 +85,10 @@ const organizations = [
                 id: "jeune",
                 label: "Jeunes",
                 ranking: [220, 182, 146, 112, 80, 50, 25, 10, 5]
+            }, {
+                id: "consolante",
+                label: "Consolante",
+                ranking: undefined
             }
         ]
     }, {
