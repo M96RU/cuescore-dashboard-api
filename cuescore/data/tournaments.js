@@ -1,13 +1,13 @@
 const tournaments = [
 
     // LBARA - TR3
-    // {
-    //     id: 38986501,
-    //     organization: 'lbara',
-    //     event: 3,
-    //     draw: 'prestige',
-    //     live: true
-    // },
+    {
+        id: 13272289,
+        organization: 'lbara',
+        event: 3,
+        draw: 'prestige',
+        live: true
+    },
 
     // LBARA - TR2
     {

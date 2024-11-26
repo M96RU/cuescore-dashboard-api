@@ -58,10 +58,10 @@ const organizations = [
                 id: 2,
                 label: "TR2",
                 location: "Bourg les Valence"
-            // }, {
-            //     id: 3,
-            //     label: "TR3",
-            //     location: "Feurs"
+            }, {
+                id: 3,
+                label: "TR3",
+                location: "Feurs"
             }
         ],
         draws: [
