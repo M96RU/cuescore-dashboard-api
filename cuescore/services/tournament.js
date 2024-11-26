@@ -1,8 +1,14 @@
 const Rank = require("../model/rank");
 
+const WALK_OVER_PLAYER_ID = 1000615;
+
 module.exports.getFolder = (tournament) => {
     return __dirname + '/../backup/' + tournament.organization + '/' + tournament.event;
 };
+
+filterRankingMatches = (match) => {
+    return match.playerAid !== WALK_OVER_PLAYER_ID && match.playerBid !== WALK_OVER_PLAYER_ID;
+}
 
 module.exports.getRanking = (matches, rankingPoints) => {
 
@@ -12,7 +18,7 @@ module.exports.getRanking = (matches, rankingPoints) => {
     let finalRound = 0;
 
     const matchesPerRound = {};
-    for (let match of matches) {
+    for (let match of matches.filter(filterRankingMatches)) {
         finalRound = match.round > finalRound ? match.round : finalRound;
         const matchesOfRound = matchesPerRound[match.round] ?? [];
         matchesOfRound.push(match)
@@ -43,21 +49,44 @@ module.exports.getRanking = (matches, rankingPoints) => {
             playerB.lost += match.scoreA;
             playerB.gameAverage = playerB.won - playerB.lost;
 
-            const winner = match.scoreA > match.scoreB ? playerA : playerB;
-            const loser = match.scoreA > match.scoreB ? playerB : playerA;
+            let winner = undefined;
+            let loser = undefined;
 
-            if (isFinalRound) {
-                winner.order = 1;
-            }
-            if (winner.points === undefined) {
-                winner.points = winnerPoints;
-            }
-            if (loser.points === undefined) {
-                loser.points = loserPoints;
+            if (match.scoreA > match.scoreB) {
+                winner = playerA;
+                loser = playerB;
+            } else if (match.scoreB > match.scoreA) {
+                winner = playerB;
+                loser = playerA;
             }
 
-            ranking[winner.playerId] = winner;
-            ranking[loser.playerId] = loser;
+            if (winner) {
+                if (isFinalRound) {
+                    winner.order = 1;
+                }
+                if (winner.points === undefined) {
+                    winner.points = winnerPoints;
+                }
+                ranking[winner.playerId] = winner;
+            }
+
+            if (loser) {
+                if (loser.points === undefined) {
+                    loser.points = loserPoints;
+                }
+                ranking[loser.playerId] = loser;
+            }
+
+            if (winner === undefined && loser === undefined) {
+                if (playerA.points === undefined) {
+                    playerA.points = match.statusA ? 0 : loserPoints;
+                    ranking[playerA.playerId] = playerA;
+                }
+                if (playerB.points === undefined) {
+                    playerB.points = match.statusB ? 0 : loserPoints;
+                    ranking[playerB.playerId] = playerB;
+                }
+            }
         }
     }
 
