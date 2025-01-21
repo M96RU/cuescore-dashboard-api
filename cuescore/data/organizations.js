@@ -4,7 +4,7 @@ const organizations = [
         name: "Fédération Française de Billard",
         url: "https://img.cuescore.com/image/6/2/64c15e92da31b5e500b6abb0d14be0dc.png",
         display: true,
-        ranking: false,
+        ranking: true,
         events: [
             {
                 id: 1,
@@ -23,7 +23,8 @@ const organizations = [
         draws: [
             {
                 id: "bbm",
-                label: "BBM"
+                label: "BBM",
+                ranking: [440, 364, 292, 224, 160, 100]
             }, {
                 id: "mixte_a",
                 label: "National A"
@@ -32,19 +33,24 @@ const organizations = [
                 label: "National B"
             }, {
                 id: "women",
-                label: "Féminin"
+                label: "Féminin",
+                ranking: [164, 132, 104, 80, 60, 44]
             }, {
                 id: "veteran",
-                label: "Vétérans"
+                label: "Vétérans",
+                ranking: [164, 132, 104, 80, 60, 44]
             }, {
                 id: "junior",
-                label: "Juniors"
+                label: "Juniors",
+                ranking: [164, 132, 104, 80, 60, 44]
             }, {
                 id: "espoir",
-                label: "Espoirs"
+                label: "Espoirs",
+                ranking: [164, 132, 104, 80, 60, 44]
             }, {
                 id: "handi",
-                label: "Handi"
+                label: "Handi",
+                ranking: [116, 84, 56, 32]
             }
         ]
     }, {
