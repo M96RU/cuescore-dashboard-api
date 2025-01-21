@@ -14,6 +14,10 @@ const organizations = [
                 id: 2,
                 label: "TN2",
                 location: "Saint Fulgent"
+            }, {
+                id: 3,
+                label: "TN3",
+                location: "Villeneuve-sur-Lot"
             }
         ],
         draws: [

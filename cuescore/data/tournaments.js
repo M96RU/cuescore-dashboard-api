@@ -95,10 +95,28 @@ const tournaments = [
         draw: 'bbm',
         live: false
     }, {
+        id: 49086748,
+        organization: 'ffb',
+        event: 1,
+        draw: 'mixte_a',
+        live: false
+    }, {
+        id: 49369981,
+        organization: 'ffb',
+        event: 1,
+        draw: 'mixte_b',
+        live: false
+    }, {
         id: 45853384,
         organization: 'ffb',
         event: 1,
         draw: 'women',
+        live: false
+    }, {
+        id: 45870379,
+        organization: 'ffb',
+        event: 1,
+        draw: 'veteran',
         live: false
     }, {
         id: 45853969,
@@ -112,24 +130,6 @@ const tournaments = [
         event: 1,
         draw: 'espoir',
         live: false
-    }, {
-        id: 45870379,
-        organization: 'ffb',
-        event: 1,
-        draw: 'veteran',
-        live: false
-    }, {
-        id: 49086748,
-        organization: 'ffb',
-        event: 1,
-        draw: 'mixte_a',
-        live: false
-    }, {
-        id: 49369981,
-        organization: 'ffb',
-        event: 1,
-        draw: 'mixte_b',
-        live: false
     },
 
     // FFB - TN2
@@ -138,30 +138,6 @@ const tournaments = [
         organization: 'ffb',
         event: 2,
         draw: 'bbm',
-        live: false
-    }, {
-        id: 49940305,
-        organization: 'ffb',
-        event: 2,
-        draw: 'espoir',
-        live: false
-    }, {
-        id: 49938313,
-        organization: 'ffb',
-        event: 2,
-        draw: 'junior',
-        live: false
-    }, {
-        id: 49940263,
-        organization: 'ffb',
-        event: 2,
-        draw: 'women',
-        live: false
-    }, {
-        id: 49940362,
-        organization: 'ffb',
-        event: 2,
-        draw: 'veteran',
         live: false
     }, {
         id: 50731213,
@@ -176,11 +152,85 @@ const tournaments = [
         draw: 'mixte_b',
         live: false
     }, {
+        id: 49940263,
+        organization: 'ffb',
+        event: 2,
+        draw: 'women',
+        live: false
+    }, {
+        id: 49940362,
+        organization: 'ffb',
+        event: 2,
+        draw: 'veteran',
+        live: false
+    }, {
+        id: 49940305,
+        organization: 'ffb',
+        event: 2,
+        draw: 'espoir',
+        live: false
+    }, {
+        id: 49938313,
+        organization: 'ffb',
+        event: 2,
+        draw: 'junior',
+        live: false
+    }, {
         id: 49940395,
         organization: 'ffb',
         event: 2,
         draw: 'handi',
         live: false
+
+    // FFB - TN3
+    }, {
+        id: 51583393,
+        organization: 'ffb',
+        event: 3,
+        draw: 'bbm',
+        live: true
+    }, {
+        id: 51584125,
+        organization: 'ffb',
+        event: 3,
+        draw: 'mixte_a',
+        live: true
+    }, {
+        id: 54047413,
+        organization: 'ffb',
+        event: 3,
+        draw: 'mixte_b',
+        live: true
+    }, {
+        id: 51585523,
+        organization: 'ffb',
+        event: 3,
+        draw: 'women',
+        live: true
+    }, {
+        id: 51588514,
+        organization: 'ffb',
+        event: 3,
+        draw: 'veteran',
+        live: true
+    }, {
+        id: 51587302,
+        organization: 'ffb',
+        event: 3,
+        draw: 'espoir',
+        live: true
+    }, {
+        id: 51586237,
+        organization: 'ffb',
+        event: 3,
+        draw: 'junior',
+        live: true
+    }, {
+        id: 51588466,
+        organization: 'ffb',
+        event: 3,
+        draw: 'handi',
+        live: true
     },
 ];
 
