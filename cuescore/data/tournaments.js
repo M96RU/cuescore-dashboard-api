@@ -188,50 +188,44 @@ const tournaments = [
         organization: 'ffb',
         event: 3,
         draw: 'bbm',
-        live: true
+        live: false
     }, {
-        id: 51584125,
+        id: 53999665,
         organization: 'ffb',
         event: 3,
         draw: 'mixte_a',
-        live: true
+        live: false
     }, {
         id: 54047413,
         organization: 'ffb',
         event: 3,
         draw: 'mixte_b',
-        live: true
+        live: false
     }, {
         id: 51585523,
         organization: 'ffb',
         event: 3,
         draw: 'women',
-        live: true
+        live: false
     }, {
         id: 51588514,
         organization: 'ffb',
         event: 3,
         draw: 'veteran',
-        live: true
+        live: false
     }, {
         id: 51587302,
         organization: 'ffb',
         event: 3,
         draw: 'espoir',
-        live: true
+        live: false
     }, {
         id: 51586237,
         organization: 'ffb',
         event: 3,
         draw: 'junior',
-        live: true
-    }, {
-        id: 51588466,
-        organization: 'ffb',
-        event: 3,
-        draw: 'handi',
-        live: true
-    },
+        live: false
+    }
 ];
 
 module.exports.getData = () => {
