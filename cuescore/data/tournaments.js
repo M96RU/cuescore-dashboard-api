@@ -1,13 +1,43 @@
 const tournaments = [
 
-    // LBARA - TR3
-    // {
-    //     id: 38986501,
-    //     organization: 'lbara',
-    //     event: 3,
-    //     draw: 'prestige',
-    //     live: true
-    // },
+    // LBARA - TR3 - Feurs
+    {
+        id: 52312195,
+        organization: 'lbara',
+        event: 3,
+        draw: 'prestige',
+        live: true
+    }, {
+        id: 52312360,
+        organization: 'lbara',
+        event: 3,
+        draw: 'mixte',
+        live: true
+    }, {
+        id: 52312831,
+        organization: 'lbara',
+        event: 3,
+        draw: 'women',
+        live: true
+    }, {
+        id: 52313317,
+        organization: 'lbara',
+        event: 3,
+        draw: 'veteran',
+        live: true
+    }, {
+        id: 52312789,
+        organization: 'lbara',
+        event: 3,
+        draw: 'jeune',
+        live: true
+    }, {
+        id: 52312765,
+        organization: 'lbara',
+        event: 3,
+        draw: 'consolante',
+        live: true
+    },
 
     // LBARA - TR2
     {
