@@ -2,6 +2,7 @@ const organizations = [
     {
         id: "ffb",
         name: "Fédération Française de Billard",
+        shortName: "FFB - TN",
         url: "https://img.cuescore.com/image/6/2/64c15e92da31b5e500b6abb0d14be0dc.png",
         display: true,
         ranking: true,
@@ -56,6 +57,7 @@ const organizations = [
     }, {
         id: "lbara",
         name: "Ligue Auvergne-Rhône-Alpes",
+        shortName: "LBARA - TR",
         url: "https://img.cuescore.com/image/9/2/9542cabd53587b3eeddbb6d2f92bfb17.png",
         display: true,
         ranking: true,
@@ -104,6 +106,7 @@ const organizations = [
     }, {
         id: "lbara_district",
         name: "LBARA - District Lyonnais",
+        shortName: "LBARA - District",
         url: "https://img.cuescore.com/image/9/2/9542cabd53587b3eeddbb6d2f92bfb17.png",
         display: false,
         ranking: false,
