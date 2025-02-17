@@ -264,6 +264,57 @@ const tournaments = [
         event: 3,
         draw: 'junior',
         live: false
+    },
+
+    // FFB - TN4
+    {
+        id: 52663258,
+        organization: 'ffb',
+        event: 4,
+        draw: 'bbm',
+        live: true
+    }, {
+        id: 55845781,
+        organization: 'ffb',
+        event: 4,
+        draw: 'mixte_a',
+        live: true
+    }, {
+        id: 55848001,
+        organization: 'ffb',
+        event: 4,
+        draw: 'mixte_b',
+        live: true
+    }, {
+        id: 52664566,
+        organization: 'ffb',
+        event: 4,
+        draw: 'women',
+        live: true
+    }, {
+        id: 52664902,
+        organization: 'ffb',
+        event: 4,
+        draw: 'veteran',
+        live: true
+    }, {
+        id: 52664776,
+        organization: 'ffb',
+        event: 4,
+        draw: 'espoir',
+        live: true
+    }, {
+        id: 52663696,
+        organization: 'ffb',
+        event: 4,
+        draw: 'junior',
+        live: true
+    }, {
+        id: 52664461,
+        organization: 'ffb',
+        event: 4,
+        draw: 'handi',
+        live: true
     }
 ];
 
