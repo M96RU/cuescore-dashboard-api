@@ -6,37 +6,37 @@ const tournaments = [
         organization: 'lbara',
         event: 3,
         draw: 'prestige',
-        live: true
+        live: false
     }, {
         id: 52312360,
         organization: 'lbara',
         event: 3,
         draw: 'mixte',
-        live: true
+        live: false
     }, {
         id: 52312831,
         organization: 'lbara',
         event: 3,
         draw: 'women',
-        live: true
+        live: false
     }, {
         id: 52313317,
         organization: 'lbara',
         event: 3,
         draw: 'veteran',
-        live: true
+        live: false
     }, {
         id: 52312789,
         organization: 'lbara',
         event: 3,
         draw: 'jeune',
-        live: true
+        live: false
     }, {
         id: 52312765,
         organization: 'lbara',
         event: 3,
         draw: 'consolante',
-        live: true
+        live: false
     },
 
     // LBARA - TR2
