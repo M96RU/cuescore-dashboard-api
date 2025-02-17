@@ -1,5 +1,14 @@
 const tournaments = [
 
+    // Ultimate qualifier
+    {
+        id: 34369354,
+        organization: 'ultimate',
+        event: 1,
+        draw: 'other',
+        live: true
+    },
+
     // LBARA - TR3 - Feurs
     {
         id: 52312195,

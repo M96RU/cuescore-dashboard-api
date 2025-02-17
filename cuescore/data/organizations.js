@@ -112,6 +112,15 @@ const organizations = [
         ranking: false,
         events: [],
         draws: []
+    }, {
+        id: "ultimate",
+        name: "Ultimate - Qualifier",
+        shortName: "Ultimate QLF",
+        url: "https://img.cuescore.com/image/9/2/9542cabd53587b3eeddbb6d2f92bfb17.png",
+        display: false,
+        ranking: false,
+        events: [],
+        draws: []
     }
 ];
 

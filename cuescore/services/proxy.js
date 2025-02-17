@@ -23,6 +23,9 @@ const computeDuration = {
     },
     lbara_district: (match) => {
         return 60; // 1h by default
+    },
+    ultimate: (match) => {
+        return 75; // 1h15 by default
     }
 }
 
