@@ -52,29 +52,32 @@ module.exports.getRanking = (matches, rankingPoints) => {
             let winner = undefined;
             let loser = undefined;
 
-            if (match.scoreA > match.scoreB) {
-                winner = playerA;
-                loser = playerB;
-            } else if (match.scoreB > match.scoreA) {
-                winner = playerB;
-                loser = playerA;
-            }
+            if (match.status === 'finished') {
 
-            if (winner) {
-                if (isFinalRound) {
-                    winner.order = 1;
+                if (match.scoreA > match.scoreB) {
+                    winner = playerA;
+                    loser = playerB;
+                } else if (match.scoreB > match.scoreA) {
+                    winner = playerB;
+                    loser = playerA;
                 }
-                if (winner.points === undefined) {
-                    winner.points = winnerPoints;
-                }
-                ranking[winner.playerId] = winner;
-            }
 
-            if (loser) {
-                if (loser.points === undefined) {
-                    loser.points = loserPoints;
+                if (winner) {
+                    if (isFinalRound) {
+                        winner.order = 1;
+                    }
+                    if (winner.points === undefined) {
+                        winner.points = winnerPoints;
+                    }
+                    ranking[winner.playerId] = winner;
                 }
-                ranking[loser.playerId] = loser;
+
+                if (loser) {
+                    if (loser.points === undefined) {
+                        loser.points = loserPoints;
+                    }
+                    ranking[loser.playerId] = loser;
+                }
             }
 
             if (winner === undefined && loser === undefined) {
