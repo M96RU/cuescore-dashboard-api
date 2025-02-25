@@ -34,14 +34,14 @@ const duration = 25 * 1000; // 25 seconds
 
 async function getCachedTournament(tournament) {
     const key = 'tournament#' + tournament.id;
-    const cached = cache.get(key);
-    if (cached) {
-        return cached;
-    }
+//    const cached = cache.get(key);
+//    if (cached) {
+//        return cached;
+//    }
 
     console.log('Refreshing proxy cache ' + key + '...');
     const proxy = await getTournament(tournament);
-    cache.set(key, proxy, duration);
+//    cache.set(key, proxy, duration);
 
     console.log('Refreshing proxy cache ' + key + ' OK');
     return proxy;

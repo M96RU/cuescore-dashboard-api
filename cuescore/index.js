@@ -60,6 +60,8 @@ const init = (app) => {
 
         const drawTournaments = tournaments.filter(tournament => tournament.organization === organization.id && tournament.draw === draw.id);
 
+        console.log('size: ' + drawTournaments.length);
+
         const ranking = {};
 
         for (let tournament of drawTournaments) {
