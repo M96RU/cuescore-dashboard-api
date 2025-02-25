@@ -32,8 +32,8 @@ const computeDuration = {
 
 const duration = 25 * 1000; // 25 seconds
 
-async function getCachedTournament(tournament) {
-    const key = 'tournament#' + tournament.id;
+async function getCachedTournament(tournament, where) {
+    const key = 'tournament#' + where + '#' + tournament.id;
     const cached = cache.get(key);
     if (cached) {
         return cached;
@@ -120,7 +120,7 @@ async function getProxy() {
 
     for (let tournament of tournaments.filter(t => t.live)) {
 
-        const tournamentProxy = await getCachedTournament(tournament);
+        const tournamentProxy = await getCachedTournament(tournament, 'live');
 
         if (tournamentProxy) {
             for (let match of Object.values(tournamentProxy.matches)) {
@@ -147,5 +147,5 @@ module.exports.getTournament = async (tournament) => {
         };
     }
 
-    return getCachedTournament(tournament);
+    return getCachedTournament(tournament, 'ranking');
 }
