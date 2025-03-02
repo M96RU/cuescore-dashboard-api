@@ -39,7 +39,7 @@ const tournaments = [
         organization: 'lbara',
         event: 4,
         draw: 'jeune',
-        live: false
+        live: true
     }, {
         id: 52312771,
         organization: 'lbara',
