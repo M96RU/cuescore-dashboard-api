@@ -49,14 +49,14 @@ module.exports = class Match {
             if (cuescore.playerA['playerId']) {
                 this.playerAid = cuescore.playerA['playerId'];
             } else if (cuescore.playerA['name']) {
-                this.labelA = cuescore.playerA['name'];
+                this.labelA = cuescore.playerA['name'].replace("Vainqueur du match ", "V");
             }
         }
         if (cuescore.playerB) {
             if (cuescore.playerB['playerId']) {
                 this.playerBid = cuescore.playerB['playerId'];
             } else if (cuescore.playerB['name']) {
-                this.labelB = cuescore.playerB['name'];
+                this.labelB = cuescore.playerB['name'].replace("Vainqueur du match ", "V");
             }
         }
         switch (cuescore['penalty']) {
