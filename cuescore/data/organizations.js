@@ -23,6 +23,10 @@ const organizations = [
                 id: 4,
                 label: "TN4",
                 location: "Hazebrouck"
+            }, {
+                id: 5,
+                label: "TN5",
+                location: "Châtellerault"
             }
         ],
         draws: [
