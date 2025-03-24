@@ -356,49 +356,49 @@ const tournaments = [
         organization: 'ffb',
         event: 5,
         draw: 'bbm',
-        live: true
+        live: false
     }, {
         id: 57016090,
         organization: 'ffb',
         event: 5,
         draw: 'mixte_a',
-        live: true
+        live: false
     }, {
         id: 57016876,
         organization: 'ffb',
         event: 5,
         draw: 'mixte_b',
-        live: true
+        live: false
     }, {
         id: 52740370,
         organization: 'ffb',
         event: 5,
         draw: 'women',
-        live: true
+        live: false
     }, {
         id: 52740421,
         organization: 'ffb',
         event: 5,
         draw: 'veteran',
-        live: true
+        live: false
     }, {
         id: 52740394,
         organization: 'ffb',
         event: 5,
         draw: 'espoir',
-        live: true
+        live: false
     }, {
         id: 52740385,
         organization: 'ffb',
         event: 5,
         draw: 'junior',
-        live: true
+        live: false
     }, {
         id: 52740409,
         organization: 'ffb',
         event: 5,
         draw: 'handi',
-        live: true
+        live: false
     }
 ];
 
