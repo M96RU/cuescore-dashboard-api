@@ -448,6 +448,18 @@ const tournaments = [
         draw: 'bbm',
         live: true
     }, {
+        id: 58965862,
+        organization: 'ffb',
+        event: 6,
+        draw: 'mixte_a',
+        live: true
+    }, {
+        id: 58966225,
+        organization: 'ffb',
+        event: 6,
+        draw: 'mixte_b',
+        live: true
+    }, {
         id: 52756348,
         organization: 'ffb',
         event: 6,
