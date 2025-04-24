@@ -15,37 +15,37 @@ const tournaments = [
         organization: 'lbara',
         event: 5,
         draw: 'prestige',
-        live: true
+        live: false
     }, {
         id: 52312570,
         organization: 'lbara',
         event: 5,
         draw: 'mixte',
-        live: true
+        live: false
     }, {
         id: 52312849,
         organization: 'lbara',
         event: 5,
         draw: 'women',
-        live: true
+        live: false
     }, {
         id: 52313431,
         organization: 'lbara',
         event: 5,
         draw: 'veteran',
-        live: true
+        live: false
     }, {
         id: 52312810,
         organization: 'lbara',
         event: 5,
         draw: 'jeune',
-        live: true
+        live: false
     }, {
         id: 52312777,
         organization: 'lbara',
         event: 5,
         draw: 'consolante',
-        live: true
+        live: false
     },
 
     // LBARA - TR4 - Bourg-en-Bresse
