@@ -94,6 +94,10 @@ const organizations = [
                 id: 5,
                 label: "TR5",
                 location: "Aubenas"
+            }, {
+                id: 6,
+                label: "TR6",
+                location: "Clarafond"
             }
         ],
         draws: [
