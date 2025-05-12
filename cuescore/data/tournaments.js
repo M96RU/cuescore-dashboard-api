@@ -9,6 +9,45 @@ const tournaments = [
         live: true
     },
 
+    // LBARA - TR7 - Villefranche
+    {
+        id: 58723024,
+        organization: 'lbara',
+        event: 7,
+        draw: 'prestige',
+        live: true
+    }, {
+        id: 58723030,
+        organization: 'lbara',
+        event: 7,
+        draw: 'mixte',
+        live: true
+    }, {
+        id: 58722829,
+        organization: 'lbara',
+        event: 7,
+        draw: 'women',
+        live: true
+    }, {
+        id: 58723012,
+        organization: 'lbara',
+        event: 7,
+        draw: 'veteran',
+        live: true
+    }, {
+        id: 58723018,
+        organization: 'lbara',
+        event: 7,
+        draw: 'jeune',
+        live: true
+    }, {
+        id: 58723036,
+        organization: 'lbara',
+        event: 7,
+        draw: 'consolante',
+        live: true
+    },
+
     // LBARA - TR6 - Clarafond
     {
         id: 52312342,

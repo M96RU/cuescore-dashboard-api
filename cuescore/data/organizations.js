@@ -98,6 +98,10 @@ const organizations = [
                 id: 6,
                 label: "TR6",
                 location: "Clarafond"
+            }, {
+                id: 7,
+                label: "TR7",
+                location: "Villefranche"
             }
         ],
         draws: [
