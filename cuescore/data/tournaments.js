@@ -15,37 +15,37 @@ const tournaments = [
         organization: 'lbara',
         event: 6,
         draw: 'prestige',
-        live: true
+        live: false
     }, {
         id: 52312756,
         organization: 'lbara',
         event: 6,
         draw: 'mixte',
-        live: true
+        live: false
     }, {
         id: 52312870,
         organization: 'lbara',
         event: 6,
         draw: 'women',
-        live: true
+        live: false
     }, {
         id: 52313443,
         organization: 'lbara',
         event: 6,
         draw: 'veteran',
-        live: true
+        live: false
     }, {
         id: 52312819,
         organization: 'lbara',
         event: 6,
         draw: 'jeune',
-        live: true
+        live: false
     }, {
         id: 52312783,
         organization: 'lbara',
         event: 6,
         draw: 'consolante',
-        live: true
+        live: false
     },
 
     // LBARA - TR5 - Aubenas
