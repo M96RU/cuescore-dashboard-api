@@ -6,6 +6,7 @@ module.exports = class Match {
     organization;
     draw;
     duration;
+    pauseSeconds;
     scorerUrl;
 
     // Match
@@ -34,6 +35,12 @@ module.exports = class Match {
     // Players label (Winner of match 7)
     labelA;
     labelB;
+
+    // Pause (temporary)
+    pauseAstart;
+    pauseAstop;
+    pauseBstart;
+    pauseBstop;
 
     // Table
     tableId;
@@ -76,13 +83,43 @@ module.exports = class Match {
         this.raceTo = cuescore.raceTo;
         this.roundName = cuescore.roundName;
 
+        /*
         if (cuescore.starttime) {
             if (timezone) {
-                this.starttime = moment.tz(cuescore.starttime, timezone).utc();
+                this.starttimeBak = moment.tz(cuescore.starttime, timezone).utc();
             } else {
-                this.starttime = moment(cuescore.starttime);
+                this.starttimeBak = moment(cuescore.starttime);
             }
         }
+         */
+
+        if (cuescore.notes) {
+            for (let cuescoreNote of cuescore.notes) {
+                if (cuescoreNote.time) {
+                    const time = timezone ? moment.tz(cuescoreNote.time, timezone).utc() : moment(cuescoreNote.time);
+                    if (cuescoreNote.note === 'frame start' || cuescoreNote.note === 'A breaking' || cuescoreNote.note === 'B breaking') {
+                        if (!this.starttime) {
+                            this.starttime = time;
+                        }
+                    } else if (cuescoreNote.note === 'A timeout start') {
+                        this.pauseAstart = time;
+                    } else if (cuescoreNote.note === 'A timeout end') {
+                        this.pauseAstop = time;
+                    } else if (cuescoreNote.note === 'B timeout start') {
+                        this.pauseBstart = time;
+                    } else if (cuescoreNote.note === 'B timeout end') {
+                        this.pauseBstop = time;
+                    }
+                }
+            }
+        }
+
+        this.pauseSeconds = this.computePauseSeconds();
+        if (this.starttime && this.pauseSeconds > 0) {
+            const duration = moment.duration(this.pauseSeconds, 's');
+            this.starttime.add(duration);
+        }
+
         if (cuescore.stoptime) {
             if (timezone) {
                 this.stoptime = moment.tz(cuescore.stoptime, timezone).utc();
@@ -94,5 +131,40 @@ module.exports = class Match {
             this.tableId = cuescore.table.tableId;
             this.tableName = cuescore.table.name;
         }
+    }
+
+    computePauseSeconds() {
+        if (!this.starttime) {
+            return 0;
+        }
+        const pauseAstop = this.pauseAstop ? this.pauseAstop : moment();
+        const pauseAstopTimestamp = pauseAstop.unix();
+        const pauseBstop = this.pauseBstop ? this.pauseBstop : moment();
+        const pauseBstopTimestamp = pauseBstop.unix();
+
+        if (this.pauseAstart && this.pauseBstart) {
+            const pauseAstartTimestamp = this.pauseAstart.unix();
+            const pauseBstartTimestamp = this.pauseBstart.unix();
+
+            if (pauseAstartTimestamp > pauseBstopTimestamp || pauseBstartTimestamp > pauseAstopTimestamp) {
+                // do nothing here, will be calculated later
+            } else {
+                const pauseStartTimestamp = Math.min(pauseAstartTimestamp, pauseBstartTimestamp);
+                const pauseStopTimestamp = Math.max(pauseAstopTimestamp, pauseBstopTimestamp);
+                return pauseStopTimestamp - pauseStartTimestamp;
+            }
+        }
+
+        let pauseSecondsDuration = 0;
+
+        if (this.pauseAstart) {
+            pauseSecondsDuration += pauseAstopTimestamp - this.pauseAstart.unix();
+        }
+
+        if (this.pauseBstart) {
+            pauseSecondsDuration += pauseBstopTimestamp - this.pauseBstart.unix();
+        }
+
+        return pauseSecondsDuration;
     }
 }
