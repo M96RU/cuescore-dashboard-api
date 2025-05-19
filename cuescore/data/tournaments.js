@@ -11,7 +11,7 @@ const tournaments = [
 
     // LBARA - TR7 - Villefranche
     {
-        id: 58723024,
+        id: 38986501,
         organization: 'lbara',
         event: 7,
         draw: 'prestige',
