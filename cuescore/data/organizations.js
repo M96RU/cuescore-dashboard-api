@@ -59,9 +59,9 @@ const organizations = [
                 label: "TR2",
                 location: "Bourg les Valence"
             }, {
-                id: 3,
-                label: "TR3",
-                location: "Feurs"
+                id: 7,
+                label: "TR7",
+                location: "Villefranche"
             }
         ],
         draws: [

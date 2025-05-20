@@ -10,6 +10,9 @@ const computeDuration = {
         return 0;
     },
     lbara: (match) => {
+
+        return 45;
+
         if (!match || !match.raceTo) {
             return 0;
         }
