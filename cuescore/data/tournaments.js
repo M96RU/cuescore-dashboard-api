@@ -15,37 +15,37 @@ const tournaments = [
         organization: 'lbara',
         event: 7,
         draw: 'prestige',
-        live: true
+        live: false
     }, {
         id: 58723030,
         organization: 'lbara',
         event: 7,
         draw: 'mixte',
-        live: true
+        live: false
     }, {
         id: 58722829,
         organization: 'lbara',
         event: 7,
         draw: 'women',
-        live: true
+        live: false
     }, {
         id: 58723012,
         organization: 'lbara',
         event: 7,
         draw: 'veteran',
-        live: true
+        live: false
     }, {
         id: 58723018,
         organization: 'lbara',
         event: 7,
         draw: 'jeune',
-        live: true
+        live: false
     }, {
         id: 58723036,
         organization: 'lbara',
         event: 7,
         draw: 'consolante',
-        live: true
+        live: false
     },
 
     // LBARA - TR6 - Clarafond
