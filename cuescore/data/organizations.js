@@ -67,11 +67,11 @@ const organizations = [
         draws: [
             {
                 id: "prestige",
-                label: "Flyer Sun's",
+                label: "Ultimate",
                 ranking: [440, 364, 292, 224, 160, 100]
             }, {
                 id: "mixte",
-                label: "Mixte",
+                label: "Flyer TR",
                 ranking: [220, 182, 146, 112, 80, 50, 25, 10, 5]
             }, {
                 id: "women",

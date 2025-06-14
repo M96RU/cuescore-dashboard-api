@@ -2,10 +2,17 @@ const tournaments = [
 
     // LBARA - TR3
     {
-        id: 10446451,
+        id: 10289071, // ultimate suns
         organization: 'lbara',
         event: 7,
         draw: 'prestige',
+        live: true
+    },
+    {
+        id: 10446451,
+        organization: 'lbara',
+        event: 7,
+        draw: 'mixte',
         live: true
     },
 
