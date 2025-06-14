@@ -11,15 +11,13 @@ const computeDuration = {
     },
     lbara: (match) => {
 
-        return 60;
-
         if (!match || !match.raceTo) {
             return 0;
         }
-        if (match.raceTo >= 5) {
-            return 105; // 1h45
+        if (match.raceTo >= 7) {
+            return 90; // 1h30
         }
-        if (match.raceTo >= 4) {
+        if (match.raceTo >= 6) {
             return 75; // 1h15
         }
         return 60; // 1h by default
