@@ -10,7 +10,31 @@ const organizations = [
             {
                 id: 1,
                 label: "TN1",
-                location: "Meze"
+                location: "Saint Louis"
+            }, {
+                id: 2,
+                label: "TN2",
+                location: "Saint Fulgent"
+            }, {
+                id: 3,
+                label: "TN3",
+                location: "Villeneuve-sur-Lot"
+            }, {
+                id: 4,
+                label: "TN4",
+                location: "Hazebrouck"
+            }, {
+                id: 5,
+                label: "TN5",
+                location: "Châtellerault"
+            }, {
+                id: 6,
+                label: "TN6",
+                location: "Boé"
+            }, {
+                id: 7,
+                label: "TN7",
+                location: "Les Herbiers"
             }
         ],
         draws: [
@@ -19,8 +43,11 @@ const organizations = [
                 label: "BBM",
                 ranking: [440, 364, 292, 224, 160, 100]
             }, {
-                id: "national",
-                label: "National"
+                id: "mixte_a",
+                label: "National A"
+            }, {
+                id: "mixte_b",
+                label: "National B"
             }, {
                 id: "women",
                 label: "Féminin",
@@ -54,7 +81,31 @@ const organizations = [
             {
                 id: 1,
                 label: "TR1",
+                location: "Evian"
+            }, {
+                id: 2,
+                label: "TR2",
+                location: "Bourg les Valence"
+            }, {
+                id: 3,
+                label: "TR3",
+                location: "Feurs"
+            }, {
+                id: 4,
+                label: "TR4",
                 location: "Bourg-en-Bresse"
+            }, {
+                id: 5,
+                label: "TR5",
+                location: "Aubenas"
+            }, {
+                id: 6,
+                label: "TR6",
+                location: "Clarafond"
+            }, {
+                id: 7,
+                label: "TR7",
+                location: "Villefranche"
             }
         ],
         draws: [
@@ -63,12 +114,8 @@ const organizations = [
                 label: "Prestige",
                 ranking: [440, 364, 292, 224, 160, 100]
             }, {
-                id: "excellence",
-                label: "Excellence",
-                ranking: [220, 182, 146, 112, 80, 50, 25, 10, 5]
-            }, {
-                id: "promotion",
-                label: "Promotion",
+                id: "mixte",
+                label: "Mixte",
                 ranking: [220, 182, 146, 112, 80, 50, 25, 10, 5]
             }, {
                 id: "women",
@@ -83,9 +130,9 @@ const organizations = [
                 label: "Jeunes",
                 ranking: [220, 182, 146, 112, 80, 50, 25, 10, 5]
             }, {
-                id: "jeune_b",
-                label: "Jeunes B",
-                ranking: [220, 182, 146, 112, 80, 50, 25, 10, 5]
+                id: "consolante",
+                label: "Consolante",
+                ranking: undefined
             }
         ]
     }, {
