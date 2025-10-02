@@ -62,7 +62,7 @@ const tournaments = [
         organization: 'ffb',
         event: 1,
         draw: 'bbm',
-        live: true
+        live: false
     }, {
         id: 65725951,
         organization: 'ffb',
@@ -74,25 +74,25 @@ const tournaments = [
         organization: 'ffb',
         event: 1,
         draw: 'women',
-        live: true
+        live: false
     }, {
         id: 65725936,
         organization: 'ffb',
         event: 1,
         draw: 'veteran',
-        live: true
+        live: false
     }, {
         id: 65722312,
         organization: 'ffb',
         event: 1,
         draw: 'junior',
-        live: true
+        live: false
     }, {
         id: 65725849,
         organization: 'ffb',
         event: 1,
         draw: 'espoir',
-        live: true
+        live: false
     }
 
 ];
