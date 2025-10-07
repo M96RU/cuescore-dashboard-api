@@ -15,43 +15,43 @@ const tournaments = [
         organization: 'lbara',
         event: 1,
         draw: 'prestige',
-        live: true
+        live: false
     }, {
         id: 62937217,
         organization: 'lbara',
         event: 1,
         draw: 'excellence',
-        live: true
+        live: false
     }, {
         id: 62942887,
         organization: 'lbara',
         event: 1,
         draw: 'promotion',
-        live: true
+        live: false
     }, {
         id: 63111664,
         organization: 'lbara',
         event: 1,
         draw: 'women',
-        live: true
+        live: false
     }, {
         id: 63110329,
         organization: 'lbara',
         event: 1,
         draw: 'veteran',
-        live: true
+        live: false
     }, {
         id: 63111988,
         organization: 'lbara',
         event: 1,
         draw: 'jeune',
-        live: true
+        live: false
     }, {
         id: 64420330,
         organization: 'lbara',
         event: 1,
         draw: 'jeune_b',
-        live: true
+        live: false
     },
 
 

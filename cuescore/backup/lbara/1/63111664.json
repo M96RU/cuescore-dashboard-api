@@ -1,0 +1,3936 @@
+{
+  "tournamentId": 63111664,
+  "name": "BB - TR1 LBARA FEMININES BLACKBALL 2025-2026",
+  "type": 0,
+  "format": 1,
+  "breakrule": "alternate",
+  "defaultRaceTo": 4,
+  "url": "https://cuescore.com/tournament/BB+-+TR1+LBARA+FEMININES+BLACKBALL+2025-2026/63111664",
+  "timezone": "Europe/Paris",
+  "displayDate": "October 4 - October 5, 2025",
+  "starttime": "2025-10-04T08:00:00+02:00",
+  "stoptime": "2025-10-05T17:00:00+02:00",
+  "deadline": "2025-09-29T13:00:00+02:00",
+  "status": "Terminé",
+  "discipline": "Blackball",
+  "handicap": [],
+  "contacts": [
+    {
+      "playerId": 6523135,
+      "name": "CHRISTIAN BRENDEL",
+      "firstname": "CHRISTIAN",
+      "lastname": "BRENDEL",
+      "url": "https://cuescore.com/player/CHRISTIAN+BRENDEL/6523135",
+      "image": "https://img.cuescore.com/image/5/4/5e18ee4778f7f4c0065a56c539d2a708.png?t=1653894237",
+      "country": {
+        "name": "French Polynesia",
+        "alpha3": "PYF",
+        "image": "https://cuescore.com/img/flags/png-country-4x2-none/res-640x480/pf.png",
+        "continent": "Oceania"
+      },
+      "represents": []
+    },
+    {
+      "playerId": 7905751,
+      "name": "Sebastien Potiquet",
+      "firstname": "Sebastien",
+      "lastname": "Potiquet",
+      "url": "https://cuescore.com/player/Sebastien+Potiquet/7905751",
+      "image": "https://img.cuescore.com/image/a/4/a08831fde53584e49bff0d30e3ed097e.png?t=1633346589",
+      "country": {
+        "name": "France",
+        "alpha3": "FRA",
+        "image": "https://cuescore.com/img/flags/png-country-4x2-none/res-640x480/fr.png",
+        "continent": "Europe"
+      },
+      "represents": []
+    }
+  ],
+  "owner": {
+    "organizationId": 9304624,
+    "stub": "lbara",
+    "name": "Ligue de Billard Auvergne-Rhône-Alpes",
+    "url": "https://cuescore.com/lbara",
+    "logo": "//img.cuescore.com/image/9/2/9542cabd53587b3eeddbb6d2f92bfb17.png?t=1642327840",
+    "profileColor": ""
+  },
+  "venues": [
+    {
+      "venueId": 12812767,
+      "name": "Parc BB LBARA",
+      "url": "https://cuescore.com/venue/Parc+BB+LBARA/12812767",
+      "owner": {
+        "organizationId": 34342744,
+        "stub": "lbarablackball",
+        "name": "LBARA Blackball",
+        "url": "https://cuescore.com/lbarablackball",
+        "logo": "//img.cuescore.com/image/0/2/0338989cafdd922c63cb57acd7be0329.png?t=1698431852",
+        "profileColor": ""
+      }
+    }
+  ],
+  "sequence": 0,
+  "standings": [],
+  "matches": [
+    {
+      "matchId": 69451789,
+      "matchno": 1,
+      "roundName": "1er tour",
+      "round": 1,
+      "playerA": {
+        "playerId": 26801929,
+        "name": "Zélie Ray",
+        "firstname": "Zélie",
+        "lastname": "Ray",
+        "url": "https://cuescore.com/player/Z%C3%A9lie+Ray/26801929",
+        "image": "https://img.cuescore.com/image/b/4/b7dfdc677e3cbf2242d8230d0b455ac7.png?t=1713628756",
+        "country": {
+          "name": "France",
+          "alpha3": "FRA",
+          "image": "https://cuescore.com/img/flags/png-country-4x2-none/res-640x480/fr.png",
+          "continent": "Europe"
+        },
+        "represents": []
+      },
+      "playerB": {
+        "playerId": 1000615,
+        "name": "Walk Over",
+        "firstname": "Walk",
+        "lastname": "Over",
+        "url": "https://cuescore.com/player/Walk+Over/1000615",
+        "image": "https://img.cuescore.com/image/8/4/862c792ba8eb7f97e626fbe6cbcc59f6.png",
+        "country": [],
+        "represents": []
+      },
+      "scoreA": 0,
+      "scoreB": 0,
+      "raceTo": 4,
+      "discipline": "Blackball",
+      "disciplineId": 301,
+      "branch": 2,
+      "penalty": 0,
+      "groupNo": 0,
+      "inningsPlayerA": 0,
+      "inningsPlayerB": 0,
+      "highBreaksA": "",
+      "highBreaksB": "",
+      "runoutsA": 0,
+      "runoutsB": 0,
+      "lagWinner": "",
+      "table": [],
+      "tournamentId": 63111664,
+      "challengeId": 0,
+      "starttime": "",
+      "stoptime": "",
+      "matchstatus": "finished",
+      "matchstatusCode": 2,
+      "bestOfSets": 0,
+      "useInnings": false,
+      "frames": [],
+      "properties": [],
+      "sets": [],
+      "curVersion": 155,
+      "notes": [],
+      "matchType": 0,
+      "videoLink": "",
+      "comment": "",
+      "winnerNext": 17,
+      "loserNext": ""
+    },
+    {
+      "matchId": 69451792,
+      "matchno": 2,
+      "roundName": "1er tour",
+      "round": 1,
+      "playerA": {
+        "playerId": 67492309,
+        "name": "alycia viallet",
+        "firstname": "alycia",
+        "lastname": "viallet",
+        "url": "https://cuescore.com/player/alycia+viallet/67492309",
+        "image": "https://img.cuescore.com/image/5/4/5aa6aa48f7d5ffe854d5266ac08db7ef.png",
+        "country": {
+          "name": "France",
+          "alpha3": "FRA",
+          "image": "https://cuescore.com/img/flags/png-country-4x2-none/res-640x480/fr.png",
+          "continent": "Europe"
+        },
+        "represents": []
+      },
+      "playerB": {
+        "playerId": 49751803,
+        "name": "Maria Castagne",
+        "firstname": "Maria",
+        "lastname": "Castagne",
+        "url": "https://cuescore.com/player/Maria+Castagne/49751803",
+        "image": "https://img.cuescore.com/image/5/4/5aa6aa48f7d5ffe854d5266ac08db7ef.png",
+        "country": {
+          "name": "France",
+          "alpha3": "FRA",
+          "image": "https://cuescore.com/img/flags/png-country-4x2-none/res-640x480/fr.png",
+          "continent": "Europe"
+        },
+        "represents": []
+      },
+      "scoreA": 0,
+      "scoreB": 4,
+      "raceTo": 4,
+      "discipline": "Blackball",
+      "disciplineId": 301,
+      "branch": 2,
+      "penalty": 0,
+      "groupNo": 0,
+      "inningsPlayerA": 0,
+      "inningsPlayerB": 0,
+      "highBreaksA": "",
+      "highBreaksB": "",
+      "runoutsA": 0,
+      "runoutsB": 0,
+      "lagWinner": "B",
+      "table": {
+        "tableId": 12812770,
+        "name": "1",
+        "manufacturer": "Optima",
+        "model": "Elite",
+        "branch": "Anglais",
+        "branchId": 2,
+        "size": 7,
+        "cloth": "",
+        "pockets": "",
+        "slate": "",
+        "description": "Billard 1",
+        "venue": {
+          "venueId": 12812767,
+          "name": "Parc BB LBARA",
+          "url": "https://cuescore.com/venue/Parc+BB+LBARA/12812767",
+          "owner": {
+            "organizationId": 34342744,
+            "stub": "lbarablackball",
+            "name": "LBARA Blackball",
+            "url": "https://cuescore.com/lbarablackball",
+            "logo": "//img.cuescore.com/image/0/2/0338989cafdd922c63cb57acd7be0329.png?t=1698431852",
+            "profileColor": ""
+          }
+        }
+      },
+      "tournamentId": 63111664,
+      "challengeId": 0,
+      "starttime": "2025-10-04T08:11:12",
+      "stoptime": "2025-10-04T08:59:05",
+      "matchstatus": "finished",
+      "matchstatusCode": 2,
+      "bestOfSets": 0,
+      "useInnings": false,
+      "frames": [],
+      "properties": {
+        "runoutsA": 0,
+        "runoutsB": 0,
+        "lagWinsA": 0,
+        "lagWinsB": 1
+      },
+      "sets": [],
+      "curVersion": 155,
+      "notes": [
+        {
+          "note": "frame start",
+          "time": "2025-10-04T06:11:46.333Z"
+        },
+        {
+          "note": "B breaking",
+          "time": "2025-10-04T06:11:46.333Z"
+        },
+        {
+          "note": "B frame win",
+          "time": "2025-10-04T06:20:07.534Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2025-10-04T06:20:07.534Z"
+        },
+        {
+          "note": "frame start",
+          "time": "2025-10-04T06:20:07.534Z"
+        },
+        {
+          "note": "A breaking",
+          "time": "2025-10-04T06:20:07.534Z"
+        },
+        {
+          "note": "B frame win",
+          "time": "2025-10-04T06:30:28.058Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2025-10-04T06:30:28.058Z"
+        },
+        {
+          "note": "frame start",
+          "time": "2025-10-04T06:30:28.058Z"
+        },
+        {
+          "note": "B breaking",
+          "time": "2025-10-04T06:30:28.058Z"
+        },
+        {
+          "note": "B frame win",
+          "time": "2025-10-04T06:44:40.024Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2025-10-04T06:44:40.024Z"
+        },
+        {
+          "note": "frame start",
+          "time": "2025-10-04T06:44:40.024Z"
+        },
+        {
+          "note": "A breaking",
+          "time": "2025-10-04T06:44:40.024Z"
+        },
+        {
+          "note": "B frame win",
+          "time": "2025-10-04T06:59:01.605Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2025-10-04T06:59:01.605Z"
+        },
+        {
+          "note": "match end",
+          "time": "2025-10-04T06:59:03.238Z"
+        }
+      ],
+      "matchType": 0,
+      "videoLink": "",
+      "comment": "",
+      "winnerNext": 17,
+      "loserNext": ""
+    },
+    {
+      "matchId": 69451795,
+      "matchno": 3,
+      "roundName": "1er tour",
+      "round": 1,
+      "playerA": {
+        "playerId": 31998823,
+        "name": "Gwenaëlle DUMORTIER",
+        "firstname": "Gwenaëlle",
+        "lastname": "DUMORTIER",
+        "url": "https://cuescore.com/player/Gwena%C3%ABlle+DUMORTIER/31998823",
+        "image": "https://img.cuescore.com/image/5/4/59e659ea625d7910487bc5fa5989a67c.png?t=1719678241",
+        "country": {
+          "name": "France",
+          "alpha3": "FRA",
+          "image": "https://cuescore.com/img/flags/png-country-4x2-none/res-640x480/fr.png",
+          "continent": "Europe"
+        },
+        "represents": []
+      },
+      "playerB": {
+        "playerId": 1000615,
+        "name": "Walk Over",
+        "firstname": "Walk",
+        "lastname": "Over",
+        "url": "https://cuescore.com/player/Walk+Over/1000615",
+        "image": "https://img.cuescore.com/image/8/4/862c792ba8eb7f97e626fbe6cbcc59f6.png",
+        "country": [],
+        "represents": []
+      },
+      "scoreA": 0,
+      "scoreB": 0,
+      "raceTo": 4,
+      "discipline": "Blackball",
+      "disciplineId": 301,
+      "branch": 2,
+      "penalty": 0,
+      "groupNo": 0,
+      "inningsPlayerA": 0,
+      "inningsPlayerB": 0,
+      "highBreaksA": "",
+      "highBreaksB": "",
+      "runoutsA": 0,
+      "runoutsB": 0,
+      "lagWinner": "",
+      "table": [],
+      "tournamentId": 63111664,
+      "challengeId": 0,
+      "starttime": "",
+      "stoptime": "",
+      "matchstatus": "finished",
+      "matchstatusCode": 2,
+      "bestOfSets": 0,
+      "useInnings": false,
+      "frames": [],
+      "properties": [],
+      "sets": [],
+      "curVersion": 155,
+      "notes": [],
+      "matchType": 0,
+      "videoLink": "",
+      "comment": "",
+      "winnerNext": 18,
+      "loserNext": ""
+    },
+    {
+      "matchId": 69451798,
+      "matchno": 4,
+      "roundName": "1er tour",
+      "round": 1,
+      "playerA": {
+        "playerId": 1000615,
+        "name": "Walk Over",
+        "firstname": "Walk",
+        "lastname": "Over",
+        "url": "https://cuescore.com/player/Walk+Over/1000615",
+        "image": "https://img.cuescore.com/image/8/4/862c792ba8eb7f97e626fbe6cbcc59f6.png",
+        "country": [],
+        "represents": []
+      },
+      "playerB": {
+        "playerId": 31371670,
+        "name": "Mathilde Bouvy",
+        "firstname": "Mathilde",
+        "lastname": "Bouvy",
+        "url": "https://cuescore.com/player/Mathilde+Bouvy/31371670",
+        "image": "https://img.cuescore.com/image/f/4/fe6dc0cadc7f3596fa6cef2bc7daca3d.png?t=1694514639",
+        "country": {
+          "name": "Haiti",
+          "alpha3": "HTI",
+          "image": "https://cuescore.com/img/flags/png-country-4x2-none/res-640x480/ht.png",
+          "continent": "North America"
+        },
+        "represents": []
+      },
+      "scoreA": 0,
+      "scoreB": 0,
+      "raceTo": 4,
+      "discipline": "Blackball",
+      "disciplineId": 301,
+      "branch": 2,
+      "penalty": 0,
+      "groupNo": 0,
+      "inningsPlayerA": 0,
+      "inningsPlayerB": 0,
+      "highBreaksA": "",
+      "highBreaksB": "",
+      "runoutsA": 0,
+      "runoutsB": 0,
+      "lagWinner": "",
+      "table": [],
+      "tournamentId": 63111664,
+      "challengeId": 0,
+      "starttime": "",
+      "stoptime": "",
+      "matchstatus": "finished",
+      "matchstatusCode": 2,
+      "bestOfSets": 0,
+      "useInnings": false,
+      "frames": [],
+      "properties": [],
+      "sets": [],
+      "curVersion": 155,
+      "notes": [],
+      "matchType": 0,
+      "videoLink": "",
+      "comment": "",
+      "winnerNext": 18,
+      "loserNext": ""
+    },
+    {
+      "matchId": 69451801,
+      "matchno": 5,
+      "roundName": "1er tour",
+      "round": 1,
+      "playerA": {
+        "playerId": 9389326,
+        "name": "NATHALIE MANDY",
+        "firstname": "NATHALIE",
+        "lastname": "MANDY",
+        "url": "https://cuescore.com/player/NATHALIE+MANDY/9389326",
+        "image": "https://img.cuescore.com/image/4/4/4575085aeac26ef3ebb3c2b13a74f352.png?t=1692006317",
+        "country": {
+          "name": "French Polynesia",
+          "alpha3": "PYF",
+          "image": "https://cuescore.com/img/flags/png-country-4x2-none/res-640x480/pf.png",
+          "continent": "Oceania"
+        },
+        "represents": []
+      },
+      "playerB": {
+        "playerId": 1000615,
+        "name": "Walk Over",
+        "firstname": "Walk",
+        "lastname": "Over",
+        "url": "https://cuescore.com/player/Walk+Over/1000615",
+        "image": "https://img.cuescore.com/image/8/4/862c792ba8eb7f97e626fbe6cbcc59f6.png",
+        "country": [],
+        "represents": []
+      },
+      "scoreA": 0,
+      "scoreB": 0,
+      "raceTo": 4,
+      "discipline": "Blackball",
+      "disciplineId": 301,
+      "branch": 2,
+      "penalty": 0,
+      "groupNo": 0,
+      "inningsPlayerA": 0,
+      "inningsPlayerB": 0,
+      "highBreaksA": "",
+      "highBreaksB": "",
+      "runoutsA": 0,
+      "runoutsB": 0,
+      "lagWinner": "",
+      "table": [],
+      "tournamentId": 63111664,
+      "challengeId": 0,
+      "starttime": "",
+      "stoptime": "",
+      "matchstatus": "finished",
+      "matchstatusCode": 2,
+      "bestOfSets": 0,
+      "useInnings": false,
+      "frames": [],
+      "properties": [],
+      "sets": [],
+      "curVersion": 155,
+      "notes": [],
+      "matchType": 0,
+      "videoLink": "",
+      "comment": "",
+      "winnerNext": 19,
+      "loserNext": ""
+    },
+    {
+      "matchId": 69451804,
+      "matchno": 6,
+      "roundName": "1er tour",
+      "round": 1,
+      "playerA": {
+        "playerId": 1000615,
+        "name": "Walk Over",
+        "firstname": "Walk",
+        "lastname": "Over",
+        "url": "https://cuescore.com/player/Walk+Over/1000615",
+        "image": "https://img.cuescore.com/image/8/4/862c792ba8eb7f97e626fbe6cbcc59f6.png",
+        "country": [],
+        "represents": []
+      },
+      "playerB": {
+        "playerId": 8375403,
+        "name": "Valerie Michel",
+        "firstname": "Valerie",
+        "lastname": "Michel",
+        "url": "https://cuescore.com/player/Valerie+Michel/8375403",
+        "image": "https://img.cuescore.com/image/5/4/5aa6aa48f7d5ffe854d5266ac08db7ef.png",
+        "country": {
+          "name": "France",
+          "alpha3": "FRA",
+          "image": "https://cuescore.com/img/flags/png-country-4x2-none/res-640x480/fr.png",
+          "continent": "Europe"
+        },
+        "represents": []
+      },
+      "scoreA": 0,
+      "scoreB": 0,
+      "raceTo": 4,
+      "discipline": "Blackball",
+      "disciplineId": 301,
+      "branch": 2,
+      "penalty": 0,
+      "groupNo": 0,
+      "inningsPlayerA": 0,
+      "inningsPlayerB": 0,
+      "highBreaksA": "",
+      "highBreaksB": "",
+      "runoutsA": 0,
+      "runoutsB": 0,
+      "lagWinner": "",
+      "table": [],
+      "tournamentId": 63111664,
+      "challengeId": 0,
+      "starttime": "",
+      "stoptime": "",
+      "matchstatus": "finished",
+      "matchstatusCode": 2,
+      "bestOfSets": 0,
+      "useInnings": false,
+      "frames": [],
+      "properties": [],
+      "sets": [],
+      "curVersion": 155,
+      "notes": [],
+      "matchType": 0,
+      "videoLink": "",
+      "comment": "",
+      "winnerNext": 19,
+      "loserNext": ""
+    },
+    {
+      "matchId": 69451807,
+      "matchno": 7,
+      "roundName": "1er tour",
+      "round": 1,
+      "playerA": {
+        "playerId": 9668716,
+        "name": "Marie Poncet",
+        "firstname": "Marie",
+        "lastname": "Poncet",
+        "url": "https://cuescore.com/player/Marie+Poncet/9668716",
+        "image": "https://img.cuescore.com/image/2/4/248f5a019c462d969f02c0e672c792d8.png?t=1729527186",
+        "country": {
+          "name": "France",
+          "alpha3": "FRA",
+          "image": "https://cuescore.com/img/flags/png-country-4x2-none/res-640x480/fr.png",
+          "continent": "Europe"
+        },
+        "represents": []
+      },
+      "playerB": {
+        "playerId": 1000615,
+        "name": "Walk Over",
+        "firstname": "Walk",
+        "lastname": "Over",
+        "url": "https://cuescore.com/player/Walk+Over/1000615",
+        "image": "https://img.cuescore.com/image/8/4/862c792ba8eb7f97e626fbe6cbcc59f6.png",
+        "country": [],
+        "represents": []
+      },
+      "scoreA": 0,
+      "scoreB": 0,
+      "raceTo": 4,
+      "discipline": "Blackball",
+      "disciplineId": 301,
+      "branch": 2,
+      "penalty": 0,
+      "groupNo": 0,
+      "inningsPlayerA": 0,
+      "inningsPlayerB": 0,
+      "highBreaksA": "",
+      "highBreaksB": "",
+      "runoutsA": 0,
+      "runoutsB": 0,
+      "lagWinner": "",
+      "table": [],
+      "tournamentId": 63111664,
+      "challengeId": 0,
+      "starttime": "",
+      "stoptime": "",
+      "matchstatus": "finished",
+      "matchstatusCode": 2,
+      "bestOfSets": 0,
+      "useInnings": false,
+      "frames": [],
+      "properties": [],
+      "sets": [],
+      "curVersion": 155,
+      "notes": [],
+      "matchType": 0,
+      "videoLink": "",
+      "comment": "",
+      "winnerNext": 20,
+      "loserNext": ""
+    },
+    {
+      "matchId": 69451810,
+      "matchno": 8,
+      "roundName": "1er tour",
+      "round": 1,
+      "playerA": {
+        "playerId": 1000615,
+        "name": "Walk Over",
+        "firstname": "Walk",
+        "lastname": "Over",
+        "url": "https://cuescore.com/player/Walk+Over/1000615",
+        "image": "https://img.cuescore.com/image/8/4/862c792ba8eb7f97e626fbe6cbcc59f6.png",
+        "country": [],
+        "represents": []
+      },
+      "playerB": {
+        "playerId": 3386984,
+        "name": "Marie Pierre Sockeel",
+        "firstname": "Marie Pierre",
+        "lastname": "Sockeel",
+        "url": "https://cuescore.com/player/Marie+Pierre+Sockeel/3386984",
+        "image": "https://img.cuescore.com/image/1/4/13e3342e53ad87ab92ee8236507df78d.png?t=1542657309",
+        "country": {
+          "name": "France",
+          "alpha3": "FRA",
+          "image": "https://cuescore.com/img/flags/png-country-4x2-none/res-640x480/fr.png",
+          "continent": "Europe"
+        },
+        "represents": []
+      },
+      "scoreA": 0,
+      "scoreB": 0,
+      "raceTo": 4,
+      "discipline": "Blackball",
+      "disciplineId": 301,
+      "branch": 2,
+      "penalty": 0,
+      "groupNo": 0,
+      "inningsPlayerA": 0,
+      "inningsPlayerB": 0,
+      "highBreaksA": "",
+      "highBreaksB": "",
+      "runoutsA": 0,
+      "runoutsB": 0,
+      "lagWinner": "",
+      "table": [],
+      "tournamentId": 63111664,
+      "challengeId": 0,
+      "starttime": "",
+      "stoptime": "",
+      "matchstatus": "finished",
+      "matchstatusCode": 2,
+      "bestOfSets": 0,
+      "useInnings": false,
+      "frames": [],
+      "properties": [],
+      "sets": [],
+      "curVersion": 155,
+      "notes": [],
+      "matchType": 0,
+      "videoLink": "",
+      "comment": "",
+      "winnerNext": 20,
+      "loserNext": ""
+    },
+    {
+      "matchId": 69451813,
+      "matchno": 9,
+      "roundName": "1er tour",
+      "round": 1,
+      "playerA": {
+        "playerId": 42182737,
+        "name": "Myriam Sopic",
+        "firstname": "Myriam",
+        "lastname": "Sopic",
+        "url": "https://cuescore.com/player/Myriam+Sopic/42182737",
+        "image": "https://img.cuescore.com/image/a/4/a37b5f62966ce8793c251455bf9eaf63.png?t=1731442273",
+        "country": {
+          "name": "France",
+          "alpha3": "FRA",
+          "image": "https://cuescore.com/img/flags/png-country-4x2-none/res-640x480/fr.png",
+          "continent": "Europe"
+        },
+        "represents": []
+      },
+      "playerB": {
+        "playerId": 1000615,
+        "name": "Walk Over",
+        "firstname": "Walk",
+        "lastname": "Over",
+        "url": "https://cuescore.com/player/Walk+Over/1000615",
+        "image": "https://img.cuescore.com/image/8/4/862c792ba8eb7f97e626fbe6cbcc59f6.png",
+        "country": [],
+        "represents": []
+      },
+      "scoreA": 0,
+      "scoreB": 0,
+      "raceTo": 4,
+      "discipline": "Blackball",
+      "disciplineId": 301,
+      "branch": 2,
+      "penalty": 0,
+      "groupNo": 0,
+      "inningsPlayerA": 0,
+      "inningsPlayerB": 0,
+      "highBreaksA": "",
+      "highBreaksB": "",
+      "runoutsA": 0,
+      "runoutsB": 0,
+      "lagWinner": "",
+      "table": [],
+      "tournamentId": 63111664,
+      "challengeId": 0,
+      "starttime": "",
+      "stoptime": "",
+      "matchstatus": "finished",
+      "matchstatusCode": 2,
+      "bestOfSets": 0,
+      "useInnings": false,
+      "frames": [],
+      "properties": [],
+      "sets": [],
+      "curVersion": 155,
+      "notes": [],
+      "matchType": 0,
+      "videoLink": "",
+      "comment": "",
+      "winnerNext": 21,
+      "loserNext": ""
+    },
+    {
+      "matchId": 69451816,
+      "matchno": 10,
+      "roundName": "1er tour",
+      "round": 1,
+      "playerA": {
+        "playerId": 1000615,
+        "name": "Walk Over",
+        "firstname": "Walk",
+        "lastname": "Over",
+        "url": "https://cuescore.com/player/Walk+Over/1000615",
+        "image": "https://img.cuescore.com/image/8/4/862c792ba8eb7f97e626fbe6cbcc59f6.png",
+        "country": [],
+        "represents": []
+      },
+      "playerB": {
+        "playerId": 49237162,
+        "name": "Lee lou Lebon bouvy",
+        "firstname": "Lee lou",
+        "lastname": "Lebon bouvy",
+        "url": "https://cuescore.com/player/Lee+lou+Lebon+bouvy/49237162",
+        "image": "https://img.cuescore.com/image/5/4/5aa6aa48f7d5ffe854d5266ac08db7ef.png",
+        "country": {
+          "name": "France",
+          "alpha3": "FRA",
+          "image": "https://cuescore.com/img/flags/png-country-4x2-none/res-640x480/fr.png",
+          "continent": "Europe"
+        },
+        "represents": []
+      },
+      "scoreA": 0,
+      "scoreB": 0,
+      "raceTo": 4,
+      "discipline": "Blackball",
+      "disciplineId": 301,
+      "branch": 2,
+      "penalty": 0,
+      "groupNo": 0,
+      "inningsPlayerA": 0,
+      "inningsPlayerB": 0,
+      "highBreaksA": "",
+      "highBreaksB": "",
+      "runoutsA": 0,
+      "runoutsB": 0,
+      "lagWinner": "",
+      "table": [],
+      "tournamentId": 63111664,
+      "challengeId": 0,
+      "starttime": "",
+      "stoptime": "",
+      "matchstatus": "finished",
+      "matchstatusCode": 2,
+      "bestOfSets": 0,
+      "useInnings": false,
+      "frames": [],
+      "properties": [],
+      "sets": [],
+      "curVersion": 155,
+      "notes": [],
+      "matchType": 0,
+      "videoLink": "",
+      "comment": "",
+      "winnerNext": 21,
+      "loserNext": ""
+    },
+    {
+      "matchId": 69451819,
+      "matchno": 11,
+      "roundName": "1er tour",
+      "round": 1,
+      "playerA": {
+        "playerId": 8125356,
+        "name": "Emilie Fesquet",
+        "firstname": "Emilie",
+        "lastname": "Fesquet",
+        "url": "https://cuescore.com/player/Emilie+Fesquet/8125356",
+        "image": "https://img.cuescore.com/image/d/4/d718035657bafa58fa48be678d3851e9.png?t=1740184872",
+        "country": {
+          "name": "France",
+          "alpha3": "FRA",
+          "image": "https://cuescore.com/img/flags/png-country-4x2-none/res-640x480/fr.png",
+          "continent": "Europe"
+        },
+        "represents": []
+      },
+      "playerB": {
+        "playerId": 1000615,
+        "name": "Walk Over",
+        "firstname": "Walk",
+        "lastname": "Over",
+        "url": "https://cuescore.com/player/Walk+Over/1000615",
+        "image": "https://img.cuescore.com/image/8/4/862c792ba8eb7f97e626fbe6cbcc59f6.png",
+        "country": [],
+        "represents": []
+      },
+      "scoreA": 0,
+      "scoreB": 0,
+      "raceTo": 4,
+      "discipline": "Blackball",
+      "disciplineId": 301,
+      "branch": 2,
+      "penalty": 0,
+      "groupNo": 0,
+      "inningsPlayerA": 0,
+      "inningsPlayerB": 0,
+      "highBreaksA": "",
+      "highBreaksB": "",
+      "runoutsA": 0,
+      "runoutsB": 0,
+      "lagWinner": "",
+      "table": [],
+      "tournamentId": 63111664,
+      "challengeId": 0,
+      "starttime": "",
+      "stoptime": "",
+      "matchstatus": "finished",
+      "matchstatusCode": 2,
+      "bestOfSets": 0,
+      "useInnings": false,
+      "frames": [],
+      "properties": [],
+      "sets": [],
+      "curVersion": 155,
+      "notes": [],
+      "matchType": 0,
+      "videoLink": "",
+      "comment": "",
+      "winnerNext": 22,
+      "loserNext": ""
+    },
+    {
+      "matchId": 69451822,
+      "matchno": 12,
+      "roundName": "1er tour",
+      "round": 1,
+      "playerA": {
+        "playerId": 1000615,
+        "name": "Walk Over",
+        "firstname": "Walk",
+        "lastname": "Over",
+        "url": "https://cuescore.com/player/Walk+Over/1000615",
+        "image": "https://img.cuescore.com/image/8/4/862c792ba8eb7f97e626fbe6cbcc59f6.png",
+        "country": [],
+        "represents": []
+      },
+      "playerB": {
+        "playerId": 49363114,
+        "name": "Cindy Viallet",
+        "firstname": "Cindy",
+        "lastname": "Viallet",
+        "url": "https://cuescore.com/player/Cindy+Viallet/49363114",
+        "image": "https://img.cuescore.com/image/1/4/157c150c93ca2a79a0ee580135ee0dfa.png?t=1747416051",
+        "country": {
+          "name": "France",
+          "alpha3": "FRA",
+          "image": "https://cuescore.com/img/flags/png-country-4x2-none/res-640x480/fr.png",
+          "continent": "Europe"
+        },
+        "represents": []
+      },
+      "scoreA": 0,
+      "scoreB": 0,
+      "raceTo": 4,
+      "discipline": "Blackball",
+      "disciplineId": 301,
+      "branch": 2,
+      "penalty": 0,
+      "groupNo": 0,
+      "inningsPlayerA": 0,
+      "inningsPlayerB": 0,
+      "highBreaksA": "",
+      "highBreaksB": "",
+      "runoutsA": 0,
+      "runoutsB": 0,
+      "lagWinner": "",
+      "table": [],
+      "tournamentId": 63111664,
+      "challengeId": 0,
+      "starttime": "",
+      "stoptime": "",
+      "matchstatus": "finished",
+      "matchstatusCode": 2,
+      "bestOfSets": 0,
+      "useInnings": false,
+      "frames": [],
+      "properties": [],
+      "sets": [],
+      "curVersion": 155,
+      "notes": [],
+      "matchType": 0,
+      "videoLink": "",
+      "comment": "",
+      "winnerNext": 22,
+      "loserNext": ""
+    },
+    {
+      "matchId": 69451825,
+      "matchno": 13,
+      "roundName": "1er tour",
+      "round": 1,
+      "playerA": {
+        "playerId": 8035426,
+        "name": "Solange Berrahou",
+        "firstname": "Solange",
+        "lastname": "Berrahou",
+        "url": "https://cuescore.com/player/Solange+Berrahou/8035426",
+        "image": "https://img.cuescore.com/image/5/4/5aa6aa48f7d5ffe854d5266ac08db7ef.png",
+        "country": {
+          "name": "France",
+          "alpha3": "FRA",
+          "image": "https://cuescore.com/img/flags/png-country-4x2-none/res-640x480/fr.png",
+          "continent": "Europe"
+        },
+        "represents": []
+      },
+      "playerB": {
+        "playerId": 1000615,
+        "name": "Walk Over",
+        "firstname": "Walk",
+        "lastname": "Over",
+        "url": "https://cuescore.com/player/Walk+Over/1000615",
+        "image": "https://img.cuescore.com/image/8/4/862c792ba8eb7f97e626fbe6cbcc59f6.png",
+        "country": [],
+        "represents": []
+      },
+      "scoreA": 0,
+      "scoreB": 0,
+      "raceTo": 4,
+      "discipline": "Blackball",
+      "disciplineId": 301,
+      "branch": 2,
+      "penalty": 0,
+      "groupNo": 0,
+      "inningsPlayerA": 0,
+      "inningsPlayerB": 0,
+      "highBreaksA": "",
+      "highBreaksB": "",
+      "runoutsA": 0,
+      "runoutsB": 0,
+      "lagWinner": "",
+      "table": [],
+      "tournamentId": 63111664,
+      "challengeId": 0,
+      "starttime": "",
+      "stoptime": "",
+      "matchstatus": "finished",
+      "matchstatusCode": 2,
+      "bestOfSets": 0,
+      "useInnings": false,
+      "frames": [],
+      "properties": [],
+      "sets": [],
+      "curVersion": 155,
+      "notes": [],
+      "matchType": 0,
+      "videoLink": "",
+      "comment": "",
+      "winnerNext": 23,
+      "loserNext": ""
+    },
+    {
+      "matchId": 69451828,
+      "matchno": 14,
+      "roundName": "1er tour",
+      "round": 1,
+      "playerA": {
+        "playerId": 1000615,
+        "name": "Walk Over",
+        "firstname": "Walk",
+        "lastname": "Over",
+        "url": "https://cuescore.com/player/Walk+Over/1000615",
+        "image": "https://img.cuescore.com/image/8/4/862c792ba8eb7f97e626fbe6cbcc59f6.png",
+        "country": [],
+        "represents": []
+      },
+      "playerB": {
+        "playerId": 53363182,
+        "name": "Alana PULBY",
+        "firstname": "Alana",
+        "lastname": "PULBY",
+        "url": "https://cuescore.com/player/Alana+PULBY/53363182",
+        "image": "https://img.cuescore.com/image/5/4/5aa6aa48f7d5ffe854d5266ac08db7ef.png",
+        "country": {
+          "name": "France",
+          "alpha3": "FRA",
+          "image": "https://cuescore.com/img/flags/png-country-4x2-none/res-640x480/fr.png",
+          "continent": "Europe"
+        },
+        "represents": []
+      },
+      "scoreA": 0,
+      "scoreB": 0,
+      "raceTo": 4,
+      "discipline": "Blackball",
+      "disciplineId": 301,
+      "branch": 2,
+      "penalty": 0,
+      "groupNo": 0,
+      "inningsPlayerA": 0,
+      "inningsPlayerB": 0,
+      "highBreaksA": "",
+      "highBreaksB": "",
+      "runoutsA": 0,
+      "runoutsB": 0,
+      "lagWinner": "",
+      "table": [],
+      "tournamentId": 63111664,
+      "challengeId": 0,
+      "starttime": "",
+      "stoptime": "",
+      "matchstatus": "finished",
+      "matchstatusCode": 2,
+      "bestOfSets": 0,
+      "useInnings": false,
+      "frames": [],
+      "properties": [],
+      "sets": [],
+      "curVersion": 155,
+      "notes": [],
+      "matchType": 0,
+      "videoLink": "",
+      "comment": "",
+      "winnerNext": 23,
+      "loserNext": ""
+    },
+    {
+      "matchId": 69451831,
+      "matchno": 15,
+      "roundName": "1er tour",
+      "round": 1,
+      "playerA": {
+        "playerId": 9668563,
+        "name": "Stephanie Besson",
+        "firstname": "Stephanie",
+        "lastname": "Besson",
+        "url": "https://cuescore.com/player/Stephanie+Besson/9668563",
+        "image": "https://img.cuescore.com/image/5/4/5aa6aa48f7d5ffe854d5266ac08db7ef.png",
+        "country": {
+          "name": "France",
+          "alpha3": "FRA",
+          "image": "https://cuescore.com/img/flags/png-country-4x2-none/res-640x480/fr.png",
+          "continent": "Europe"
+        },
+        "represents": []
+      },
+      "playerB": {
+        "playerId": 10256404,
+        "name": "Stéphanie ARNAUD",
+        "firstname": "Stéphanie",
+        "lastname": "ARNAUD",
+        "url": "https://cuescore.com/player/St%C3%A9phanie+ARNAUD/10256404",
+        "image": "https://img.cuescore.com/image/9/4/9ba79635505361403d344f362c07a392.png?t=1682339779",
+        "country": {
+          "name": "France",
+          "alpha3": "FRA",
+          "image": "https://cuescore.com/img/flags/png-country-4x2-none/res-640x480/fr.png",
+          "continent": "Europe"
+        },
+        "represents": []
+      },
+      "scoreA": 3,
+      "scoreB": 1,
+      "raceTo": 4,
+      "discipline": "Blackball",
+      "disciplineId": 301,
+      "branch": 2,
+      "penalty": 0,
+      "groupNo": 0,
+      "inningsPlayerA": 0,
+      "inningsPlayerB": 0,
+      "highBreaksA": "",
+      "highBreaksB": "",
+      "runoutsA": 0,
+      "runoutsB": 0,
+      "lagWinner": "A",
+      "table": {
+        "tableId": 12812773,
+        "name": "2",
+        "manufacturer": "Optima",
+        "model": "Elite",
+        "branch": "Anglais",
+        "branchId": 2,
+        "size": 7,
+        "cloth": "",
+        "pockets": "",
+        "slate": "",
+        "description": "Billard 2",
+        "venue": {
+          "venueId": 12812767,
+          "name": "Parc BB LBARA",
+          "url": "https://cuescore.com/venue/Parc+BB+LBARA/12812767",
+          "owner": {
+            "organizationId": 34342744,
+            "stub": "lbarablackball",
+            "name": "LBARA Blackball",
+            "url": "https://cuescore.com/lbarablackball",
+            "logo": "//img.cuescore.com/image/0/2/0338989cafdd922c63cb57acd7be0329.png?t=1698431852",
+            "profileColor": ""
+          }
+        }
+      },
+      "tournamentId": 63111664,
+      "challengeId": 0,
+      "starttime": "2025-10-04T08:11:00",
+      "stoptime": "2025-10-04T09:34:25",
+      "matchstatus": "finished",
+      "matchstatusCode": 2,
+      "bestOfSets": 0,
+      "useInnings": false,
+      "frames": [],
+      "properties": {
+        "runoutsA": 0,
+        "runoutsB": 0,
+        "lagWinsA": 1,
+        "lagWinsB": 0
+      },
+      "sets": [],
+      "curVersion": 155,
+      "notes": [
+        {
+          "note": "frame start",
+          "time": "2025-10-04T06:14:24.580Z"
+        },
+        {
+          "note": "A breaking",
+          "time": "2025-10-04T06:14:24.580Z"
+        },
+        {
+          "note": "A frame win",
+          "time": "2025-10-04T06:26:30.198Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2025-10-04T06:26:30.198Z"
+        },
+        {
+          "note": "frame start",
+          "time": "2025-10-04T06:26:30.198Z"
+        },
+        {
+          "note": "B breaking",
+          "time": "2025-10-04T06:26:30.198Z"
+        },
+        {
+          "note": "B frame win",
+          "time": "2025-10-04T06:46:58.582Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2025-10-04T06:46:58.582Z"
+        },
+        {
+          "note": "frame start",
+          "time": "2025-10-04T06:46:58.582Z"
+        },
+        {
+          "note": "A breaking",
+          "time": "2025-10-04T06:46:58.582Z"
+        },
+        {
+          "note": "A frame win",
+          "time": "2025-10-04T07:12:57.262Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2025-10-04T07:12:57.262Z"
+        },
+        {
+          "note": "frame start",
+          "time": "2025-10-04T07:12:57.262Z"
+        },
+        {
+          "note": "B breaking",
+          "time": "2025-10-04T07:12:57.262Z"
+        },
+        {
+          "note": "A frame win",
+          "time": "2025-10-04T07:26:02.853Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2025-10-04T07:26:02.853Z"
+        },
+        {
+          "note": "frame start",
+          "time": "2025-10-04T07:26:02.853Z"
+        },
+        {
+          "note": "A breaking",
+          "time": "2025-10-04T07:26:02.853Z"
+        }
+      ],
+      "matchType": 0,
+      "videoLink": "",
+      "comment": "",
+      "winnerNext": 24,
+      "loserNext": ""
+    },
+    {
+      "matchId": 69451834,
+      "matchno": 16,
+      "roundName": "1er tour",
+      "round": 1,
+      "playerA": {
+        "playerId": 1000615,
+        "name": "Walk Over",
+        "firstname": "Walk",
+        "lastname": "Over",
+        "url": "https://cuescore.com/player/Walk+Over/1000615",
+        "image": "https://img.cuescore.com/image/8/4/862c792ba8eb7f97e626fbe6cbcc59f6.png",
+        "country": [],
+        "represents": []
+      },
+      "playerB": {
+        "playerId": 37759960,
+        "name": "Christelle PEDAT",
+        "firstname": "Christelle",
+        "lastname": "PEDAT",
+        "url": "https://cuescore.com/player/Christelle+PEDAT/37759960",
+        "image": "https://img.cuescore.com/image/5/4/5aa6aa48f7d5ffe854d5266ac08db7ef.png",
+        "country": {
+          "name": "France",
+          "alpha3": "FRA",
+          "image": "https://cuescore.com/img/flags/png-country-4x2-none/res-640x480/fr.png",
+          "continent": "Europe"
+        },
+        "represents": []
+      },
+      "scoreA": 0,
+      "scoreB": 0,
+      "raceTo": 4,
+      "discipline": "Blackball",
+      "disciplineId": 301,
+      "branch": 2,
+      "penalty": 0,
+      "groupNo": 0,
+      "inningsPlayerA": 0,
+      "inningsPlayerB": 0,
+      "highBreaksA": "",
+      "highBreaksB": "",
+      "runoutsA": 0,
+      "runoutsB": 0,
+      "lagWinner": "",
+      "table": [],
+      "tournamentId": 63111664,
+      "challengeId": 0,
+      "starttime": "",
+      "stoptime": "",
+      "matchstatus": "finished",
+      "matchstatusCode": 2,
+      "bestOfSets": 0,
+      "useInnings": false,
+      "frames": [],
+      "properties": [],
+      "sets": [],
+      "curVersion": 155,
+      "notes": [],
+      "matchType": 0,
+      "videoLink": "",
+      "comment": "",
+      "winnerNext": 24,
+      "loserNext": ""
+    },
+    {
+      "matchId": 69451837,
+      "matchno": 17,
+      "roundName": "8ème de finale",
+      "round": 2,
+      "playerA": {
+        "playerId": 26801929,
+        "name": "Zélie Ray",
+        "firstname": "Zélie",
+        "lastname": "Ray",
+        "url": "https://cuescore.com/player/Z%C3%A9lie+Ray/26801929",
+        "image": "https://img.cuescore.com/image/b/4/b7dfdc677e3cbf2242d8230d0b455ac7.png?t=1713628756",
+        "country": {
+          "name": "France",
+          "alpha3": "FRA",
+          "image": "https://cuescore.com/img/flags/png-country-4x2-none/res-640x480/fr.png",
+          "continent": "Europe"
+        },
+        "represents": []
+      },
+      "playerB": {
+        "playerId": 49751803,
+        "name": "Maria Castagne",
+        "firstname": "Maria",
+        "lastname": "Castagne",
+        "url": "https://cuescore.com/player/Maria+Castagne/49751803",
+        "image": "https://img.cuescore.com/image/5/4/5aa6aa48f7d5ffe854d5266ac08db7ef.png",
+        "country": {
+          "name": "France",
+          "alpha3": "FRA",
+          "image": "https://cuescore.com/img/flags/png-country-4x2-none/res-640x480/fr.png",
+          "continent": "Europe"
+        },
+        "represents": []
+      },
+      "scoreA": 4,
+      "scoreB": 3,
+      "raceTo": 4,
+      "discipline": "Blackball",
+      "disciplineId": 301,
+      "branch": 2,
+      "penalty": 0,
+      "groupNo": 0,
+      "inningsPlayerA": 0,
+      "inningsPlayerB": 0,
+      "highBreaksA": "",
+      "highBreaksB": "",
+      "runoutsA": 0,
+      "runoutsB": 0,
+      "lagWinner": "A",
+      "table": {
+        "tableId": 12812770,
+        "name": "1",
+        "manufacturer": "Optima",
+        "model": "Elite",
+        "branch": "Anglais",
+        "branchId": 2,
+        "size": 7,
+        "cloth": "",
+        "pockets": "",
+        "slate": "",
+        "description": "Billard 1",
+        "venue": {
+          "venueId": 12812767,
+          "name": "Parc BB LBARA",
+          "url": "https://cuescore.com/venue/Parc+BB+LBARA/12812767",
+          "owner": {
+            "organizationId": 34342744,
+            "stub": "lbarablackball",
+            "name": "LBARA Blackball",
+            "url": "https://cuescore.com/lbarablackball",
+            "logo": "//img.cuescore.com/image/0/2/0338989cafdd922c63cb57acd7be0329.png?t=1698431852",
+            "profileColor": ""
+          }
+        }
+      },
+      "tournamentId": 63111664,
+      "challengeId": 0,
+      "starttime": "2025-10-04T09:03:34",
+      "stoptime": "2025-10-04T11:00:23",
+      "matchstatus": "finished",
+      "matchstatusCode": 2,
+      "bestOfSets": 0,
+      "useInnings": false,
+      "frames": [],
+      "properties": {
+        "penalty": [],
+        "runoutsA": 0,
+        "runoutsB": 0,
+        "lagWinsA": 1,
+        "lagWinsB": 0
+      },
+      "sets": [],
+      "curVersion": 155,
+      "notes": [
+        {
+          "note": "frame start",
+          "time": "2025-10-04T07:07:12.498Z"
+        },
+        {
+          "note": "A breaking",
+          "time": "2025-10-04T07:07:12.498Z"
+        },
+        {
+          "note": "B frame win",
+          "time": "2025-10-04T07:16:36.553Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2025-10-04T07:16:36.553Z"
+        },
+        {
+          "note": "frame start",
+          "time": "2025-10-04T07:16:36.553Z"
+        },
+        {
+          "note": "B breaking",
+          "time": "2025-10-04T07:16:36.553Z"
+        },
+        {
+          "note": "B frame win",
+          "time": "2025-10-04T07:29:56.301Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2025-10-04T07:29:56.301Z"
+        },
+        {
+          "note": "frame start",
+          "time": "2025-10-04T07:29:56.301Z"
+        },
+        {
+          "note": "A breaking",
+          "time": "2025-10-04T07:29:56.301Z"
+        },
+        {
+          "note": "A frame win",
+          "time": "2025-10-04T07:52:55.813Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2025-10-04T07:52:55.813Z"
+        },
+        {
+          "note": "frame start",
+          "time": "2025-10-04T07:52:55.813Z"
+        },
+        {
+          "note": "B breaking",
+          "time": "2025-10-04T07:52:55.813Z"
+        },
+        {
+          "note": "B frame win",
+          "time": "2025-10-04T08:07:30.142Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2025-10-04T08:07:30.142Z"
+        },
+        {
+          "note": "frame start",
+          "time": "2025-10-04T08:07:30.142Z"
+        },
+        {
+          "note": "A breaking",
+          "time": "2025-10-04T08:07:30.142Z"
+        },
+        {
+          "note": "A frame win",
+          "time": "2025-10-04T08:20:34.782Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2025-10-04T08:20:34.782Z"
+        },
+        {
+          "note": "frame start",
+          "time": "2025-10-04T08:20:34.782Z"
+        },
+        {
+          "note": "B breaking",
+          "time": "2025-10-04T08:20:34.782Z"
+        },
+        {
+          "note": "A frame win",
+          "time": "2025-10-04T08:39:06.991Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2025-10-04T08:39:06.991Z"
+        },
+        {
+          "note": "frame start",
+          "time": "2025-10-04T08:39:06.991Z"
+        },
+        {
+          "note": "A breaking",
+          "time": "2025-10-04T08:39:06.991Z"
+        },
+        {
+          "note": "A frame win",
+          "time": "2025-10-04T09:00:19.703Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2025-10-04T09:00:19.703Z"
+        },
+        {
+          "note": "match end",
+          "time": "2025-10-04T09:00:21.602Z"
+        }
+      ],
+      "matchType": 0,
+      "videoLink": "",
+      "comment": "",
+      "winnerNext": 25,
+      "loserNext": ""
+    },
+    {
+      "matchId": 69451840,
+      "matchno": 18,
+      "roundName": "8ème de finale",
+      "round": 2,
+      "playerA": {
+        "playerId": 31998823,
+        "name": "Gwenaëlle DUMORTIER",
+        "firstname": "Gwenaëlle",
+        "lastname": "DUMORTIER",
+        "url": "https://cuescore.com/player/Gwena%C3%ABlle+DUMORTIER/31998823",
+        "image": "https://img.cuescore.com/image/5/4/59e659ea625d7910487bc5fa5989a67c.png?t=1719678241",
+        "country": {
+          "name": "France",
+          "alpha3": "FRA",
+          "image": "https://cuescore.com/img/flags/png-country-4x2-none/res-640x480/fr.png",
+          "continent": "Europe"
+        },
+        "represents": []
+      },
+      "playerB": {
+        "playerId": 31371670,
+        "name": "Mathilde Bouvy",
+        "firstname": "Mathilde",
+        "lastname": "Bouvy",
+        "url": "https://cuescore.com/player/Mathilde+Bouvy/31371670",
+        "image": "https://img.cuescore.com/image/f/4/fe6dc0cadc7f3596fa6cef2bc7daca3d.png?t=1694514639",
+        "country": {
+          "name": "Haiti",
+          "alpha3": "HTI",
+          "image": "https://cuescore.com/img/flags/png-country-4x2-none/res-640x480/ht.png",
+          "continent": "North America"
+        },
+        "represents": []
+      },
+      "scoreA": 0,
+      "scoreB": 4,
+      "raceTo": 4,
+      "discipline": "Blackball",
+      "disciplineId": 301,
+      "branch": 2,
+      "penalty": 0,
+      "groupNo": 0,
+      "inningsPlayerA": 0,
+      "inningsPlayerB": 0,
+      "highBreaksA": "",
+      "highBreaksB": "",
+      "runoutsA": 0,
+      "runoutsB": 0,
+      "lagWinner": "A",
+      "table": {
+        "tableId": 12812782,
+        "name": "5",
+        "manufacturer": "Optima",
+        "model": "Elite",
+        "branch": "Anglais",
+        "branchId": 2,
+        "size": 7,
+        "cloth": "",
+        "pockets": "",
+        "slate": "",
+        "description": "Billard 5",
+        "venue": {
+          "venueId": 12812767,
+          "name": "Parc BB LBARA",
+          "url": "https://cuescore.com/venue/Parc+BB+LBARA/12812767",
+          "owner": {
+            "organizationId": 34342744,
+            "stub": "lbarablackball",
+            "name": "LBARA Blackball",
+            "url": "https://cuescore.com/lbarablackball",
+            "logo": "//img.cuescore.com/image/0/2/0338989cafdd922c63cb57acd7be0329.png?t=1698431852",
+            "profileColor": ""
+          }
+        }
+      },
+      "tournamentId": 63111664,
+      "challengeId": 0,
+      "starttime": "2025-10-04T09:03:35",
+      "stoptime": "2025-10-04T09:50:13",
+      "matchstatus": "finished",
+      "matchstatusCode": 2,
+      "bestOfSets": 0,
+      "useInnings": false,
+      "frames": [],
+      "properties": {
+        "penalty": [],
+        "runoutsA": 0,
+        "runoutsB": 0,
+        "lagWinsA": 1,
+        "lagWinsB": 0
+      },
+      "sets": [],
+      "curVersion": 155,
+      "notes": [
+        {
+          "note": "frame start",
+          "time": "2025-10-04T07:06:32.115Z"
+        },
+        {
+          "note": "A breaking",
+          "time": "2025-10-04T07:06:32.115Z"
+        },
+        {
+          "note": "B frame win",
+          "time": "2025-10-04T07:24:39.241Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2025-10-04T07:24:39.241Z"
+        },
+        {
+          "note": "frame start",
+          "time": "2025-10-04T07:24:39.241Z"
+        },
+        {
+          "note": "B breaking",
+          "time": "2025-10-04T07:24:39.241Z"
+        },
+        {
+          "note": "B frame win",
+          "time": "2025-10-04T07:33:03.816Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2025-10-04T07:33:03.816Z"
+        },
+        {
+          "note": "frame start",
+          "time": "2025-10-04T07:33:03.816Z"
+        },
+        {
+          "note": "A breaking",
+          "time": "2025-10-04T07:33:03.816Z"
+        },
+        {
+          "note": "B frame win",
+          "time": "2025-10-04T07:38:44.310Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2025-10-04T07:38:44.310Z"
+        },
+        {
+          "note": "frame start",
+          "time": "2025-10-04T07:38:44.310Z"
+        },
+        {
+          "note": "B breaking",
+          "time": "2025-10-04T07:38:44.310Z"
+        },
+        {
+          "note": "B frame win",
+          "time": "2025-10-04T07:49:57.462Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2025-10-04T07:49:57.462Z"
+        },
+        {
+          "note": "match end",
+          "time": "2025-10-04T07:50:10.188Z"
+        }
+      ],
+      "matchType": 0,
+      "videoLink": "",
+      "comment": "",
+      "winnerNext": 25,
+      "loserNext": ""
+    },
+    {
+      "matchId": 69451843,
+      "matchno": 19,
+      "roundName": "8ème de finale",
+      "round": 2,
+      "playerA": {
+        "playerId": 9389326,
+        "name": "NATHALIE MANDY",
+        "firstname": "NATHALIE",
+        "lastname": "MANDY",
+        "url": "https://cuescore.com/player/NATHALIE+MANDY/9389326",
+        "image": "https://img.cuescore.com/image/4/4/4575085aeac26ef3ebb3c2b13a74f352.png?t=1692006317",
+        "country": {
+          "name": "French Polynesia",
+          "alpha3": "PYF",
+          "image": "https://cuescore.com/img/flags/png-country-4x2-none/res-640x480/pf.png",
+          "continent": "Oceania"
+        },
+        "represents": []
+      },
+      "playerB": {
+        "playerId": 8375403,
+        "name": "Valerie Michel",
+        "firstname": "Valerie",
+        "lastname": "Michel",
+        "url": "https://cuescore.com/player/Valerie+Michel/8375403",
+        "image": "https://img.cuescore.com/image/5/4/5aa6aa48f7d5ffe854d5266ac08db7ef.png",
+        "country": {
+          "name": "France",
+          "alpha3": "FRA",
+          "image": "https://cuescore.com/img/flags/png-country-4x2-none/res-640x480/fr.png",
+          "continent": "Europe"
+        },
+        "represents": []
+      },
+      "scoreA": 4,
+      "scoreB": 2,
+      "raceTo": 4,
+      "discipline": "Blackball",
+      "disciplineId": 301,
+      "branch": 2,
+      "penalty": 0,
+      "groupNo": 0,
+      "inningsPlayerA": 0,
+      "inningsPlayerB": 0,
+      "highBreaksA": "",
+      "highBreaksB": "",
+      "runoutsA": 0,
+      "runoutsB": 0,
+      "lagWinner": "A",
+      "table": {
+        "tableId": 12812797,
+        "name": "7",
+        "manufacturer": "Optima",
+        "model": "Elite",
+        "branch": "Anglais",
+        "branchId": 2,
+        "size": 7,
+        "cloth": "",
+        "pockets": "",
+        "slate": "",
+        "description": "Billard 7",
+        "venue": {
+          "venueId": 12812767,
+          "name": "Parc BB LBARA",
+          "url": "https://cuescore.com/venue/Parc+BB+LBARA/12812767",
+          "owner": {
+            "organizationId": 34342744,
+            "stub": "lbarablackball",
+            "name": "LBARA Blackball",
+            "url": "https://cuescore.com/lbarablackball",
+            "logo": "//img.cuescore.com/image/0/2/0338989cafdd922c63cb57acd7be0329.png?t=1698431852",
+            "profileColor": ""
+          }
+        }
+      },
+      "tournamentId": 63111664,
+      "challengeId": 0,
+      "starttime": "2025-10-04T09:03:36",
+      "stoptime": "2025-10-04T10:25:26",
+      "matchstatus": "finished",
+      "matchstatusCode": 2,
+      "bestOfSets": 0,
+      "useInnings": false,
+      "frames": [],
+      "properties": {
+        "penalty": [],
+        "runoutsA": 0,
+        "runoutsB": 0,
+        "lagWinsA": 1,
+        "lagWinsB": 0
+      },
+      "sets": [],
+      "curVersion": 155,
+      "notes": [
+        {
+          "note": "frame start",
+          "time": "2025-10-04T07:14:22.337Z"
+        },
+        {
+          "note": "A breaking",
+          "time": "2025-10-04T07:14:22.337Z"
+        },
+        {
+          "note": "A frame win",
+          "time": "2025-10-04T07:27:38.118Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2025-10-04T07:27:38.118Z"
+        },
+        {
+          "note": "frame start",
+          "time": "2025-10-04T07:27:38.118Z"
+        },
+        {
+          "note": "B breaking",
+          "time": "2025-10-04T07:27:38.118Z"
+        },
+        {
+          "note": "B frame win",
+          "time": "2025-10-04T07:39:34.464Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2025-10-04T07:39:34.464Z"
+        },
+        {
+          "note": "frame start",
+          "time": "2025-10-04T07:39:34.464Z"
+        },
+        {
+          "note": "A breaking",
+          "time": "2025-10-04T07:39:34.464Z"
+        },
+        {
+          "note": "A frame win",
+          "time": "2025-10-04T08:01:10.023Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2025-10-04T08:01:10.023Z"
+        },
+        {
+          "note": "frame start",
+          "time": "2025-10-04T08:01:10.023Z"
+        },
+        {
+          "note": "B breaking",
+          "time": "2025-10-04T08:01:10.023Z"
+        },
+        {
+          "note": "A frame win",
+          "time": "2025-10-04T08:10:14.745Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2025-10-04T08:10:14.745Z"
+        },
+        {
+          "note": "frame start",
+          "time": "2025-10-04T08:10:14.745Z"
+        },
+        {
+          "note": "A breaking",
+          "time": "2025-10-04T08:10:14.745Z"
+        },
+        {
+          "note": "B frame win",
+          "time": "2025-10-04T08:18:11.654Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2025-10-04T08:18:11.654Z"
+        },
+        {
+          "note": "frame start",
+          "time": "2025-10-04T08:18:11.654Z"
+        },
+        {
+          "note": "B breaking",
+          "time": "2025-10-04T08:18:11.654Z"
+        },
+        {
+          "note": "A frame win",
+          "time": "2025-10-04T08:25:21.322Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2025-10-04T08:25:21.322Z"
+        },
+        {
+          "note": "match end",
+          "time": "2025-10-04T08:25:24.696Z"
+        }
+      ],
+      "matchType": 0,
+      "videoLink": "",
+      "comment": "",
+      "winnerNext": 26,
+      "loserNext": ""
+    },
+    {
+      "matchId": 69451846,
+      "matchno": 20,
+      "roundName": "8ème de finale",
+      "round": 2,
+      "playerA": {
+        "playerId": 9668716,
+        "name": "Marie Poncet",
+        "firstname": "Marie",
+        "lastname": "Poncet",
+        "url": "https://cuescore.com/player/Marie+Poncet/9668716",
+        "image": "https://img.cuescore.com/image/2/4/248f5a019c462d969f02c0e672c792d8.png?t=1729527186",
+        "country": {
+          "name": "France",
+          "alpha3": "FRA",
+          "image": "https://cuescore.com/img/flags/png-country-4x2-none/res-640x480/fr.png",
+          "continent": "Europe"
+        },
+        "represents": []
+      },
+      "playerB": {
+        "playerId": 3386984,
+        "name": "Marie Pierre Sockeel",
+        "firstname": "Marie Pierre",
+        "lastname": "Sockeel",
+        "url": "https://cuescore.com/player/Marie+Pierre+Sockeel/3386984",
+        "image": "https://img.cuescore.com/image/1/4/13e3342e53ad87ab92ee8236507df78d.png?t=1542657309",
+        "country": {
+          "name": "France",
+          "alpha3": "FRA",
+          "image": "https://cuescore.com/img/flags/png-country-4x2-none/res-640x480/fr.png",
+          "continent": "Europe"
+        },
+        "represents": []
+      },
+      "scoreA": 4,
+      "scoreB": 0,
+      "raceTo": 4,
+      "discipline": "Blackball",
+      "disciplineId": 301,
+      "branch": 2,
+      "penalty": 0,
+      "groupNo": 0,
+      "inningsPlayerA": 0,
+      "inningsPlayerB": 0,
+      "highBreaksA": "",
+      "highBreaksB": "",
+      "runoutsA": 0,
+      "runoutsB": 0,
+      "lagWinner": "",
+      "table": {
+        "tableId": 12812800,
+        "name": "8",
+        "manufacturer": "Optima",
+        "model": "Elite",
+        "branch": "Anglais",
+        "branchId": 2,
+        "size": 7,
+        "cloth": "",
+        "pockets": "",
+        "slate": "",
+        "description": "Billard 8",
+        "venue": {
+          "venueId": 12812767,
+          "name": "Parc BB LBARA",
+          "url": "https://cuescore.com/venue/Parc+BB+LBARA/12812767",
+          "owner": {
+            "organizationId": 34342744,
+            "stub": "lbarablackball",
+            "name": "LBARA Blackball",
+            "url": "https://cuescore.com/lbarablackball",
+            "logo": "//img.cuescore.com/image/0/2/0338989cafdd922c63cb57acd7be0329.png?t=1698431852",
+            "profileColor": ""
+          }
+        }
+      },
+      "tournamentId": 63111664,
+      "challengeId": 0,
+      "starttime": "2025-10-04T09:03:00",
+      "stoptime": "2025-10-04T11:09:55",
+      "matchstatus": "finished",
+      "matchstatusCode": 2,
+      "bestOfSets": 0,
+      "useInnings": false,
+      "frames": [],
+      "properties": {
+        "penalty": []
+      },
+      "sets": [],
+      "curVersion": 155,
+      "notes": [],
+      "matchType": 0,
+      "videoLink": "",
+      "comment": "",
+      "winnerNext": 26,
+      "loserNext": ""
+    },
+    {
+      "matchId": 69451849,
+      "matchno": 21,
+      "roundName": "8ème de finale",
+      "round": 2,
+      "playerA": {
+        "playerId": 42182737,
+        "name": "Myriam Sopic",
+        "firstname": "Myriam",
+        "lastname": "Sopic",
+        "url": "https://cuescore.com/player/Myriam+Sopic/42182737",
+        "image": "https://img.cuescore.com/image/a/4/a37b5f62966ce8793c251455bf9eaf63.png?t=1731442273",
+        "country": {
+          "name": "France",
+          "alpha3": "FRA",
+          "image": "https://cuescore.com/img/flags/png-country-4x2-none/res-640x480/fr.png",
+          "continent": "Europe"
+        },
+        "represents": []
+      },
+      "playerB": {
+        "playerId": 49237162,
+        "name": "Lee lou Lebon bouvy",
+        "firstname": "Lee lou",
+        "lastname": "Lebon bouvy",
+        "url": "https://cuescore.com/player/Lee+lou+Lebon+bouvy/49237162",
+        "image": "https://img.cuescore.com/image/5/4/5aa6aa48f7d5ffe854d5266ac08db7ef.png",
+        "country": {
+          "name": "France",
+          "alpha3": "FRA",
+          "image": "https://cuescore.com/img/flags/png-country-4x2-none/res-640x480/fr.png",
+          "continent": "Europe"
+        },
+        "represents": []
+      },
+      "scoreA": 3,
+      "scoreB": 2,
+      "raceTo": 4,
+      "discipline": "Blackball",
+      "disciplineId": 301,
+      "branch": 2,
+      "penalty": 0,
+      "groupNo": 0,
+      "inningsPlayerA": 0,
+      "inningsPlayerB": 0,
+      "highBreaksA": "",
+      "highBreaksB": "",
+      "runoutsA": 0,
+      "runoutsB": 0,
+      "lagWinner": "A",
+      "table": {
+        "tableId": 12812803,
+        "name": "9",
+        "manufacturer": "Optima",
+        "model": "Elite",
+        "branch": "Anglais",
+        "branchId": 2,
+        "size": 7,
+        "cloth": "",
+        "pockets": "",
+        "slate": "",
+        "description": "Billard 9",
+        "venue": {
+          "venueId": 12812767,
+          "name": "Parc BB LBARA",
+          "url": "https://cuescore.com/venue/Parc+BB+LBARA/12812767",
+          "owner": {
+            "organizationId": 34342744,
+            "stub": "lbarablackball",
+            "name": "LBARA Blackball",
+            "url": "https://cuescore.com/lbarablackball",
+            "logo": "//img.cuescore.com/image/0/2/0338989cafdd922c63cb57acd7be0329.png?t=1698431852",
+            "profileColor": ""
+          }
+        }
+      },
+      "tournamentId": 63111664,
+      "challengeId": 0,
+      "starttime": "2025-10-04T09:03:00",
+      "stoptime": "2025-10-04T10:25:14",
+      "matchstatus": "finished",
+      "matchstatusCode": 2,
+      "bestOfSets": 0,
+      "useInnings": false,
+      "frames": [],
+      "properties": {
+        "penalty": [],
+        "runoutsA": 0,
+        "runoutsB": 0,
+        "lagWinsA": 1,
+        "lagWinsB": 0
+      },
+      "sets": [],
+      "curVersion": 155,
+      "notes": [
+        {
+          "note": "frame start",
+          "time": "2025-10-04T07:07:27.388Z"
+        },
+        {
+          "note": "A breaking",
+          "time": "2025-10-04T07:07:27.388Z"
+        },
+        {
+          "note": "A frame win",
+          "time": "2025-10-04T07:20:09.199Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2025-10-04T07:20:09.199Z"
+        },
+        {
+          "note": "frame start",
+          "time": "2025-10-04T07:20:09.199Z"
+        },
+        {
+          "note": "B breaking",
+          "time": "2025-10-04T07:20:09.199Z"
+        },
+        {
+          "note": "A frame win",
+          "time": "2025-10-04T07:36:44.646Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2025-10-04T07:36:44.646Z"
+        },
+        {
+          "note": "frame start",
+          "time": "2025-10-04T07:36:44.646Z"
+        },
+        {
+          "note": "A breaking",
+          "time": "2025-10-04T07:36:44.646Z"
+        },
+        {
+          "note": "A frame win",
+          "time": "2025-10-04T07:54:02.329Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2025-10-04T07:54:02.329Z"
+        },
+        {
+          "note": "frame start",
+          "time": "2025-10-04T07:54:02.329Z"
+        },
+        {
+          "note": "B breaking",
+          "time": "2025-10-04T07:54:02.329Z"
+        }
+      ],
+      "matchType": 0,
+      "videoLink": "",
+      "comment": "",
+      "winnerNext": 27,
+      "loserNext": ""
+    },
+    {
+      "matchId": 69451852,
+      "matchno": 22,
+      "roundName": "8ème de finale",
+      "round": 2,
+      "playerA": {
+        "playerId": 8125356,
+        "name": "Emilie Fesquet",
+        "firstname": "Emilie",
+        "lastname": "Fesquet",
+        "url": "https://cuescore.com/player/Emilie+Fesquet/8125356",
+        "image": "https://img.cuescore.com/image/d/4/d718035657bafa58fa48be678d3851e9.png?t=1740184872",
+        "country": {
+          "name": "France",
+          "alpha3": "FRA",
+          "image": "https://cuescore.com/img/flags/png-country-4x2-none/res-640x480/fr.png",
+          "continent": "Europe"
+        },
+        "represents": []
+      },
+      "playerB": {
+        "playerId": 49363114,
+        "name": "Cindy Viallet",
+        "firstname": "Cindy",
+        "lastname": "Viallet",
+        "url": "https://cuescore.com/player/Cindy+Viallet/49363114",
+        "image": "https://img.cuescore.com/image/1/4/157c150c93ca2a79a0ee580135ee0dfa.png?t=1747416051",
+        "country": {
+          "name": "France",
+          "alpha3": "FRA",
+          "image": "https://cuescore.com/img/flags/png-country-4x2-none/res-640x480/fr.png",
+          "continent": "Europe"
+        },
+        "represents": []
+      },
+      "scoreA": 4,
+      "scoreB": 1,
+      "raceTo": 4,
+      "discipline": "Blackball",
+      "disciplineId": 301,
+      "branch": 2,
+      "penalty": 0,
+      "groupNo": 0,
+      "inningsPlayerA": 0,
+      "inningsPlayerB": 0,
+      "highBreaksA": "",
+      "highBreaksB": "",
+      "runoutsA": 0,
+      "runoutsB": 0,
+      "lagWinner": "A",
+      "table": {
+        "tableId": 12812842,
+        "name": "19",
+        "manufacturer": "Optima",
+        "model": "Elite",
+        "branch": "Anglais",
+        "branchId": 2,
+        "size": 7,
+        "cloth": "",
+        "pockets": "",
+        "slate": "",
+        "description": "Billard 19",
+        "venue": {
+          "venueId": 12812767,
+          "name": "Parc BB LBARA",
+          "url": "https://cuescore.com/venue/Parc+BB+LBARA/12812767",
+          "owner": {
+            "organizationId": 34342744,
+            "stub": "lbarablackball",
+            "name": "LBARA Blackball",
+            "url": "https://cuescore.com/lbarablackball",
+            "logo": "//img.cuescore.com/image/0/2/0338989cafdd922c63cb57acd7be0329.png?t=1698431852",
+            "profileColor": ""
+          }
+        }
+      },
+      "tournamentId": 63111664,
+      "challengeId": 0,
+      "starttime": "2025-10-04T09:03:00",
+      "stoptime": "2025-10-04T10:21:09",
+      "matchstatus": "finished",
+      "matchstatusCode": 2,
+      "bestOfSets": 0,
+      "useInnings": false,
+      "frames": [],
+      "properties": {
+        "penalty": [],
+        "runoutsA": 0,
+        "runoutsB": 0,
+        "lagWinsA": 1,
+        "lagWinsB": 0
+      },
+      "sets": [],
+      "curVersion": 155,
+      "notes": [
+        {
+          "note": "frame start",
+          "time": "2025-10-04T07:24:39.812Z"
+        },
+        {
+          "note": "A breaking",
+          "time": "2025-10-04T07:24:39.812Z"
+        },
+        {
+          "note": "A frame win",
+          "time": "2025-10-04T07:33:23.818Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2025-10-04T07:33:23.818Z"
+        },
+        {
+          "note": "frame start",
+          "time": "2025-10-04T07:33:23.818Z"
+        },
+        {
+          "note": "B breaking",
+          "time": "2025-10-04T07:33:23.818Z"
+        },
+        {
+          "note": "B frame win",
+          "time": "2025-10-04T07:41:54.228Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2025-10-04T07:41:54.228Z"
+        },
+        {
+          "note": "frame start",
+          "time": "2025-10-04T07:41:54.228Z"
+        },
+        {
+          "note": "A breaking",
+          "time": "2025-10-04T07:41:54.228Z"
+        },
+        {
+          "note": "A frame win",
+          "time": "2025-10-04T07:57:24.002Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2025-10-04T07:57:24.002Z"
+        },
+        {
+          "note": "frame start",
+          "time": "2025-10-04T07:57:24.002Z"
+        },
+        {
+          "note": "B breaking",
+          "time": "2025-10-04T07:57:24.002Z"
+        },
+        {
+          "note": "A frame win",
+          "time": "2025-10-04T08:12:56.015Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2025-10-04T08:12:56.015Z"
+        },
+        {
+          "note": "frame start",
+          "time": "2025-10-04T08:12:56.015Z"
+        },
+        {
+          "note": "A breaking",
+          "time": "2025-10-04T08:12:56.015Z"
+        },
+        {
+          "note": "A frame win",
+          "time": "2025-10-04T08:18:28.852Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2025-10-04T08:18:28.852Z"
+        },
+        {
+          "note": "match end",
+          "time": "2025-10-04T08:18:30.065Z"
+        }
+      ],
+      "matchType": 0,
+      "videoLink": "",
+      "comment": "",
+      "winnerNext": 27,
+      "loserNext": ""
+    },
+    {
+      "matchId": 69451855,
+      "matchno": 23,
+      "roundName": "8ème de finale",
+      "round": 2,
+      "playerA": {
+        "playerId": 8035426,
+        "name": "Solange Berrahou",
+        "firstname": "Solange",
+        "lastname": "Berrahou",
+        "url": "https://cuescore.com/player/Solange+Berrahou/8035426",
+        "image": "https://img.cuescore.com/image/5/4/5aa6aa48f7d5ffe854d5266ac08db7ef.png",
+        "country": {
+          "name": "France",
+          "alpha3": "FRA",
+          "image": "https://cuescore.com/img/flags/png-country-4x2-none/res-640x480/fr.png",
+          "continent": "Europe"
+        },
+        "represents": []
+      },
+      "playerB": {
+        "playerId": 53363182,
+        "name": "Alana PULBY",
+        "firstname": "Alana",
+        "lastname": "PULBY",
+        "url": "https://cuescore.com/player/Alana+PULBY/53363182",
+        "image": "https://img.cuescore.com/image/5/4/5aa6aa48f7d5ffe854d5266ac08db7ef.png",
+        "country": {
+          "name": "France",
+          "alpha3": "FRA",
+          "image": "https://cuescore.com/img/flags/png-country-4x2-none/res-640x480/fr.png",
+          "continent": "Europe"
+        },
+        "represents": []
+      },
+      "scoreA": 4,
+      "scoreB": 1,
+      "raceTo": 4,
+      "discipline": "Blackball",
+      "disciplineId": 301,
+      "branch": 2,
+      "penalty": 0,
+      "groupNo": 0,
+      "inningsPlayerA": 0,
+      "inningsPlayerB": 0,
+      "highBreaksA": "",
+      "highBreaksB": "",
+      "runoutsA": 0,
+      "runoutsB": 0,
+      "lagWinner": "A",
+      "table": {
+        "tableId": 69293056,
+        "name": "21",
+        "manufacturer": "Optima",
+        "model": "Elite",
+        "branch": "Anglais",
+        "branchId": 2,
+        "size": 7,
+        "cloth": "",
+        "pockets": "",
+        "slate": "",
+        "description": "",
+        "venue": {
+          "venueId": 12812767,
+          "name": "Parc BB LBARA",
+          "url": "https://cuescore.com/venue/Parc+BB+LBARA/12812767",
+          "owner": {
+            "organizationId": 34342744,
+            "stub": "lbarablackball",
+            "name": "LBARA Blackball",
+            "url": "https://cuescore.com/lbarablackball",
+            "logo": "//img.cuescore.com/image/0/2/0338989cafdd922c63cb57acd7be0329.png?t=1698431852",
+            "profileColor": ""
+          }
+        }
+      },
+      "tournamentId": 63111664,
+      "challengeId": 0,
+      "starttime": "2025-10-04T09:03:00",
+      "stoptime": "2025-10-04T10:41:34",
+      "matchstatus": "finished",
+      "matchstatusCode": 2,
+      "bestOfSets": 0,
+      "useInnings": false,
+      "frames": [],
+      "properties": {
+        "penalty": [],
+        "runoutsA": 0,
+        "runoutsB": 0,
+        "lagWinsA": 1,
+        "lagWinsB": 0
+      },
+      "sets": [],
+      "curVersion": 155,
+      "notes": [
+        {
+          "note": "frame start",
+          "time": "2025-10-04T07:24:48.299Z"
+        },
+        {
+          "note": "A breaking",
+          "time": "2025-10-04T07:24:48.299Z"
+        },
+        {
+          "note": "B frame win",
+          "time": "2025-10-04T07:24:52.525Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2025-10-04T07:24:52.525Z"
+        },
+        {
+          "note": "frame start",
+          "time": "2025-10-04T07:24:52.525Z"
+        },
+        {
+          "note": "B breaking",
+          "time": "2025-10-04T07:24:52.525Z"
+        }
+      ],
+      "matchType": 0,
+      "videoLink": "",
+      "comment": "",
+      "winnerNext": 28,
+      "loserNext": ""
+    },
+    {
+      "matchId": 69451858,
+      "matchno": 24,
+      "roundName": "8ème de finale",
+      "round": 2,
+      "playerA": {
+        "playerId": 9668563,
+        "name": "Stephanie Besson",
+        "firstname": "Stephanie",
+        "lastname": "Besson",
+        "url": "https://cuescore.com/player/Stephanie+Besson/9668563",
+        "image": "https://img.cuescore.com/image/5/4/5aa6aa48f7d5ffe854d5266ac08db7ef.png",
+        "country": {
+          "name": "France",
+          "alpha3": "FRA",
+          "image": "https://cuescore.com/img/flags/png-country-4x2-none/res-640x480/fr.png",
+          "continent": "Europe"
+        },
+        "represents": []
+      },
+      "playerB": {
+        "playerId": 37759960,
+        "name": "Christelle PEDAT",
+        "firstname": "Christelle",
+        "lastname": "PEDAT",
+        "url": "https://cuescore.com/player/Christelle+PEDAT/37759960",
+        "image": "https://img.cuescore.com/image/5/4/5aa6aa48f7d5ffe854d5266ac08db7ef.png",
+        "country": {
+          "name": "France",
+          "alpha3": "FRA",
+          "image": "https://cuescore.com/img/flags/png-country-4x2-none/res-640x480/fr.png",
+          "continent": "Europe"
+        },
+        "represents": []
+      },
+      "scoreA": 2,
+      "scoreB": 4,
+      "raceTo": 4,
+      "discipline": "Blackball",
+      "disciplineId": 301,
+      "branch": 2,
+      "penalty": 0,
+      "groupNo": 0,
+      "inningsPlayerA": 0,
+      "inningsPlayerB": 0,
+      "highBreaksA": "",
+      "highBreaksB": "",
+      "runoutsA": 0,
+      "runoutsB": 1,
+      "lagWinner": "A",
+      "table": {
+        "tableId": 12812773,
+        "name": "2",
+        "manufacturer": "Optima",
+        "model": "Elite",
+        "branch": "Anglais",
+        "branchId": 2,
+        "size": 7,
+        "cloth": "",
+        "pockets": "",
+        "slate": "",
+        "description": "Billard 2",
+        "venue": {
+          "venueId": 12812767,
+          "name": "Parc BB LBARA",
+          "url": "https://cuescore.com/venue/Parc+BB+LBARA/12812767",
+          "owner": {
+            "organizationId": 34342744,
+            "stub": "lbarablackball",
+            "name": "LBARA Blackball",
+            "url": "https://cuescore.com/lbarablackball",
+            "logo": "//img.cuescore.com/image/0/2/0338989cafdd922c63cb57acd7be0329.png?t=1698431852",
+            "profileColor": ""
+          }
+        }
+      },
+      "tournamentId": 63111664,
+      "challengeId": 0,
+      "starttime": "2025-10-04T09:35:26",
+      "stoptime": "2025-10-04T11:00:31",
+      "matchstatus": "finished",
+      "matchstatusCode": 2,
+      "bestOfSets": 0,
+      "useInnings": false,
+      "frames": [],
+      "properties": {
+        "penalty": [],
+        "runoutsA": 0,
+        "runoutsB": 1,
+        "lagWinsA": 1,
+        "lagWinsB": 0
+      },
+      "sets": [],
+      "curVersion": 155,
+      "notes": [
+        {
+          "note": "frame start",
+          "time": "2025-10-04T07:42:44.930Z"
+        },
+        {
+          "note": "A breaking",
+          "time": "2025-10-04T07:42:44.930Z"
+        },
+        {
+          "note": "B frame win runout",
+          "time": "2025-10-04T07:47:37.588Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2025-10-04T07:47:37.588Z"
+        },
+        {
+          "note": "frame start",
+          "time": "2025-10-04T07:47:37.588Z"
+        },
+        {
+          "note": "B breaking",
+          "time": "2025-10-04T07:47:37.588Z"
+        },
+        {
+          "note": "B frame win",
+          "time": "2025-10-04T08:07:33.722Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2025-10-04T08:07:33.722Z"
+        },
+        {
+          "note": "frame start",
+          "time": "2025-10-04T08:07:33.722Z"
+        },
+        {
+          "note": "A breaking",
+          "time": "2025-10-04T08:07:33.722Z"
+        },
+        {
+          "note": "B frame win",
+          "time": "2025-10-04T08:16:30.461Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2025-10-04T08:16:30.461Z"
+        },
+        {
+          "note": "frame start",
+          "time": "2025-10-04T08:16:30.461Z"
+        },
+        {
+          "note": "B breaking",
+          "time": "2025-10-04T08:16:30.461Z"
+        },
+        {
+          "note": "A frame win",
+          "time": "2025-10-04T08:31:36.770Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2025-10-04T08:31:36.770Z"
+        },
+        {
+          "note": "frame start",
+          "time": "2025-10-04T08:31:36.770Z"
+        },
+        {
+          "note": "A breaking",
+          "time": "2025-10-04T08:31:36.770Z"
+        },
+        {
+          "note": "A frame win",
+          "time": "2025-10-04T08:45:23.235Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2025-10-04T08:45:23.235Z"
+        },
+        {
+          "note": "frame start",
+          "time": "2025-10-04T08:45:23.235Z"
+        },
+        {
+          "note": "B breaking",
+          "time": "2025-10-04T08:45:23.235Z"
+        },
+        {
+          "note": "B frame win",
+          "time": "2025-10-04T09:00:27.656Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2025-10-04T09:00:27.656Z"
+        },
+        {
+          "note": "match end",
+          "time": "2025-10-04T09:00:29.432Z"
+        }
+      ],
+      "matchType": 0,
+      "videoLink": "",
+      "comment": "",
+      "winnerNext": 28,
+      "loserNext": ""
+    },
+    {
+      "matchId": 69451861,
+      "matchno": 25,
+      "roundName": "Quarts de finale",
+      "round": 3,
+      "playerA": {
+        "playerId": 26801929,
+        "name": "Zélie Ray",
+        "firstname": "Zélie",
+        "lastname": "Ray",
+        "url": "https://cuescore.com/player/Z%C3%A9lie+Ray/26801929",
+        "image": "https://img.cuescore.com/image/b/4/b7dfdc677e3cbf2242d8230d0b455ac7.png?t=1713628756",
+        "country": {
+          "name": "France",
+          "alpha3": "FRA",
+          "image": "https://cuescore.com/img/flags/png-country-4x2-none/res-640x480/fr.png",
+          "continent": "Europe"
+        },
+        "represents": []
+      },
+      "playerB": {
+        "playerId": 31371670,
+        "name": "Mathilde Bouvy",
+        "firstname": "Mathilde",
+        "lastname": "Bouvy",
+        "url": "https://cuescore.com/player/Mathilde+Bouvy/31371670",
+        "image": "https://img.cuescore.com/image/f/4/fe6dc0cadc7f3596fa6cef2bc7daca3d.png?t=1694514639",
+        "country": {
+          "name": "Haiti",
+          "alpha3": "HTI",
+          "image": "https://cuescore.com/img/flags/png-country-4x2-none/res-640x480/ht.png",
+          "continent": "North America"
+        },
+        "represents": []
+      },
+      "scoreA": 3,
+      "scoreB": 4,
+      "raceTo": 4,
+      "discipline": "Blackball",
+      "disciplineId": 301,
+      "branch": 2,
+      "penalty": 0,
+      "groupNo": 0,
+      "inningsPlayerA": 0,
+      "inningsPlayerB": 0,
+      "highBreaksA": "",
+      "highBreaksB": "",
+      "runoutsA": 0,
+      "runoutsB": 0,
+      "lagWinner": "A",
+      "table": {
+        "tableId": 12812806,
+        "name": "10",
+        "manufacturer": "Optima",
+        "model": "Elite",
+        "branch": "Anglais",
+        "branchId": 2,
+        "size": 7,
+        "cloth": "",
+        "pockets": "",
+        "slate": "",
+        "description": "Billard 10",
+        "venue": {
+          "venueId": 12812767,
+          "name": "Parc BB LBARA",
+          "url": "https://cuescore.com/venue/Parc+BB+LBARA/12812767",
+          "owner": {
+            "organizationId": 34342744,
+            "stub": "lbarablackball",
+            "name": "LBARA Blackball",
+            "url": "https://cuescore.com/lbarablackball",
+            "logo": "//img.cuescore.com/image/0/2/0338989cafdd922c63cb57acd7be0329.png?t=1698431852",
+            "profileColor": ""
+          }
+        }
+      },
+      "tournamentId": 63111664,
+      "challengeId": 0,
+      "starttime": "2025-10-04T11:02:49",
+      "stoptime": "2025-10-04T13:11:11",
+      "matchstatus": "finished",
+      "matchstatusCode": 2,
+      "bestOfSets": 0,
+      "useInnings": false,
+      "frames": [],
+      "properties": {
+        "penalty": [],
+        "runoutsA": 0,
+        "runoutsB": 0,
+        "lagWinsA": 1,
+        "lagWinsB": 0
+      },
+      "sets": [],
+      "curVersion": 155,
+      "notes": [
+        {
+          "note": "frame start",
+          "time": "2025-10-04T09:32:01.553Z"
+        },
+        {
+          "note": "A breaking",
+          "time": "2025-10-04T09:32:01.553Z"
+        },
+        {
+          "note": "B frame win",
+          "time": "2025-10-04T09:39:40.374Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2025-10-04T09:39:40.374Z"
+        },
+        {
+          "note": "frame start",
+          "time": "2025-10-04T09:39:40.374Z"
+        },
+        {
+          "note": "B breaking",
+          "time": "2025-10-04T09:39:40.374Z"
+        },
+        {
+          "note": "B frame win",
+          "time": "2025-10-04T09:39:41.378Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2025-10-04T09:39:41.378Z"
+        },
+        {
+          "note": "frame start",
+          "time": "2025-10-04T09:39:41.378Z"
+        },
+        {
+          "note": "A breaking",
+          "time": "2025-10-04T09:39:41.378Z"
+        },
+        {
+          "note": "B frame win",
+          "time": "2025-10-04T09:53:21.669Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2025-10-04T09:53:21.669Z"
+        },
+        {
+          "note": "frame start",
+          "time": "2025-10-04T09:53:21.669Z"
+        },
+        {
+          "note": "B breaking",
+          "time": "2025-10-04T09:53:21.669Z"
+        },
+        {
+          "note": "A frame win",
+          "time": "2025-10-04T10:13:05.113Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2025-10-04T10:13:05.113Z"
+        },
+        {
+          "note": "frame start",
+          "time": "2025-10-04T10:13:05.113Z"
+        },
+        {
+          "note": "A breaking",
+          "time": "2025-10-04T10:13:05.113Z"
+        },
+        {
+          "note": "A frame win",
+          "time": "2025-10-04T10:29:18.747Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2025-10-04T10:29:18.747Z"
+        },
+        {
+          "note": "frame start",
+          "time": "2025-10-04T10:29:18.747Z"
+        },
+        {
+          "note": "B breaking",
+          "time": "2025-10-04T10:29:18.747Z"
+        },
+        {
+          "note": "A frame win",
+          "time": "2025-10-04T10:42:04.379Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2025-10-04T10:42:04.379Z"
+        },
+        {
+          "note": "frame start",
+          "time": "2025-10-04T10:42:04.379Z"
+        },
+        {
+          "note": "A breaking",
+          "time": "2025-10-04T10:42:04.379Z"
+        },
+        {
+          "note": "B frame win",
+          "time": "2025-10-04T11:11:06.978Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2025-10-04T11:11:06.978Z"
+        },
+        {
+          "note": "match end",
+          "time": "2025-10-04T11:11:09.022Z"
+        }
+      ],
+      "matchType": 0,
+      "videoLink": "",
+      "comment": "",
+      "winnerNext": 29,
+      "loserNext": ""
+    },
+    {
+      "matchId": 69451864,
+      "matchno": 26,
+      "roundName": "Quarts de finale",
+      "round": 3,
+      "playerA": {
+        "playerId": 9389326,
+        "name": "NATHALIE MANDY",
+        "firstname": "NATHALIE",
+        "lastname": "MANDY",
+        "url": "https://cuescore.com/player/NATHALIE+MANDY/9389326",
+        "image": "https://img.cuescore.com/image/4/4/4575085aeac26ef3ebb3c2b13a74f352.png?t=1692006317",
+        "country": {
+          "name": "French Polynesia",
+          "alpha3": "PYF",
+          "image": "https://cuescore.com/img/flags/png-country-4x2-none/res-640x480/pf.png",
+          "continent": "Oceania"
+        },
+        "represents": []
+      },
+      "playerB": {
+        "playerId": 9668716,
+        "name": "Marie Poncet",
+        "firstname": "Marie",
+        "lastname": "Poncet",
+        "url": "https://cuescore.com/player/Marie+Poncet/9668716",
+        "image": "https://img.cuescore.com/image/2/4/248f5a019c462d969f02c0e672c792d8.png?t=1729527186",
+        "country": {
+          "name": "France",
+          "alpha3": "FRA",
+          "image": "https://cuescore.com/img/flags/png-country-4x2-none/res-640x480/fr.png",
+          "continent": "Europe"
+        },
+        "represents": []
+      },
+      "scoreA": 2,
+      "scoreB": 3,
+      "raceTo": 4,
+      "discipline": "Blackball",
+      "disciplineId": 301,
+      "branch": 2,
+      "penalty": 0,
+      "groupNo": 0,
+      "inningsPlayerA": 0,
+      "inningsPlayerB": 0,
+      "highBreaksA": "",
+      "highBreaksB": "",
+      "runoutsA": 0,
+      "runoutsB": 0,
+      "lagWinner": "A",
+      "table": {
+        "tableId": 12812773,
+        "name": "2",
+        "manufacturer": "Optima",
+        "model": "Elite",
+        "branch": "Anglais",
+        "branchId": 2,
+        "size": 7,
+        "cloth": "",
+        "pockets": "",
+        "slate": "",
+        "description": "Billard 2",
+        "venue": {
+          "venueId": 12812767,
+          "name": "Parc BB LBARA",
+          "url": "https://cuescore.com/venue/Parc+BB+LBARA/12812767",
+          "owner": {
+            "organizationId": 34342744,
+            "stub": "lbarablackball",
+            "name": "LBARA Blackball",
+            "url": "https://cuescore.com/lbarablackball",
+            "logo": "//img.cuescore.com/image/0/2/0338989cafdd922c63cb57acd7be0329.png?t=1698431852",
+            "profileColor": ""
+          }
+        }
+      },
+      "tournamentId": 63111664,
+      "challengeId": 0,
+      "starttime": "2025-10-04T12:48:39",
+      "stoptime": "2025-10-04T13:54:34",
+      "matchstatus": "finished",
+      "matchstatusCode": 2,
+      "bestOfSets": 0,
+      "useInnings": false,
+      "frames": [],
+      "properties": {
+        "penalty": [],
+        "runoutsA": 0,
+        "runoutsB": 0,
+        "lagWinsA": 1,
+        "lagWinsB": 0
+      },
+      "sets": [],
+      "curVersion": 155,
+      "notes": [
+        {
+          "note": "frame start",
+          "time": "2025-10-04T10:54:27.556Z"
+        },
+        {
+          "note": "A breaking",
+          "time": "2025-10-04T10:54:27.556Z"
+        },
+        {
+          "note": "B frame win",
+          "time": "2025-10-04T11:03:06.815Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2025-10-04T11:03:06.815Z"
+        },
+        {
+          "note": "frame start",
+          "time": "2025-10-04T11:03:06.815Z"
+        },
+        {
+          "note": "B breaking",
+          "time": "2025-10-04T11:03:06.815Z"
+        },
+        {
+          "note": "A frame win",
+          "time": "2025-10-04T11:11:17.547Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2025-10-04T11:11:17.547Z"
+        },
+        {
+          "note": "frame start",
+          "time": "2025-10-04T11:11:17.547Z"
+        },
+        {
+          "note": "A breaking",
+          "time": "2025-10-04T11:11:17.547Z"
+        },
+        {
+          "note": "B frame win",
+          "time": "2025-10-04T11:24:42.746Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2025-10-04T11:24:42.746Z"
+        },
+        {
+          "note": "frame start",
+          "time": "2025-10-04T11:24:42.746Z"
+        },
+        {
+          "note": "B breaking",
+          "time": "2025-10-04T11:24:42.746Z"
+        },
+        {
+          "note": "B frame win",
+          "time": "2025-10-04T11:36:20.585Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2025-10-04T11:36:20.585Z"
+        },
+        {
+          "note": "frame start",
+          "time": "2025-10-04T11:36:20.585Z"
+        },
+        {
+          "note": "A breaking",
+          "time": "2025-10-04T11:36:20.585Z"
+        },
+        {
+          "note": "A frame win",
+          "time": "2025-10-04T11:44:36.402Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2025-10-04T11:44:36.402Z"
+        },
+        {
+          "note": "frame start",
+          "time": "2025-10-04T11:44:36.402Z"
+        },
+        {
+          "note": "B breaking",
+          "time": "2025-10-04T11:44:36.402Z"
+        }
+      ],
+      "matchType": 0,
+      "videoLink": "",
+      "comment": "",
+      "winnerNext": 29,
+      "loserNext": ""
+    },
+    {
+      "matchId": 69451867,
+      "matchno": 27,
+      "roundName": "Quarts de finale",
+      "round": 3,
+      "playerA": {
+        "playerId": 42182737,
+        "name": "Myriam Sopic",
+        "firstname": "Myriam",
+        "lastname": "Sopic",
+        "url": "https://cuescore.com/player/Myriam+Sopic/42182737",
+        "image": "https://img.cuescore.com/image/a/4/a37b5f62966ce8793c251455bf9eaf63.png?t=1731442273",
+        "country": {
+          "name": "France",
+          "alpha3": "FRA",
+          "image": "https://cuescore.com/img/flags/png-country-4x2-none/res-640x480/fr.png",
+          "continent": "Europe"
+        },
+        "represents": []
+      },
+      "playerB": {
+        "playerId": 8125356,
+        "name": "Emilie Fesquet",
+        "firstname": "Emilie",
+        "lastname": "Fesquet",
+        "url": "https://cuescore.com/player/Emilie+Fesquet/8125356",
+        "image": "https://img.cuescore.com/image/d/4/d718035657bafa58fa48be678d3851e9.png?t=1740184872",
+        "country": {
+          "name": "France",
+          "alpha3": "FRA",
+          "image": "https://cuescore.com/img/flags/png-country-4x2-none/res-640x480/fr.png",
+          "continent": "Europe"
+        },
+        "represents": []
+      },
+      "scoreA": 0,
+      "scoreB": 4,
+      "raceTo": 4,
+      "discipline": "Blackball",
+      "disciplineId": 301,
+      "branch": 2,
+      "penalty": 0,
+      "groupNo": 0,
+      "inningsPlayerA": 0,
+      "inningsPlayerB": 0,
+      "highBreaksA": "",
+      "highBreaksB": "",
+      "runoutsA": 0,
+      "runoutsB": 0,
+      "lagWinner": "B",
+      "table": {
+        "tableId": 69293056,
+        "name": "21",
+        "manufacturer": "Optima",
+        "model": "Elite",
+        "branch": "Anglais",
+        "branchId": 2,
+        "size": 7,
+        "cloth": "",
+        "pockets": "",
+        "slate": "",
+        "description": "",
+        "venue": {
+          "venueId": 12812767,
+          "name": "Parc BB LBARA",
+          "url": "https://cuescore.com/venue/Parc+BB+LBARA/12812767",
+          "owner": {
+            "organizationId": 34342744,
+            "stub": "lbarablackball",
+            "name": "LBARA Blackball",
+            "url": "https://cuescore.com/lbarablackball",
+            "logo": "//img.cuescore.com/image/0/2/0338989cafdd922c63cb57acd7be0329.png?t=1698431852",
+            "profileColor": ""
+          }
+        }
+      },
+      "tournamentId": 63111664,
+      "challengeId": 0,
+      "starttime": "2025-10-04T12:26:04",
+      "stoptime": "2025-10-04T13:15:20",
+      "matchstatus": "finished",
+      "matchstatusCode": 2,
+      "bestOfSets": 0,
+      "useInnings": false,
+      "frames": [],
+      "properties": {
+        "penalty": [],
+        "runoutsA": 0,
+        "runoutsB": 0,
+        "lagWinsA": 0,
+        "lagWinsB": 1
+      },
+      "sets": [],
+      "curVersion": 155,
+      "notes": [
+        {
+          "note": "frame start",
+          "time": "2025-10-04T10:31:52.019Z"
+        },
+        {
+          "note": "B breaking",
+          "time": "2025-10-04T10:31:52.019Z"
+        },
+        {
+          "note": "B frame win",
+          "time": "2025-10-04T10:39:00.836Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2025-10-04T10:39:00.836Z"
+        },
+        {
+          "note": "frame start",
+          "time": "2025-10-04T10:39:00.836Z"
+        },
+        {
+          "note": "A breaking",
+          "time": "2025-10-04T10:39:00.836Z"
+        },
+        {
+          "note": "B frame win",
+          "time": "2025-10-04T10:55:32.628Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2025-10-04T10:55:32.628Z"
+        },
+        {
+          "note": "frame start",
+          "time": "2025-10-04T10:55:32.628Z"
+        },
+        {
+          "note": "B breaking",
+          "time": "2025-10-04T10:55:32.628Z"
+        },
+        {
+          "note": "B frame win",
+          "time": "2025-10-04T11:02:30.320Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2025-10-04T11:02:30.320Z"
+        },
+        {
+          "note": "frame start",
+          "time": "2025-10-04T11:02:30.320Z"
+        },
+        {
+          "note": "A breaking",
+          "time": "2025-10-04T11:02:30.320Z"
+        },
+        {
+          "note": "B frame win",
+          "time": "2025-10-04T11:15:17.397Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2025-10-04T11:15:17.397Z"
+        },
+        {
+          "note": "match end",
+          "time": "2025-10-04T11:15:18.568Z"
+        }
+      ],
+      "matchType": 0,
+      "videoLink": "",
+      "comment": "",
+      "winnerNext": 30,
+      "loserNext": ""
+    },
+    {
+      "matchId": 69451870,
+      "matchno": 28,
+      "roundName": "Quarts de finale",
+      "round": 3,
+      "playerA": {
+        "playerId": 8035426,
+        "name": "Solange Berrahou",
+        "firstname": "Solange",
+        "lastname": "Berrahou",
+        "url": "https://cuescore.com/player/Solange+Berrahou/8035426",
+        "image": "https://img.cuescore.com/image/5/4/5aa6aa48f7d5ffe854d5266ac08db7ef.png",
+        "country": {
+          "name": "France",
+          "alpha3": "FRA",
+          "image": "https://cuescore.com/img/flags/png-country-4x2-none/res-640x480/fr.png",
+          "continent": "Europe"
+        },
+        "represents": []
+      },
+      "playerB": {
+        "playerId": 37759960,
+        "name": "Christelle PEDAT",
+        "firstname": "Christelle",
+        "lastname": "PEDAT",
+        "url": "https://cuescore.com/player/Christelle+PEDAT/37759960",
+        "image": "https://img.cuescore.com/image/5/4/5aa6aa48f7d5ffe854d5266ac08db7ef.png",
+        "country": {
+          "name": "France",
+          "alpha3": "FRA",
+          "image": "https://cuescore.com/img/flags/png-country-4x2-none/res-640x480/fr.png",
+          "continent": "Europe"
+        },
+        "represents": []
+      },
+      "scoreA": 0,
+      "scoreB": 4,
+      "raceTo": 4,
+      "discipline": "Blackball",
+      "disciplineId": 301,
+      "branch": 2,
+      "penalty": 0,
+      "groupNo": 0,
+      "inningsPlayerA": 0,
+      "inningsPlayerB": 0,
+      "highBreaksA": "",
+      "highBreaksB": "",
+      "runoutsA": 0,
+      "runoutsB": 1,
+      "lagWinner": "A",
+      "table": {
+        "tableId": 12812800,
+        "name": "8",
+        "manufacturer": "Optima",
+        "model": "Elite",
+        "branch": "Anglais",
+        "branchId": 2,
+        "size": 7,
+        "cloth": "",
+        "pockets": "",
+        "slate": "",
+        "description": "Billard 8",
+        "venue": {
+          "venueId": 12812767,
+          "name": "Parc BB LBARA",
+          "url": "https://cuescore.com/venue/Parc+BB+LBARA/12812767",
+          "owner": {
+            "organizationId": 34342744,
+            "stub": "lbarablackball",
+            "name": "LBARA Blackball",
+            "url": "https://cuescore.com/lbarablackball",
+            "logo": "//img.cuescore.com/image/0/2/0338989cafdd922c63cb57acd7be0329.png?t=1698431852",
+            "profileColor": ""
+          }
+        }
+      },
+      "tournamentId": 63111664,
+      "challengeId": 0,
+      "starttime": "2025-10-04T11:15:12",
+      "stoptime": "2025-10-04T11:51:57",
+      "matchstatus": "finished",
+      "matchstatusCode": 2,
+      "bestOfSets": 0,
+      "useInnings": false,
+      "frames": [],
+      "properties": {
+        "penalty": [],
+        "runoutsA": 0,
+        "runoutsB": 1,
+        "lagWinsA": 1,
+        "lagWinsB": 0
+      },
+      "sets": [],
+      "curVersion": 155,
+      "notes": [
+        {
+          "note": "frame start",
+          "time": "2025-10-04T09:31:25.719Z"
+        },
+        {
+          "note": "A breaking",
+          "time": "2025-10-04T09:31:25.719Z"
+        },
+        {
+          "note": "B frame win runout",
+          "time": "2025-10-04T09:51:50.058Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2025-10-04T09:51:50.058Z"
+        },
+        {
+          "note": "frame start",
+          "time": "2025-10-04T09:51:50.058Z"
+        },
+        {
+          "note": "B breaking",
+          "time": "2025-10-04T09:51:50.058Z"
+        },
+        {
+          "note": "B frame win",
+          "time": "2025-10-04T09:51:52.761Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2025-10-04T09:51:52.761Z"
+        },
+        {
+          "note": "frame start",
+          "time": "2025-10-04T09:51:52.761Z"
+        },
+        {
+          "note": "A breaking",
+          "time": "2025-10-04T09:51:52.761Z"
+        },
+        {
+          "note": "B frame win",
+          "time": "2025-10-04T09:51:53.111Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2025-10-04T09:51:53.111Z"
+        },
+        {
+          "note": "frame start",
+          "time": "2025-10-04T09:51:53.111Z"
+        },
+        {
+          "note": "B breaking",
+          "time": "2025-10-04T09:51:53.111Z"
+        },
+        {
+          "note": "B frame win",
+          "time": "2025-10-04T09:51:53.693Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2025-10-04T09:51:53.693Z"
+        },
+        {
+          "note": "match end",
+          "time": "2025-10-04T09:51:55.323Z"
+        }
+      ],
+      "matchType": 0,
+      "videoLink": "",
+      "comment": "",
+      "winnerNext": 30,
+      "loserNext": ""
+    },
+    {
+      "matchId": 69451873,
+      "matchno": 29,
+      "roundName": "Demi-finales",
+      "round": 4,
+      "playerA": {
+        "playerId": 31371670,
+        "name": "Mathilde Bouvy",
+        "firstname": "Mathilde",
+        "lastname": "Bouvy",
+        "url": "https://cuescore.com/player/Mathilde+Bouvy/31371670",
+        "image": "https://img.cuescore.com/image/f/4/fe6dc0cadc7f3596fa6cef2bc7daca3d.png?t=1694514639",
+        "country": {
+          "name": "Haiti",
+          "alpha3": "HTI",
+          "image": "https://cuescore.com/img/flags/png-country-4x2-none/res-640x480/ht.png",
+          "continent": "North America"
+        },
+        "represents": []
+      },
+      "playerB": {
+        "playerId": 9668716,
+        "name": "Marie Poncet",
+        "firstname": "Marie",
+        "lastname": "Poncet",
+        "url": "https://cuescore.com/player/Marie+Poncet/9668716",
+        "image": "https://img.cuescore.com/image/2/4/248f5a019c462d969f02c0e672c792d8.png?t=1729527186",
+        "country": {
+          "name": "France",
+          "alpha3": "FRA",
+          "image": "https://cuescore.com/img/flags/png-country-4x2-none/res-640x480/fr.png",
+          "continent": "Europe"
+        },
+        "represents": []
+      },
+      "scoreA": 1,
+      "scoreB": 4,
+      "raceTo": 4,
+      "discipline": "Blackball",
+      "disciplineId": 301,
+      "branch": 2,
+      "penalty": 0,
+      "groupNo": 0,
+      "inningsPlayerA": 0,
+      "inningsPlayerB": 0,
+      "highBreaksA": "",
+      "highBreaksB": "",
+      "runoutsA": 0,
+      "runoutsB": 0,
+      "lagWinner": "A",
+      "table": {
+        "tableId": 12812773,
+        "name": "2",
+        "manufacturer": "Optima",
+        "model": "Elite",
+        "branch": "Anglais",
+        "branchId": 2,
+        "size": 7,
+        "cloth": "",
+        "pockets": "",
+        "slate": "",
+        "description": "Billard 2",
+        "venue": {
+          "venueId": 12812767,
+          "name": "Parc BB LBARA",
+          "url": "https://cuescore.com/venue/Parc+BB+LBARA/12812767",
+          "owner": {
+            "organizationId": 34342744,
+            "stub": "lbarablackball",
+            "name": "LBARA Blackball",
+            "url": "https://cuescore.com/lbarablackball",
+            "logo": "//img.cuescore.com/image/0/2/0338989cafdd922c63cb57acd7be0329.png?t=1698431852",
+            "profileColor": ""
+          }
+        }
+      },
+      "tournamentId": 63111664,
+      "challengeId": 0,
+      "starttime": "2025-10-04T15:55:00",
+      "stoptime": "2025-10-04T17:15:04",
+      "matchstatus": "finished",
+      "matchstatusCode": 2,
+      "bestOfSets": 0,
+      "useInnings": false,
+      "frames": [],
+      "properties": {
+        "penalty": [],
+        "runoutsA": 0,
+        "runoutsB": 0,
+        "lagWinsA": 1,
+        "lagWinsB": 0
+      },
+      "sets": [],
+      "curVersion": 155,
+      "notes": [
+        {
+          "note": "frame start",
+          "time": "2025-10-04T14:00:17.905Z"
+        },
+        {
+          "note": "A breaking",
+          "time": "2025-10-04T14:00:17.905Z"
+        },
+        {
+          "note": "B frame win",
+          "time": "2025-10-04T14:12:11.152Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2025-10-04T14:12:11.152Z"
+        },
+        {
+          "note": "frame start",
+          "time": "2025-10-04T14:12:11.152Z"
+        },
+        {
+          "note": "B breaking",
+          "time": "2025-10-04T14:12:11.152Z"
+        },
+        {
+          "note": "A frame win runout",
+          "time": "2025-10-04T14:33:17.181Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2025-10-04T14:33:17.181Z"
+        },
+        {
+          "note": "frame start",
+          "time": "2025-10-04T14:33:17.181Z"
+        },
+        {
+          "note": "A breaking",
+          "time": "2025-10-04T14:33:17.181Z"
+        },
+        {
+          "note": "B frame win",
+          "time": "2025-10-04T14:46:24.025Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2025-10-04T14:46:24.025Z"
+        },
+        {
+          "note": "frame start",
+          "time": "2025-10-04T14:46:24.025Z"
+        },
+        {
+          "note": "B breaking",
+          "time": "2025-10-04T14:46:24.025Z"
+        },
+        {
+          "note": "B frame win",
+          "time": "2025-10-04T15:04:57.230Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2025-10-04T15:04:57.230Z"
+        },
+        {
+          "note": "frame start",
+          "time": "2025-10-04T15:04:57.230Z"
+        },
+        {
+          "note": "A breaking",
+          "time": "2025-10-04T15:04:57.230Z"
+        },
+        {
+          "note": "B frame win",
+          "time": "2025-10-04T15:15:01.434Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2025-10-04T15:15:01.434Z"
+        }
+      ],
+      "matchType": 0,
+      "videoLink": "",
+      "comment": "",
+      "winnerNext": 31,
+      "loserNext": ""
+    },
+    {
+      "matchId": 69451876,
+      "matchno": 30,
+      "roundName": "Demi-finales",
+      "round": 4,
+      "playerA": {
+        "playerId": 8125356,
+        "name": "Emilie Fesquet",
+        "firstname": "Emilie",
+        "lastname": "Fesquet",
+        "url": "https://cuescore.com/player/Emilie+Fesquet/8125356",
+        "image": "https://img.cuescore.com/image/d/4/d718035657bafa58fa48be678d3851e9.png?t=1740184872",
+        "country": {
+          "name": "France",
+          "alpha3": "FRA",
+          "image": "https://cuescore.com/img/flags/png-country-4x2-none/res-640x480/fr.png",
+          "continent": "Europe"
+        },
+        "represents": []
+      },
+      "playerB": {
+        "playerId": 37759960,
+        "name": "Christelle PEDAT",
+        "firstname": "Christelle",
+        "lastname": "PEDAT",
+        "url": "https://cuescore.com/player/Christelle+PEDAT/37759960",
+        "image": "https://img.cuescore.com/image/5/4/5aa6aa48f7d5ffe854d5266ac08db7ef.png",
+        "country": {
+          "name": "France",
+          "alpha3": "FRA",
+          "image": "https://cuescore.com/img/flags/png-country-4x2-none/res-640x480/fr.png",
+          "continent": "Europe"
+        },
+        "represents": []
+      },
+      "scoreA": 3,
+      "scoreB": 4,
+      "raceTo": 4,
+      "discipline": "Blackball",
+      "disciplineId": 301,
+      "branch": 2,
+      "penalty": 0,
+      "groupNo": 0,
+      "inningsPlayerA": 0,
+      "inningsPlayerB": 0,
+      "highBreaksA": "",
+      "highBreaksB": "",
+      "runoutsA": 0,
+      "runoutsB": 0,
+      "lagWinner": "B",
+      "table": {
+        "tableId": 12812833,
+        "name": "17",
+        "manufacturer": "Optima",
+        "model": "Elite",
+        "branch": "Anglais",
+        "branchId": 2,
+        "size": 7,
+        "cloth": "",
+        "pockets": "",
+        "slate": "",
+        "description": "Billard 17",
+        "venue": {
+          "venueId": 12812767,
+          "name": "Parc BB LBARA",
+          "url": "https://cuescore.com/venue/Parc+BB+LBARA/12812767",
+          "owner": {
+            "organizationId": 34342744,
+            "stub": "lbarablackball",
+            "name": "LBARA Blackball",
+            "url": "https://cuescore.com/lbarablackball",
+            "logo": "//img.cuescore.com/image/0/2/0338989cafdd922c63cb57acd7be0329.png?t=1698431852",
+            "profileColor": ""
+          }
+        }
+      },
+      "tournamentId": 63111664,
+      "challengeId": 0,
+      "starttime": "2025-10-04T13:38:51",
+      "stoptime": "2025-10-04T15:18:36",
+      "matchstatus": "finished",
+      "matchstatusCode": 2,
+      "bestOfSets": 0,
+      "useInnings": false,
+      "frames": [],
+      "properties": {
+        "penalty": [],
+        "runoutsA": 0,
+        "runoutsB": 0,
+        "lagWinsA": 0,
+        "lagWinsB": 1
+      },
+      "sets": [],
+      "curVersion": 155,
+      "notes": [
+        {
+          "note": "frame start",
+          "time": "2025-10-04T11:44:03.546Z"
+        },
+        {
+          "note": "B breaking",
+          "time": "2025-10-04T11:44:03.546Z"
+        },
+        {
+          "note": "A frame win",
+          "time": "2025-10-04T11:54:45.080Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2025-10-04T11:54:45.080Z"
+        },
+        {
+          "note": "frame start",
+          "time": "2025-10-04T11:54:45.080Z"
+        },
+        {
+          "note": "A breaking",
+          "time": "2025-10-04T11:54:45.080Z"
+        },
+        {
+          "note": "B frame win",
+          "time": "2025-10-04T12:02:39.002Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2025-10-04T12:02:39.002Z"
+        },
+        {
+          "note": "frame start",
+          "time": "2025-10-04T12:02:39.002Z"
+        },
+        {
+          "note": "B breaking",
+          "time": "2025-10-04T12:02:39.002Z"
+        },
+        {
+          "note": "B frame win",
+          "time": "2025-10-04T12:24:42.511Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2025-10-04T12:24:42.511Z"
+        },
+        {
+          "note": "frame start",
+          "time": "2025-10-04T12:24:42.511Z"
+        },
+        {
+          "note": "A breaking",
+          "time": "2025-10-04T12:24:42.511Z"
+        },
+        {
+          "note": "B frame win",
+          "time": "2025-10-04T12:28:48.075Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2025-10-04T12:28:48.075Z"
+        },
+        {
+          "note": "frame start",
+          "time": "2025-10-04T12:28:48.075Z"
+        },
+        {
+          "note": "B breaking",
+          "time": "2025-10-04T12:28:48.075Z"
+        },
+        {
+          "note": "A frame win",
+          "time": "2025-10-04T12:44:00.248Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2025-10-04T12:44:00.248Z"
+        },
+        {
+          "note": "frame start",
+          "time": "2025-10-04T12:44:00.248Z"
+        },
+        {
+          "note": "A breaking",
+          "time": "2025-10-04T12:44:00.248Z"
+        },
+        {
+          "note": "A frame win",
+          "time": "2025-10-04T12:52:12.382Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2025-10-04T12:52:12.382Z"
+        },
+        {
+          "note": "frame start",
+          "time": "2025-10-04T12:52:12.382Z"
+        },
+        {
+          "note": "B breaking",
+          "time": "2025-10-04T12:52:12.382Z"
+        },
+        {
+          "note": "B frame win",
+          "time": "2025-10-04T13:18:33.487Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2025-10-04T13:18:33.487Z"
+        },
+        {
+          "note": "match end",
+          "time": "2025-10-04T13:18:34.439Z"
+        }
+      ],
+      "matchType": 0,
+      "videoLink": "",
+      "comment": "",
+      "winnerNext": 31,
+      "loserNext": ""
+    },
+    {
+      "matchId": 69451879,
+      "matchno": 31,
+      "roundName": "Finale",
+      "round": 5,
+      "playerA": {
+        "playerId": 9668716,
+        "name": "Marie Poncet",
+        "firstname": "Marie",
+        "lastname": "Poncet",
+        "url": "https://cuescore.com/player/Marie+Poncet/9668716",
+        "image": "https://img.cuescore.com/image/2/4/248f5a019c462d969f02c0e672c792d8.png?t=1729527186",
+        "country": {
+          "name": "France",
+          "alpha3": "FRA",
+          "image": "https://cuescore.com/img/flags/png-country-4x2-none/res-640x480/fr.png",
+          "continent": "Europe"
+        },
+        "represents": []
+      },
+      "playerB": {
+        "playerId": 37759960,
+        "name": "Christelle PEDAT",
+        "firstname": "Christelle",
+        "lastname": "PEDAT",
+        "url": "https://cuescore.com/player/Christelle+PEDAT/37759960",
+        "image": "https://img.cuescore.com/image/5/4/5aa6aa48f7d5ffe854d5266ac08db7ef.png",
+        "country": {
+          "name": "France",
+          "alpha3": "FRA",
+          "image": "https://cuescore.com/img/flags/png-country-4x2-none/res-640x480/fr.png",
+          "continent": "Europe"
+        },
+        "represents": []
+      },
+      "scoreA": 0,
+      "scoreB": 5,
+      "raceTo": 4,
+      "discipline": "Blackball",
+      "disciplineId": 301,
+      "branch": 2,
+      "penalty": 0,
+      "groupNo": 0,
+      "inningsPlayerA": 0,
+      "inningsPlayerB": 0,
+      "highBreaksA": "",
+      "highBreaksB": "",
+      "runoutsA": 0,
+      "runoutsB": 0,
+      "lagWinner": "B",
+      "table": {
+        "tableId": 69293062,
+        "name": "22",
+        "manufacturer": "Optima",
+        "model": "Elite",
+        "branch": "Anglais",
+        "branchId": 2,
+        "size": 7,
+        "cloth": "",
+        "pockets": "",
+        "slate": "",
+        "description": "",
+        "venue": {
+          "venueId": 12812767,
+          "name": "Parc BB LBARA",
+          "url": "https://cuescore.com/venue/Parc+BB+LBARA/12812767",
+          "owner": {
+            "organizationId": 34342744,
+            "stub": "lbarablackball",
+            "name": "LBARA Blackball",
+            "url": "https://cuescore.com/lbarablackball",
+            "logo": "//img.cuescore.com/image/0/2/0338989cafdd922c63cb57acd7be0329.png?t=1698431852",
+            "profileColor": ""
+          }
+        }
+      },
+      "tournamentId": 63111664,
+      "challengeId": 0,
+      "starttime": "2025-10-05T12:02:00",
+      "stoptime": "2025-10-05T13:08:54",
+      "matchstatus": "finished",
+      "matchstatusCode": 2,
+      "bestOfSets": 0,
+      "useInnings": false,
+      "frames": [],
+      "properties": {
+        "penalty": [],
+        "runoutsA": 0,
+        "runoutsB": 0,
+        "lagWinsA": 0,
+        "lagWinsB": 1
+      },
+      "sets": [],
+      "curVersion": 155,
+      "notes": [],
+      "matchType": 0,
+      "videoLink": "",
+      "comment": "",
+      "winnerNext": "",
+      "loserNext": ""
+    }
+  ]
+}
