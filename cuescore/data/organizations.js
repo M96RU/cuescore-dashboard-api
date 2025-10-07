@@ -86,6 +86,15 @@ const organizations = [
                 id: "jeune_b",
                 label: "Jeunes B",
                 ranking: [220, 182, 146, 112, 80, 50, 25, 10, 5]
+            }, {
+                id: "prestige_bonus",
+                label: "Prestige Bonus"
+            }, {
+                id: "excellence_bonus",
+                label: "Excellence Bonus",
+            }, {
+                id: "promotion_bonus",
+                label: "Promotion Bonus",
             }
         ]
     }, {
