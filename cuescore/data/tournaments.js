@@ -86,7 +86,7 @@ const tournaments = [
         organization: 'ffb',
         event: 1,
         draw: 'national',
-        live: true
+        live: false
     }, {
         id: 65725861,
         organization: 'ffb',
