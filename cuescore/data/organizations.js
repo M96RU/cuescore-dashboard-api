@@ -11,6 +11,11 @@ const organizations = [
                 id: 1,
                 label: "TN1",
                 location: "Meze"
+            },
+            {
+                id: 2,
+                label: "TN2",
+                location: "Corbeil Essones"
             }
         ],
         draws: [
