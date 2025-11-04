@@ -60,6 +60,11 @@ const organizations = [
                 id: 1,
                 label: "TR1",
                 location: "Bourg-en-Bresse"
+            },
+            {
+                id: 2,
+                label: "TR2",
+                location: "Bourg-de-Péage"
             }
         ],
         draws: [

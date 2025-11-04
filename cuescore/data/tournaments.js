@@ -9,6 +9,75 @@ const tournaments = [
         live: true
     },
 
+    // LBARA - TR2 - Bourg-de-Péage
+    {
+        id: 69011155,
+        organization: 'lbara',
+        event: 2,
+        draw: 'prestige',
+        live: true
+    }, {
+        id: 67465408,
+        organization: 'lbara',
+        event: 2,
+        draw: 'excellence',
+        live: true
+    }, {
+        id: 69047401,
+        organization: 'lbara',
+        event: 2,
+        draw: 'promotion',
+        live: true
+    }, {
+        id: 67364791,
+        organization: 'lbara',
+        event: 2,
+        draw: 'women',
+        live: true
+    }, {
+        id: 67974889,
+        organization: 'lbara',
+        event: 2,
+        draw: 'veteran',
+        live: true
+    }, {
+        id: 67976509,
+        organization: 'lbara',
+        event: 2,
+        draw: 'jeune',
+        live: true
+    }, {
+        id: 69047803,
+        organization: 'lbara',
+        event: 2,
+        draw: 'jeune_b',
+        live: true
+    }, {
+        id: 68792338,
+        organization: 'lbara',
+        event: 2,
+        draw: 'prestige_bonus',
+        live: true
+    }, {
+        id: 68792326,
+        organization: 'lbara',
+        event: 2,
+        draw: 'excellence_bonus',
+        live: true
+    }, {
+        id: 68792332,
+        organization: 'lbara',
+        event: 2,
+        draw: 'promotion_bonus',
+        live: true
+    },
+
+
+
+
+
+
+
     // LBARA - TR1 - Bourg-en-Bresse
     {
         id: 62605819,
