@@ -16,6 +16,11 @@ const organizations = [
                 id: 2,
                 label: "TN2",
                 location: "Corbeil Essones"
+            },
+            {
+                id: 3,
+                label: "TN3",
+                location: "Saint-Pair sur Mer"
             }
         ],
         draws: [
