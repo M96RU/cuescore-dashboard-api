@@ -30,7 +30,8 @@ const organizations = [
                 ranking: [440, 364, 292, 224, 160, 100]
             }, {
                 id: "national",
-                label: "National"
+                label: "National",
+                ranking: [220, 190, 162, 136, 112, 90, 70, 52, 36, 22, 10]
             }, {
                 id: "women",
                 label: "Féminin",
@@ -76,31 +77,30 @@ const organizations = [
             {
                 id: "prestige",
                 label: "Prestige",
-                ranking: [440, 364, 292, 224, 160, 100]
+                ranking: [660, 546, 438, 336, 240, 150]
             }, {
                 id: "excellence",
                 label: "Excellence",
-                ranking: [220, 182, 146, 112, 80, 50, 25, 10, 5]
+                ranking: [330, 273, 219, 168, 120, 75, 34, 27]
             }, {
                 id: "promotion",
                 label: "Promotion",
-                ranking: [220, 182, 146, 112, 80, 50, 25, 10, 5]
+                ranking: [165, 137, 110, 84, 60, 38, 17]
             }, {
                 id: "women",
                 label: "Féminin",
-                ranking: [220, 182, 146, 112, 80, 50, 25, 10, 5]
+                ranking: [165, 137, 110, 84, 60, 38, 17]
             }, {
                 id: "veteran",
                 label: "Vétérans",
-                ranking: [220, 182, 146, 112, 80, 50, 25, 10, 5]
+                ranking: [165, 137, 110, 84, 60, 38, 17]
             }, {
                 id: "jeune",
                 label: "Jeunes",
-                ranking: [220, 182, 146, 112, 80, 50, 25, 10, 5]
+                ranking: [165, 137, 110, 84, 60, 38, 17]
             }, {
                 id: "jeune_b",
-                label: "Jeunes B",
-                ranking: [220, 182, 146, 112, 80, 50, 25, 10, 5]
+                label: "Jeunes B"
             }, {
                 id: "prestige_bonus",
                 label: "Prestige Bonus"

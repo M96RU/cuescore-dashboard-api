@@ -15,61 +15,61 @@ const tournaments = [
         organization: 'lbara',
         event: 2,
         draw: 'prestige',
-        live: true
+        live: false
     }, {
         id: 67465408,
         organization: 'lbara',
         event: 2,
         draw: 'excellence',
-        live: true
+        live: false
     }, {
         id: 69047401,
         organization: 'lbara',
         event: 2,
         draw: 'promotion',
-        live: true
+        live: false
     }, {
         id: 67364791,
         organization: 'lbara',
         event: 2,
         draw: 'women',
-        live: true
+        live: false
     }, {
         id: 67974889,
         organization: 'lbara',
         event: 2,
         draw: 'veteran',
-        live: true
+        live: false
     }, {
         id: 67976509,
         organization: 'lbara',
         event: 2,
         draw: 'jeune',
-        live: true
+        live: false
     }, {
         id: 69047803,
         organization: 'lbara',
         event: 2,
         draw: 'jeune_b',
-        live: true
+        live: false
     }, {
         id: 68792338,
         organization: 'lbara',
         event: 2,
         draw: 'prestige_bonus',
-        live: true
+        live: false
     }, {
         id: 68792326,
         organization: 'lbara',
         event: 2,
         draw: 'excellence_bonus',
-        live: true
+        live: false
     }, {
         id: 68792332,
         organization: 'lbara',
         event: 2,
         draw: 'promotion_bonus',
-        live: true
+        live: false
     },
 
 
@@ -234,43 +234,37 @@ const tournaments = [
         organization: 'ffb',
         event: 3,
         draw: 'bbm',
-        live: true
+        live: false
     }, {
         id: 66020527,
         organization: 'ffb',
         event: 3,
         draw: 'national',
-        live: true
+        live: false
     }, {
         id: 66020476,
         organization: 'ffb',
         event: 3,
         draw: 'women',
-        live: true
+        live: false
     }, {
         id: 66020506,
         organization: 'ffb',
         event: 3,
         draw: 'veteran',
-        live: true
+        live: false
     }, {
         id: 66025723,
         organization: 'ffb',
         event: 3,
         draw: 'junior',
-        live: true
+        live: false
     }, {
         id: 66019984,
         organization: 'ffb',
         event: 3,
         draw: 'espoir',
-        live: true
-    }, {
-        id: 66025696,
-        organization: 'ffb',
-        event: 3,
-        draw: 'handi',
-        live: true
+        live: false
     }
 
 ];
