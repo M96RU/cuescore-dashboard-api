@@ -9,6 +9,82 @@ const tournaments = [
         live: true
     },
 
+
+
+
+
+
+    // LBARA - TR3 - Feurs
+    {
+        id: 69032872,
+        organization: 'lbara',
+        event: 3,
+        draw: 'prestige',
+        live: true
+    }, {
+        id: 69036238,
+        organization: 'lbara',
+        event: 3,
+        draw: 'excellence',
+        live: true
+    }, {
+        id: 71656501,
+        organization: 'lbara',
+        event: 3,
+        draw: 'promotion',
+        live: true
+    }, {
+        id: 69038218,
+        organization: 'lbara',
+        event: 3,
+        draw: 'women',
+        live: true
+    }, {
+        id: 69038266,
+        organization: 'lbara',
+        event: 3,
+        draw: 'veteran',
+        live: true
+    }, {
+        id: 69039751,
+        organization: 'lbara',
+        event: 3,
+        draw: 'jeune',
+        live: true
+    }, {
+        id: 71656618,
+        organization: 'lbara',
+        event: 3,
+        draw: 'jeune_b',
+        live: true
+    }, {
+        id: 69033994,
+        organization: 'lbara',
+        event: 3,
+        draw: 'prestige_bonus',
+        live: true
+    }, {
+        id: 69038077,
+        organization: 'lbara',
+        event: 3,
+        draw: 'excellence_bonus',
+        live: true
+    }, {
+        id: 69041251,
+        organization: 'lbara',
+        event: 3,
+        draw: 'promotion_bonus',
+        live: true
+    },
+
+
+
+
+
+
+
+
+
     // LBARA - TR2 - Bourg-de-Péage
     {
         id: 69011155,
