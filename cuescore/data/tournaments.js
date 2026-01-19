@@ -10,6 +10,71 @@ const tournaments = [
     },
 
 
+    // LBARA - TR4 - Sévrier
+    {
+        id: 69032878,
+        organization: 'lbara',
+        event: 4,
+        draw: 'prestige',
+        live: true
+    }, {
+        id: 69036253,
+        organization: 'lbara',
+        event: 4,
+        draw: 'excellence',
+        live: true
+    }, {
+        id: 74232517,
+        organization: 'lbara',
+        event: 4,
+        draw: 'promotion',
+        live: true
+    }, {
+        id: 69038224,
+        organization: 'lbara',
+        event: 4,
+        draw: 'women',
+        live: true
+    }, {
+        id: 69038272,
+        organization: 'lbara',
+        event: 4,
+        draw: 'veteran',
+        live: true
+    }, {
+        id: 69039757,
+        organization: 'lbara',
+        event: 4,
+        draw: 'jeune',
+        live: true
+    }, {
+        id: 74232511,
+        organization: 'lbara',
+        event: 4,
+        draw: 'jeune_b',
+        live: true
+    }, {
+        id: 69034000,
+        organization: 'lbara',
+        event: 4,
+        draw: 'prestige_bonus',
+        live: true
+    }, {
+        id: 69038086,
+        organization: 'lbara',
+        event: 4,
+        draw: 'excellence_bonus',
+        live: true
+    }, {
+        id: 69041260,
+        organization: 'lbara',
+        event: 4,
+        draw: 'promotion_bonus',
+        live: true
+    },
+
+
+
 
 
 
