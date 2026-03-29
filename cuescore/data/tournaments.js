@@ -12,6 +12,75 @@ const tournaments = [
 
 
 
+    // LBARA - TR6 - Bourd-les-Valence
+    {
+        id: 69032908,
+        organization: 'lbara',
+        event: 6,
+        draw: 'prestige',
+        live: true
+    }, {
+        id: 69037951,
+        organization: 'lbara',
+        event: 6,
+        draw: 'excellence',
+        live: true
+    }, {
+        id: 75802618,
+        organization: 'lbara',
+        event: 6,
+        draw: 'promotion',
+        live: true
+    }, {
+        id: 69038239,
+        organization: 'lbara',
+        event: 6,
+        draw: 'women',
+        live: true
+    }, {
+        id: 69038290,
+        organization: 'lbara',
+        event: 6,
+        draw: 'veteran',
+        live: true
+    }, {
+        id: 69041206,
+        organization: 'lbara',
+        event: 6,
+        draw: 'jeune',
+        live: true
+    }, {
+        id: 75823309,
+        organization: 'lbara',
+        event: 6,
+        draw: 'jeune_b',
+        live: true
+    }, {
+        id: 69035695,
+        organization: 'lbara',
+        event: 6,
+        draw: 'prestige_bonus',
+        live: true
+    }, {
+        id: 69038098,
+        organization: 'lbara',
+        event: 6,
+        draw: 'excellence_bonus',
+        live: true
+    }, {
+        id: 69041275,
+        organization: 'lbara',
+        event: 6,
+        draw: 'promotion_bonus',
+        live: true
+    },
+
+
+
+
+
+
+
     // LBARA - TR5 - Feurs
     {
         id: 69032899,
