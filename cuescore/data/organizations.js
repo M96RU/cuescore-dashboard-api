@@ -111,6 +111,11 @@ const organizations = [
                 id: 6,
                 label: "TR6",
                 location: "Bourg-les-Valence"
+            },
+            {
+                id: 7,
+                label: "TR7",
+                location: "Clarafond"
             }
         ],
         draws: [

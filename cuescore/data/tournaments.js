@@ -12,6 +12,74 @@ const tournaments = [
 
 
 
+    // LBARA - TR7 - Clarafond
+    {
+        id: 69032968,
+        organization: 'lbara',
+        event: 7,
+        draw: 'prestige',
+        live: true
+    }, {
+        id: 69038068,
+        organization: 'lbara',
+        event: 7,
+        draw: 'excellence',
+        live: false
+    }, {
+        id: 77327806,
+        organization: 'lbara',
+        event: 7,
+        draw: 'promotion',
+        live: true
+    }, {
+        id: 69038257,
+        organization: 'lbara',
+        event: 7,
+        draw: 'women',
+        live: true
+    }, {
+        id: 69039745,
+        organization: 'lbara',
+        event: 7,
+        draw: 'veteran',
+        live: true
+    }, {
+        id: 69041230,
+        organization: 'lbara',
+        event: 7,
+        draw: 'jeune',
+        live: true
+    }, {
+        id: 77327245,
+        organization: 'lbara',
+        event: 7,
+        draw: 'jeune_b',
+        live: true
+    }, {
+        id: 69035710,
+        organization: 'lbara',
+        event: 7,
+        draw: 'prestige_bonus',
+        live: true
+    }, {
+        id: 69038110,
+        organization: 'lbara',
+        event: 7,
+        draw: 'excellence_bonus',
+        live: true
+    }, {
+        id: 69041290,
+        organization: 'lbara',
+        event: 7,
+        draw: 'promotion_bonus',
+        live: true
+    },
+
+
+
+
+
+
     // LBARA - TR6 - Bourg-les-Valence
     {
         id: 69032908,
