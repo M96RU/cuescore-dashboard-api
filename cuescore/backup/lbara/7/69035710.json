@@ -1,0 +1,1794 @@
+{
+  "tournamentId": 69035710,
+  "banner": {
+    "thumbnail": "//img.cuescore.com/image/a/7/a35e71db25be614f2ad100e8328d3309.png?t=1776847439",
+    "original": "//img.cuescore.com/image/a/1/a35e71db25be614f2ad100e8328d3309.png?t=1776847439"
+  },
+  "name": "BB - TR8 LBARA PRESTIGE BLACKBALL - BONUS - 2025-2026",
+  "type": 0,
+  "format": 4,
+  "schema": 860,
+  "breakrule": "alternate",
+  "description": "8ème ETAPE DU CHAMPIONNAT LBARA PRESTIGE BLACKBALL 2025/2026<br />\r\n<br />\r\nOuvert aux joueurs PRESTIGE ayant perdu le match du premier tour<br />\r\n<br />\r\nDébut de la compétition à 15h00.<br />\r\n1h30 maximum par match.",
+  "preJoinMessage": "",
+  "dresscode": "TENUE RÉGLEMENTAIRE FFB",
+  "defaultRaceTo": 5,
+  "defaultBestOfSets": 0,
+  "url": "https://cuescore.com/tournament/BB+-+TR8+LBARA+PRESTIGE+BLACKBALL+-+BONUS+-+2025-2026/69035710",
+  "timezone": "Europe/Paris",
+  "displayDate": "May 2 - May 3, 2026",
+  "starttime": "2026-05-02T13:00:00Z",
+  "stoptime": "2026-05-03T20:00:00Z",
+  "deadline": "2026-05-02T22:00:00Z",
+  "entrystart": "",
+  "status": "Terminé",
+  "statusCode": 2,
+  "draw": 1,
+  "drawRounds": [
+    0
+  ],
+  "discipline": "Blackball",
+  "disciplineId": 301,
+  "branch": 2,
+  "handicap": [],
+  "contacts": [
+    {
+      "playerId": 6523135,
+      "name": "CHRISTIAN BRENDEL",
+      "firstname": "CHRISTIAN",
+      "lastname": "BRENDEL",
+      "url": "https://cuescore.com/player/CHRISTIAN+BRENDEL/6523135",
+      "image": "https://img.cuescore.com/image/5/4/5e18ee4778f7f4c0065a56c539d2a708.png?t=1653894237",
+      "country": {
+        "name": "French Polynesia",
+        "alpha3": "PYF",
+        "image": "https://cuescore.com/img/flags/png-country-4x2-none/res-640x480/pf.png",
+        "continent": "Oceania"
+      },
+      "livesIn": {
+        "city": "",
+        "country": "France"
+      },
+      "represents": []
+    },
+    {
+      "playerId": 7905751,
+      "name": "Sebastien Potiquet",
+      "firstname": "Sebastien",
+      "lastname": "Potiquet",
+      "url": "https://cuescore.com/player/Sebastien+Potiquet/7905751",
+      "image": "https://img.cuescore.com/image/a/4/a08831fde53584e49bff0d30e3ed097e.png?t=1633346589",
+      "country": {
+        "name": "France",
+        "alpha3": "FRA",
+        "image": "https://cuescore.com/img/flags/png-country-4x2-none/res-640x480/fr.png",
+        "continent": "Europe"
+      },
+      "livesIn": {
+        "city": "",
+        "country": "France"
+      },
+      "represents": []
+    }
+  ],
+  "owner": {
+    "organizationId": 9304624,
+    "stub": "lbara",
+    "name": "Ligue de Billard Auvergne-Rhône-Alpes",
+    "url": "https://cuescore.com/lbara",
+    "logo": "https://img.cuescore.com/image/9/3/9542cabd53587b3eeddbb6d2f92bfb17.png?t=1642327840",
+    "seasonStart": 9,
+    "profileColor": ""
+  },
+  "organizers": [
+    {
+      "organizationId": 9304624,
+      "stub": "lbara",
+      "name": "Ligue de Billard Auvergne-Rhône-Alpes",
+      "url": "https://cuescore.com/lbara",
+      "logo": "https://img.cuescore.com/image/9/3/9542cabd53587b3eeddbb6d2f92bfb17.png?t=1642327840",
+      "seasonStart": 9,
+      "profileColor": ""
+    }
+  ],
+  "venues": [
+    {
+      "venueId": 12812767,
+      "name": "Parc BB LBARA",
+      "image": "https://img.cuescore.com/image/d/3/d93a0f12945263a55729e1f3b6a15aaa.png?t=1546596159",
+      "url": "https://cuescore.com/venue/Parc+BB+LBARA/12812767",
+      "owner": {
+        "organizationId": 34342744,
+        "stub": "lbarablackball",
+        "name": "LBARA Blackball",
+        "url": "https://cuescore.com/lbarablackball",
+        "logo": "https://img.cuescore.com/image/0/3/0338989cafdd922c63cb57acd7be0329.png?t=1698431852",
+        "seasonStart": 1,
+        "profileColor": ""
+      }
+    }
+  ],
+  "sequence": 0,
+  "standings": {
+    "1": [
+      {
+        "position": 1,
+        "player": {
+          "playerId": 9667438,
+          "name": "Nolan Gagnol",
+          "firstname": "Nolan",
+          "lastname": "Gagnol",
+          "url": "https://cuescore.com/player/Nolan+Gagnol/9667438",
+          "image": "https://img.cuescore.com/image/c/4/cc22d27501d99cb5e5259e07595c7da5.png?t=1713792549",
+          "country": {
+            "name": "France",
+            "alpha3": "FRA",
+            "image": "https://cuescore.com/img/flags/png-country-4x2-none/res-640x480/fr.png",
+            "continent": "Europe"
+          },
+          "livesIn": {
+            "city": "Roanne",
+            "country": "France"
+          },
+          "represents": []
+        },
+        "played": 0,
+        "wins": 0,
+        "losses": 0,
+        "ties": 0,
+        "setWins": 0,
+        "setLosses": 0,
+        "setScore": 0,
+        "frameWins": 0,
+        "frameWinAvg": 0,
+        "frameLosses": 0,
+        "frameScore": 0,
+        "frameAvg": 0,
+        "innings": 0,
+        "inningAvg": 0,
+        "teamMatchPoints": 0,
+        "teamInnings": 0,
+        "teamInningAvg": 0,
+        "teamBestInningAvg": 0,
+        "teamIndividualPoints": 0,
+        "highBreak": 0,
+        "runouts": 0,
+        "lagWins": 0,
+        "points": 0
+      }
+    ],
+    "2": [
+      {
+        "position": 1,
+        "player": {
+          "playerId": 49043854,
+          "name": "Tony Mermoz",
+          "firstname": "Tony",
+          "lastname": "Mermoz",
+          "url": "https://cuescore.com/player/Tony+Mermoz/49043854",
+          "image": "https://img.cuescore.com/image/5/4/556250d2bf6aca55156fa2fce8021724.png?t=1726225120",
+          "country": {
+            "name": "France",
+            "alpha3": "FRA",
+            "image": "https://cuescore.com/img/flags/png-country-4x2-none/res-640x480/fr.png",
+            "continent": "Europe"
+          },
+          "livesIn": {
+            "city": "",
+            "country": "France"
+          },
+          "represents": []
+        },
+        "played": 0,
+        "wins": 0,
+        "losses": 0,
+        "ties": 0,
+        "setWins": 0,
+        "setLosses": 0,
+        "setScore": 0,
+        "frameWins": 0,
+        "frameWinAvg": 0,
+        "frameLosses": 0,
+        "frameScore": 0,
+        "frameAvg": 0,
+        "innings": 0,
+        "inningAvg": 0,
+        "teamMatchPoints": 0,
+        "teamInnings": 0,
+        "teamInningAvg": 0,
+        "teamBestInningAvg": 0,
+        "teamIndividualPoints": 0,
+        "highBreak": 0,
+        "runouts": 0,
+        "lagWins": 0,
+        "points": 0
+      },
+      {
+        "position": 2,
+        "player": {
+          "playerId": 48567484,
+          "name": "Kevin Vacus",
+          "firstname": "Kevin",
+          "lastname": "Vacus",
+          "url": "https://cuescore.com/player/Kevin+Vacus/48567484",
+          "image": "https://img.cuescore.com/image/f/4/f2c2126f9035b1233e5b2fdeea9ecd62.png?t=1726927847",
+          "country": {
+            "name": "France",
+            "alpha3": "FRA",
+            "image": "https://cuescore.com/img/flags/png-country-4x2-none/res-640x480/fr.png",
+            "continent": "Europe"
+          },
+          "livesIn": {
+            "city": "",
+            "country": "France"
+          },
+          "represents": []
+        },
+        "played": 0,
+        "wins": 0,
+        "losses": 0,
+        "ties": 0,
+        "setWins": 0,
+        "setLosses": 0,
+        "setScore": 0,
+        "frameWins": 0,
+        "frameWinAvg": 0,
+        "frameLosses": 0,
+        "frameScore": 0,
+        "frameAvg": 0,
+        "innings": 0,
+        "inningAvg": 0,
+        "teamMatchPoints": 0,
+        "teamInnings": 0,
+        "teamInningAvg": 0,
+        "teamBestInningAvg": 0,
+        "teamIndividualPoints": 0,
+        "highBreak": 0,
+        "runouts": 0,
+        "lagWins": 0,
+        "points": 0
+      }
+    ],
+    "3": [
+      {
+        "position": 1,
+        "player": {
+          "playerId": 6311859,
+          "name": "Manuel RUSSO",
+          "firstname": "Manuel",
+          "lastname": "RUSSO",
+          "url": "https://cuescore.com/player/Manuel+RUSSO/6311859",
+          "image": "https://img.cuescore.com/image/0/4/064f65f895ca5d1246f80ae0f6b4f831.png?t=1578693704",
+          "country": {
+            "name": "France",
+            "alpha3": "FRA",
+            "image": "https://cuescore.com/img/flags/png-country-4x2-none/res-640x480/fr.png",
+            "continent": "Europe"
+          },
+          "livesIn": {
+            "city": "",
+            "country": "France"
+          },
+          "represents": []
+        },
+        "played": 1,
+        "wins": 1,
+        "losses": 0,
+        "ties": 0,
+        "setWins": 0,
+        "setLosses": 0,
+        "setScore": 0,
+        "frameWins": 5,
+        "frameWinAvg": 5,
+        "frameLosses": 2,
+        "frameScore": 3,
+        "frameAvg": 0.714,
+        "innings": 0,
+        "inningAvg": 0,
+        "teamMatchPoints": 0,
+        "teamInnings": 0,
+        "teamInningAvg": 0,
+        "teamBestInningAvg": 0,
+        "teamIndividualPoints": 0,
+        "highBreak": 0,
+        "runouts": 0,
+        "lagWins": 1,
+        "points": 45
+      },
+      {
+        "position": 2,
+        "player": {
+          "playerId": 16672831,
+          "name": "Damien Leyret",
+          "firstname": "Damien",
+          "lastname": "Leyret",
+          "url": "https://cuescore.com/player/Damien+Leyret/16672831",
+          "image": "https://img.cuescore.com/image/8/4/85cccc1de40c580f8d40296ac603d76f.png?t=1713657000",
+          "country": {
+            "name": "France",
+            "alpha3": "FRA",
+            "image": "https://cuescore.com/img/flags/png-country-4x2-none/res-640x480/fr.png",
+            "continent": "Europe"
+          },
+          "livesIn": {
+            "city": "Bellegarde sur valserine",
+            "country": "France"
+          },
+          "represents": []
+        },
+        "played": 1,
+        "wins": 0,
+        "losses": 1,
+        "ties": 0,
+        "setWins": 0,
+        "setLosses": 0,
+        "setScore": 0,
+        "frameWins": 2,
+        "frameWinAvg": 2,
+        "frameLosses": 5,
+        "frameScore": -3,
+        "frameAvg": 0.286,
+        "innings": 0,
+        "inningAvg": 0,
+        "teamMatchPoints": 0,
+        "teamInnings": 0,
+        "teamInningAvg": 0,
+        "teamBestInningAvg": 0,
+        "teamIndividualPoints": 0,
+        "highBreak": 0,
+        "runouts": 0,
+        "lagWins": 0,
+        "points": 0
+      }
+    ],
+    "4": [
+      {
+        "position": 1,
+        "player": {
+          "playerId": 34282213,
+          "name": "Thomas Duflocq",
+          "firstname": "Thomas",
+          "lastname": "Duflocq",
+          "url": "https://cuescore.com/player/Thomas+Duflocq/34282213",
+          "image": "https://img.cuescore.com/image/9/4/91ae5504f591d20df1f65110d0b35591.png?t=1708096203",
+          "country": {
+            "name": "France",
+            "alpha3": "FRA",
+            "image": "https://cuescore.com/img/flags/png-country-4x2-none/res-640x480/fr.png",
+            "continent": "Europe"
+          },
+          "livesIn": {
+            "city": "",
+            "country": "France"
+          },
+          "represents": []
+        },
+        "played": 1,
+        "wins": 1,
+        "losses": 0,
+        "ties": 0,
+        "setWins": 0,
+        "setLosses": 0,
+        "setScore": 0,
+        "frameWins": 5,
+        "frameWinAvg": 5,
+        "frameLosses": 2,
+        "frameScore": 3,
+        "frameAvg": 0.714,
+        "innings": 0,
+        "inningAvg": 0,
+        "teamMatchPoints": 0,
+        "teamInnings": 0,
+        "teamInningAvg": 0,
+        "teamBestInningAvg": 0,
+        "teamIndividualPoints": 0,
+        "highBreak": 0,
+        "runouts": 0,
+        "lagWins": 1,
+        "points": 45
+      },
+      {
+        "position": 2,
+        "player": {
+          "playerId": 8068067,
+          "name": "Hugo Magistrini",
+          "firstname": "Hugo",
+          "lastname": "Magistrini",
+          "url": "https://cuescore.com/player/Hugo+Magistrini/8068067",
+          "image": "https://img.cuescore.com/image/3/4/3c7720d0aa47ce1a57405a3ab4145c35.png?t=1664774708",
+          "country": {
+            "name": "France",
+            "alpha3": "FRA",
+            "image": "https://cuescore.com/img/flags/png-country-4x2-none/res-640x480/fr.png",
+            "continent": "Europe"
+          },
+          "livesIn": {
+            "city": "",
+            "country": "France"
+          },
+          "represents": []
+        },
+        "played": 1,
+        "wins": 0,
+        "losses": 1,
+        "ties": 0,
+        "setWins": 0,
+        "setLosses": 0,
+        "setScore": 0,
+        "frameWins": 2,
+        "frameWinAvg": 2,
+        "frameLosses": 5,
+        "frameScore": -3,
+        "frameAvg": 0.286,
+        "innings": 0,
+        "inningAvg": 0,
+        "teamMatchPoints": 0,
+        "teamInnings": 0,
+        "teamInningAvg": 0,
+        "teamBestInningAvg": 0,
+        "teamIndividualPoints": 0,
+        "highBreak": 0,
+        "runouts": 0,
+        "lagWins": 0,
+        "points": 0
+      }
+    ],
+    "5": [
+      {
+        "position": 1,
+        "player": {
+          "playerId": 47036602,
+          "name": "JOEL VIRGA",
+          "firstname": "JOEL",
+          "lastname": "VIRGA",
+          "url": "https://cuescore.com/player/JOEL+VIRGA/47036602",
+          "image": "https://img.cuescore.com/image/a/4/a64bc90ce9e6912af019df6c53d9105d.png?t=1765134854",
+          "country": {
+            "name": "France",
+            "alpha3": "FRA",
+            "image": "https://cuescore.com/img/flags/png-country-4x2-none/res-640x480/fr.png",
+            "continent": "Europe"
+          },
+          "livesIn": {
+            "city": "",
+            "country": "France"
+          },
+          "represents": []
+        },
+        "played": 1,
+        "wins": 1,
+        "losses": 0,
+        "ties": 0,
+        "setWins": 0,
+        "setLosses": 0,
+        "setScore": 0,
+        "frameWins": 5,
+        "frameWinAvg": 5,
+        "frameLosses": 3,
+        "frameScore": 2,
+        "frameAvg": 0.625,
+        "innings": 0,
+        "inningAvg": 0,
+        "teamMatchPoints": 0,
+        "teamInnings": 0,
+        "teamInningAvg": 0,
+        "teamBestInningAvg": 0,
+        "teamIndividualPoints": 0,
+        "highBreak": 0,
+        "runouts": 0,
+        "lagWins": 1,
+        "points": 45
+      },
+      {
+        "position": 2,
+        "player": {
+          "playerId": 7971295,
+          "name": "Mounir TOUFIKI",
+          "firstname": "Mounir",
+          "lastname": "TOUFIKI",
+          "url": "https://cuescore.com/player/Mounir+TOUFIKI/7971295",
+          "image": "https://img.cuescore.com/image/3/4/30a1056a223527e433c3505b0b9b61a3.png?t=1758701801",
+          "country": {
+            "name": "Morocco",
+            "alpha3": "MAR",
+            "image": "https://cuescore.com/img/flags/png-country-4x2-none/res-640x480/ma.png",
+            "continent": "Africa"
+          },
+          "livesIn": {
+            "city": "",
+            "country": "France"
+          },
+          "represents": []
+        },
+        "played": 1,
+        "wins": 0,
+        "losses": 1,
+        "ties": 0,
+        "setWins": 0,
+        "setLosses": 0,
+        "setScore": 0,
+        "frameWins": 3,
+        "frameWinAvg": 3,
+        "frameLosses": 5,
+        "frameScore": -2,
+        "frameAvg": 0.375,
+        "innings": 0,
+        "inningAvg": 0,
+        "teamMatchPoints": 0,
+        "teamInnings": 0,
+        "teamInningAvg": 0,
+        "teamBestInningAvg": 0,
+        "teamIndividualPoints": 0,
+        "highBreak": 0,
+        "runouts": 0,
+        "lagWins": 0,
+        "points": 0
+      }
+    ],
+    "6": [
+      {
+        "position": 1,
+        "player": {
+          "playerId": 9394723,
+          "name": "Laurent BUZZI",
+          "firstname": "Laurent",
+          "lastname": "BUZZI",
+          "url": "https://cuescore.com/player/Laurent+BUZZI/9394723",
+          "image": "https://img.cuescore.com/image/3/4/321b8ae73b8744ab7712172dcb2b7704.png?t=1666449653",
+          "country": {
+            "name": "France",
+            "alpha3": "FRA",
+            "image": "https://cuescore.com/img/flags/png-country-4x2-none/res-640x480/fr.png",
+            "continent": "Europe"
+          },
+          "livesIn": {
+            "city": "",
+            "country": "France"
+          },
+          "represents": []
+        },
+        "played": 1,
+        "wins": 1,
+        "losses": 0,
+        "ties": 0,
+        "setWins": 0,
+        "setLosses": 0,
+        "setScore": 0,
+        "frameWins": 5,
+        "frameWinAvg": 5,
+        "frameLosses": 4,
+        "frameScore": 1,
+        "frameAvg": 0.556,
+        "innings": 0,
+        "inningAvg": 0,
+        "teamMatchPoints": 0,
+        "teamInnings": 0,
+        "teamInningAvg": 0,
+        "teamBestInningAvg": 0,
+        "teamIndividualPoints": 0,
+        "highBreak": 0,
+        "runouts": 0,
+        "lagWins": 0,
+        "points": 45
+      },
+      {
+        "position": 2,
+        "player": {
+          "playerId": 14819872,
+          "name": "David Cros",
+          "firstname": "David",
+          "lastname": "Cros",
+          "url": "https://cuescore.com/player/David+Cros/14819872",
+          "image": "https://img.cuescore.com/image/6/4/6281af7b49f241f0de8a0adec290e15a.png?t=1771843223",
+          "country": {
+            "name": "France",
+            "alpha3": "FRA",
+            "image": "https://cuescore.com/img/flags/png-country-4x2-none/res-640x480/fr.png",
+            "continent": "Europe"
+          },
+          "livesIn": {
+            "city": "",
+            "country": "France"
+          },
+          "represents": []
+        },
+        "played": 1,
+        "wins": 0,
+        "losses": 1,
+        "ties": 0,
+        "setWins": 0,
+        "setLosses": 0,
+        "setScore": 0,
+        "frameWins": 4,
+        "frameWinAvg": 4,
+        "frameLosses": 5,
+        "frameScore": -1,
+        "frameAvg": 0.444,
+        "innings": 0,
+        "inningAvg": 0,
+        "teamMatchPoints": 0,
+        "teamInnings": 0,
+        "teamInningAvg": 0,
+        "teamBestInningAvg": 0,
+        "teamIndividualPoints": 0,
+        "highBreak": 0,
+        "runouts": 0,
+        "lagWins": 1,
+        "points": 0
+      }
+    ]
+  },
+  "standingSortSettings": {
+    "sortType": 1,
+    "sortOrder": [
+      "points",
+      "wins",
+      "h2h",
+      "frameWins",
+      "frameScore",
+      "h2h"
+    ],
+    "pointsForWin": 45,
+    "pointsForTie": 0,
+    "pointsForLoss": 0,
+    "pointPerFrame": 0,
+    "winnerBonusPoints": 0,
+    "winnerBonusPointsCriteriaField": "frameWins",
+    "winnerBonusPointsCriteriaValue": 0,
+    "loserBonusPoints": 0,
+    "loserBonusPointsCriteriaField": "frameWins",
+    "loserBonusPointsCriteriaValue": 0,
+    "teamMatchPointsForWin": 1,
+    "teamMatchPointsForTie": 0,
+    "teamMatchPointsForLoss": 0
+  },
+  "matches": [
+    {
+      "matchId": 81017323,
+      "matchno": 1,
+      "roundName": "Round 1",
+      "roundCode": "roundX",
+      "round": 1,
+      "playerA": {
+        "playerId": 48567484,
+        "name": "Kevin Vacus",
+        "firstname": "Kevin",
+        "lastname": "Vacus",
+        "url": "https://cuescore.com/player/Kevin+Vacus/48567484",
+        "image": "https://img.cuescore.com/image/f/4/f2c2126f9035b1233e5b2fdeea9ecd62.png?t=1726927847",
+        "country": {
+          "name": "France",
+          "alpha3": "FRA",
+          "image": "https://cuescore.com/img/flags/png-country-4x2-none/res-640x480/fr.png",
+          "continent": "Europe"
+        },
+        "livesIn": {
+          "city": "",
+          "country": "France"
+        },
+        "represents": []
+      },
+      "playerB": {
+        "playerId": 49043854,
+        "name": "Tony Mermoz",
+        "firstname": "Tony",
+        "lastname": "Mermoz",
+        "url": "https://cuescore.com/player/Tony+Mermoz/49043854",
+        "image": "https://img.cuescore.com/image/5/4/556250d2bf6aca55156fa2fce8021724.png?t=1726225120",
+        "country": {
+          "name": "France",
+          "alpha3": "FRA",
+          "image": "https://cuescore.com/img/flags/png-country-4x2-none/res-640x480/fr.png",
+          "continent": "Europe"
+        },
+        "livesIn": {
+          "city": "",
+          "country": "France"
+        },
+        "represents": []
+      },
+      "scoreA": 0,
+      "scoreB": 0,
+      "raceTo": 5,
+      "discipline": "Blackball",
+      "disciplineId": 301,
+      "branch": 2,
+      "penalty": 1,
+      "groupNo": 2,
+      "inningsPlayerA": 0,
+      "inningsPlayerB": 0,
+      "highBreaksA": "",
+      "highBreaksB": "",
+      "runoutsA": 0,
+      "runoutsB": 0,
+      "lagWinner": "",
+      "table": {
+        "tableId": 12812815,
+        "name": "12",
+        "manufacturer": "Optima",
+        "model": "Elite",
+        "branch": "Anglais",
+        "branchId": 2,
+        "size": 7,
+        "cloth": "",
+        "pockets": "",
+        "slate": "",
+        "description": "Billard 12",
+        "venue": {
+          "venueId": 12812767,
+          "name": "Parc BB LBARA",
+          "image": "https://img.cuescore.com/image/d/3/d93a0f12945263a55729e1f3b6a15aaa.png?t=1546596159",
+          "url": "https://cuescore.com/venue/Parc+BB+LBARA/12812767",
+          "owner": {
+            "organizationId": 34342744,
+            "stub": "lbarablackball",
+            "name": "LBARA Blackball",
+            "url": "https://cuescore.com/lbarablackball",
+            "logo": "https://img.cuescore.com/image/0/3/0338989cafdd922c63cb57acd7be0329.png?t=1698431852",
+            "seasonStart": 1,
+            "profileColor": ""
+          }
+        }
+      },
+      "tournamentId": 69035710,
+      "challengeId": 0,
+      "starttime": "2026-05-02T18:17:11Z",
+      "stoptime": "",
+      "matchstatus": "finished",
+      "matchstatusCode": 2,
+      "bestOfSets": 0,
+      "useInnings": false,
+      "frames": [],
+      "properties": {
+        "penalty": {
+          "invalid": false,
+          "description": ""
+        }
+      },
+      "sets": [],
+      "curVersion": 47,
+      "notes": [],
+      "matchType": 0,
+      "videoLink": "",
+      "comment": "",
+      "winnerNext": "",
+      "loserNext": ""
+    },
+    {
+      "matchId": 81017326,
+      "matchno": 2,
+      "roundName": "Round 1",
+      "roundCode": "roundX",
+      "round": 1,
+      "playerA": {
+        "playerId": 16672831,
+        "name": "Damien Leyret",
+        "firstname": "Damien",
+        "lastname": "Leyret",
+        "url": "https://cuescore.com/player/Damien+Leyret/16672831",
+        "image": "https://img.cuescore.com/image/8/4/85cccc1de40c580f8d40296ac603d76f.png?t=1713657000",
+        "country": {
+          "name": "France",
+          "alpha3": "FRA",
+          "image": "https://cuescore.com/img/flags/png-country-4x2-none/res-640x480/fr.png",
+          "continent": "Europe"
+        },
+        "livesIn": {
+          "city": "Bellegarde sur valserine",
+          "country": "France"
+        },
+        "represents": []
+      },
+      "playerB": {
+        "playerId": 6311859,
+        "name": "Manuel RUSSO",
+        "firstname": "Manuel",
+        "lastname": "RUSSO",
+        "url": "https://cuescore.com/player/Manuel+RUSSO/6311859",
+        "image": "https://img.cuescore.com/image/0/4/064f65f895ca5d1246f80ae0f6b4f831.png?t=1578693704",
+        "country": {
+          "name": "France",
+          "alpha3": "FRA",
+          "image": "https://cuescore.com/img/flags/png-country-4x2-none/res-640x480/fr.png",
+          "continent": "Europe"
+        },
+        "livesIn": {
+          "city": "",
+          "country": "France"
+        },
+        "represents": []
+      },
+      "scoreA": 2,
+      "scoreB": 5,
+      "raceTo": 5,
+      "discipline": "Blackball",
+      "disciplineId": 301,
+      "branch": 2,
+      "penalty": 0,
+      "groupNo": 3,
+      "inningsPlayerA": 0,
+      "inningsPlayerB": 0,
+      "highBreaksA": "",
+      "highBreaksB": "",
+      "runoutsA": 0,
+      "runoutsB": 0,
+      "lagWinner": "B",
+      "table": {
+        "tableId": 12812839,
+        "name": "18",
+        "manufacturer": "Optima",
+        "model": "Elite",
+        "branch": "Anglais",
+        "branchId": 2,
+        "size": 7,
+        "cloth": "",
+        "pockets": "",
+        "slate": "",
+        "description": "Billard 18",
+        "venue": {
+          "venueId": 12812767,
+          "name": "Parc BB LBARA",
+          "image": "https://img.cuescore.com/image/d/3/d93a0f12945263a55729e1f3b6a15aaa.png?t=1546596159",
+          "url": "https://cuescore.com/venue/Parc+BB+LBARA/12812767",
+          "owner": {
+            "organizationId": 34342744,
+            "stub": "lbarablackball",
+            "name": "LBARA Blackball",
+            "url": "https://cuescore.com/lbarablackball",
+            "logo": "https://img.cuescore.com/image/0/3/0338989cafdd922c63cb57acd7be0329.png?t=1698431852",
+            "seasonStart": 1,
+            "profileColor": ""
+          }
+        }
+      },
+      "tournamentId": 69035710,
+      "challengeId": 0,
+      "starttime": "2026-05-02T18:09:00Z",
+      "stoptime": "2026-05-02T19:05:19Z",
+      "matchstatus": "finished",
+      "matchstatusCode": 2,
+      "bestOfSets": 0,
+      "useInnings": false,
+      "frames": [],
+      "properties": {
+        "runoutsA": 0,
+        "runoutsB": 0,
+        "lagWinsA": 0,
+        "lagWinsB": 1
+      },
+      "sets": [],
+      "curVersion": 47,
+      "notes": [
+        {
+          "note": "frame start",
+          "time": "2026-05-02T19:05:11.365Z"
+        },
+        {
+          "note": "B breaking",
+          "time": "2026-05-02T19:05:11.365Z"
+        },
+        {
+          "note": "A frame win",
+          "time": "2026-05-02T19:05:13.574Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2026-05-02T19:05:13.574Z"
+        },
+        {
+          "note": "frame start",
+          "time": "2026-05-02T19:05:13.574Z"
+        },
+        {
+          "note": "A breaking",
+          "time": "2026-05-02T19:05:13.574Z"
+        },
+        {
+          "note": "A frame win",
+          "time": "2026-05-02T19:05:14.329Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2026-05-02T19:05:14.329Z"
+        },
+        {
+          "note": "frame start",
+          "time": "2026-05-02T19:05:14.329Z"
+        },
+        {
+          "note": "B breaking",
+          "time": "2026-05-02T19:05:14.329Z"
+        },
+        {
+          "note": "B frame win",
+          "time": "2026-05-02T19:05:14.995Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2026-05-02T19:05:14.995Z"
+        },
+        {
+          "note": "frame start",
+          "time": "2026-05-02T19:05:14.995Z"
+        },
+        {
+          "note": "A breaking",
+          "time": "2026-05-02T19:05:14.995Z"
+        },
+        {
+          "note": "B frame win",
+          "time": "2026-05-02T19:05:15.631Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2026-05-02T19:05:15.631Z"
+        },
+        {
+          "note": "frame start",
+          "time": "2026-05-02T19:05:15.631Z"
+        },
+        {
+          "note": "B breaking",
+          "time": "2026-05-02T19:05:15.631Z"
+        },
+        {
+          "note": "B frame win",
+          "time": "2026-05-02T19:05:16.222Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2026-05-02T19:05:16.222Z"
+        },
+        {
+          "note": "frame start",
+          "time": "2026-05-02T19:05:16.222Z"
+        },
+        {
+          "note": "A breaking",
+          "time": "2026-05-02T19:05:16.222Z"
+        },
+        {
+          "note": "B frame win",
+          "time": "2026-05-02T19:05:16.671Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2026-05-02T19:05:16.671Z"
+        },
+        {
+          "note": "frame start",
+          "time": "2026-05-02T19:05:16.671Z"
+        },
+        {
+          "note": "B breaking",
+          "time": "2026-05-02T19:05:16.671Z"
+        },
+        {
+          "note": "B frame win",
+          "time": "2026-05-02T19:05:17.112Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2026-05-02T19:05:17.112Z"
+        },
+        {
+          "note": "match end",
+          "time": "2026-05-02T19:05:18.008Z"
+        }
+      ],
+      "matchType": 0,
+      "videoLink": "",
+      "comment": "",
+      "winnerNext": "",
+      "loserNext": ""
+    },
+    {
+      "matchId": 81017329,
+      "matchno": 3,
+      "roundName": "Round 1",
+      "roundCode": "roundX",
+      "round": 1,
+      "playerA": {
+        "playerId": 34282213,
+        "name": "Thomas Duflocq",
+        "firstname": "Thomas",
+        "lastname": "Duflocq",
+        "url": "https://cuescore.com/player/Thomas+Duflocq/34282213",
+        "image": "https://img.cuescore.com/image/9/4/91ae5504f591d20df1f65110d0b35591.png?t=1708096203",
+        "country": {
+          "name": "France",
+          "alpha3": "FRA",
+          "image": "https://cuescore.com/img/flags/png-country-4x2-none/res-640x480/fr.png",
+          "continent": "Europe"
+        },
+        "livesIn": {
+          "city": "",
+          "country": "France"
+        },
+        "represents": []
+      },
+      "playerB": {
+        "playerId": 8068067,
+        "name": "Hugo Magistrini",
+        "firstname": "Hugo",
+        "lastname": "Magistrini",
+        "url": "https://cuescore.com/player/Hugo+Magistrini/8068067",
+        "image": "https://img.cuescore.com/image/3/4/3c7720d0aa47ce1a57405a3ab4145c35.png?t=1664774708",
+        "country": {
+          "name": "France",
+          "alpha3": "FRA",
+          "image": "https://cuescore.com/img/flags/png-country-4x2-none/res-640x480/fr.png",
+          "continent": "Europe"
+        },
+        "livesIn": {
+          "city": "",
+          "country": "France"
+        },
+        "represents": []
+      },
+      "scoreA": 5,
+      "scoreB": 2,
+      "raceTo": 5,
+      "discipline": "Blackball",
+      "disciplineId": 301,
+      "branch": 2,
+      "penalty": 0,
+      "groupNo": 4,
+      "inningsPlayerA": 0,
+      "inningsPlayerB": 0,
+      "highBreaksA": "",
+      "highBreaksB": "",
+      "runoutsA": 0,
+      "runoutsB": 0,
+      "lagWinner": "A",
+      "table": {
+        "tableId": 12812803,
+        "name": "9",
+        "manufacturer": "Optima",
+        "model": "Elite",
+        "branch": "Anglais",
+        "branchId": 2,
+        "size": 7,
+        "cloth": "",
+        "pockets": "",
+        "slate": "",
+        "description": "Billard 9",
+        "venue": {
+          "venueId": 12812767,
+          "name": "Parc BB LBARA",
+          "image": "https://img.cuescore.com/image/d/3/d93a0f12945263a55729e1f3b6a15aaa.png?t=1546596159",
+          "url": "https://cuescore.com/venue/Parc+BB+LBARA/12812767",
+          "owner": {
+            "organizationId": 34342744,
+            "stub": "lbarablackball",
+            "name": "LBARA Blackball",
+            "url": "https://cuescore.com/lbarablackball",
+            "logo": "https://img.cuescore.com/image/0/3/0338989cafdd922c63cb57acd7be0329.png?t=1698431852",
+            "seasonStart": 1,
+            "profileColor": ""
+          }
+        }
+      },
+      "tournamentId": 69035710,
+      "challengeId": 0,
+      "starttime": "2026-05-02T18:17:10Z",
+      "stoptime": "2026-05-02T18:58:06Z",
+      "matchstatus": "finished",
+      "matchstatusCode": 2,
+      "bestOfSets": 0,
+      "useInnings": false,
+      "frames": [],
+      "properties": {
+        "runoutsA": 0,
+        "runoutsB": 0,
+        "lagWinsA": 1,
+        "lagWinsB": 0
+      },
+      "sets": [],
+      "curVersion": 47,
+      "notes": [
+        {
+          "note": "frame start",
+          "time": "2026-05-02T18:25:31.319Z"
+        },
+        {
+          "note": "A breaking",
+          "time": "2026-05-02T18:25:31.319Z"
+        },
+        {
+          "note": "A frame win",
+          "time": "2026-05-02T18:25:34.599Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2026-05-02T18:25:34.599Z"
+        },
+        {
+          "note": "frame start",
+          "time": "2026-05-02T18:25:34.599Z"
+        },
+        {
+          "note": "B breaking",
+          "time": "2026-05-02T18:25:34.599Z"
+        },
+        {
+          "note": "B frame win",
+          "time": "2026-05-02T18:34:09.364Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2026-05-02T18:34:09.364Z"
+        },
+        {
+          "note": "frame start",
+          "time": "2026-05-02T18:34:09.364Z"
+        },
+        {
+          "note": "A breaking",
+          "time": "2026-05-02T18:34:09.364Z"
+        },
+        {
+          "note": "A frame win",
+          "time": "2026-05-02T18:34:09.980Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2026-05-02T18:34:09.980Z"
+        },
+        {
+          "note": "frame start",
+          "time": "2026-05-02T18:34:09.980Z"
+        },
+        {
+          "note": "B breaking",
+          "time": "2026-05-02T18:34:09.980Z"
+        },
+        {
+          "note": "B frame win",
+          "time": "2026-05-02T18:38:42.819Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2026-05-02T18:38:42.819Z"
+        },
+        {
+          "note": "frame start",
+          "time": "2026-05-02T18:38:42.819Z"
+        },
+        {
+          "note": "A breaking",
+          "time": "2026-05-02T18:38:42.819Z"
+        },
+        {
+          "note": "A frame win",
+          "time": "2026-05-02T18:44:22.273Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2026-05-02T18:44:22.273Z"
+        },
+        {
+          "note": "frame start",
+          "time": "2026-05-02T18:44:22.273Z"
+        },
+        {
+          "note": "B breaking",
+          "time": "2026-05-02T18:44:22.273Z"
+        },
+        {
+          "note": "A frame win",
+          "time": "2026-05-02T18:52:46.265Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2026-05-02T18:52:46.265Z"
+        },
+        {
+          "note": "frame start",
+          "time": "2026-05-02T18:52:46.265Z"
+        },
+        {
+          "note": "A breaking",
+          "time": "2026-05-02T18:52:46.265Z"
+        },
+        {
+          "note": "A frame win",
+          "time": "2026-05-02T18:58:03.254Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2026-05-02T18:58:03.254Z"
+        },
+        {
+          "note": "match end",
+          "time": "2026-05-02T18:58:04.308Z"
+        }
+      ],
+      "matchType": 0,
+      "videoLink": "",
+      "comment": "",
+      "winnerNext": "",
+      "loserNext": ""
+    },
+    {
+      "matchId": 81017332,
+      "matchno": 4,
+      "roundName": "Round 1",
+      "roundCode": "roundX",
+      "round": 1,
+      "playerA": {
+        "playerId": 7971295,
+        "name": "Mounir TOUFIKI",
+        "firstname": "Mounir",
+        "lastname": "TOUFIKI",
+        "url": "https://cuescore.com/player/Mounir+TOUFIKI/7971295",
+        "image": "https://img.cuescore.com/image/3/4/30a1056a223527e433c3505b0b9b61a3.png?t=1758701801",
+        "country": {
+          "name": "Morocco",
+          "alpha3": "MAR",
+          "image": "https://cuescore.com/img/flags/png-country-4x2-none/res-640x480/ma.png",
+          "continent": "Africa"
+        },
+        "livesIn": {
+          "city": "",
+          "country": "France"
+        },
+        "represents": []
+      },
+      "playerB": {
+        "playerId": 47036602,
+        "name": "JOEL VIRGA",
+        "firstname": "JOEL",
+        "lastname": "VIRGA",
+        "url": "https://cuescore.com/player/JOEL+VIRGA/47036602",
+        "image": "https://img.cuescore.com/image/a/4/a64bc90ce9e6912af019df6c53d9105d.png?t=1765134854",
+        "country": {
+          "name": "France",
+          "alpha3": "FRA",
+          "image": "https://cuescore.com/img/flags/png-country-4x2-none/res-640x480/fr.png",
+          "continent": "Europe"
+        },
+        "livesIn": {
+          "city": "",
+          "country": "France"
+        },
+        "represents": []
+      },
+      "scoreA": 3,
+      "scoreB": 5,
+      "raceTo": 5,
+      "discipline": "Blackball",
+      "disciplineId": 301,
+      "branch": 2,
+      "penalty": 0,
+      "groupNo": 5,
+      "inningsPlayerA": 0,
+      "inningsPlayerB": 0,
+      "highBreaksA": "",
+      "highBreaksB": "",
+      "runoutsA": 0,
+      "runoutsB": 0,
+      "lagWinner": "B",
+      "table": {
+        "tableId": 12812824,
+        "name": "14",
+        "manufacturer": "Optima",
+        "model": "Elite",
+        "branch": "Anglais",
+        "branchId": 2,
+        "size": 7,
+        "cloth": "",
+        "pockets": "",
+        "slate": "",
+        "description": "Billard 14",
+        "venue": {
+          "venueId": 12812767,
+          "name": "Parc BB LBARA",
+          "image": "https://img.cuescore.com/image/d/3/d93a0f12945263a55729e1f3b6a15aaa.png?t=1546596159",
+          "url": "https://cuescore.com/venue/Parc+BB+LBARA/12812767",
+          "owner": {
+            "organizationId": 34342744,
+            "stub": "lbarablackball",
+            "name": "LBARA Blackball",
+            "url": "https://cuescore.com/lbarablackball",
+            "logo": "https://img.cuescore.com/image/0/3/0338989cafdd922c63cb57acd7be0329.png?t=1698431852",
+            "seasonStart": 1,
+            "profileColor": ""
+          }
+        }
+      },
+      "tournamentId": 69035710,
+      "challengeId": 0,
+      "starttime": "2026-05-02T18:17:10Z",
+      "stoptime": "2026-05-02T19:30:14Z",
+      "matchstatus": "finished",
+      "matchstatusCode": 2,
+      "bestOfSets": 0,
+      "useInnings": false,
+      "frames": [],
+      "properties": {
+        "runoutsA": 0,
+        "runoutsB": 0,
+        "lagWinsA": 0,
+        "lagWinsB": 1
+      },
+      "sets": [],
+      "curVersion": 47,
+      "notes": [
+        {
+          "note": "frame start",
+          "time": "2026-05-02T18:42:43.713Z"
+        },
+        {
+          "note": "B breaking",
+          "time": "2026-05-02T18:42:43.713Z"
+        },
+        {
+          "note": "A frame win",
+          "time": "2026-05-02T18:49:19.749Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2026-05-02T18:49:19.749Z"
+        },
+        {
+          "note": "frame start",
+          "time": "2026-05-02T18:49:19.749Z"
+        },
+        {
+          "note": "A breaking",
+          "time": "2026-05-02T18:49:19.749Z"
+        },
+        {
+          "note": "B frame win",
+          "time": "2026-05-02T18:53:34.097Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2026-05-02T18:53:34.097Z"
+        },
+        {
+          "note": "frame start",
+          "time": "2026-05-02T18:53:34.097Z"
+        },
+        {
+          "note": "B breaking",
+          "time": "2026-05-02T18:53:34.097Z"
+        },
+        {
+          "note": "A frame win",
+          "time": "2026-05-02T19:04:20.039Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2026-05-02T19:04:20.039Z"
+        },
+        {
+          "note": "frame start",
+          "time": "2026-05-02T19:04:20.039Z"
+        },
+        {
+          "note": "A breaking",
+          "time": "2026-05-02T19:04:20.039Z"
+        },
+        {
+          "note": "B frame win",
+          "time": "2026-05-02T19:08:42.176Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2026-05-02T19:08:42.176Z"
+        },
+        {
+          "note": "frame start",
+          "time": "2026-05-02T19:08:42.176Z"
+        },
+        {
+          "note": "B breaking",
+          "time": "2026-05-02T19:08:42.176Z"
+        },
+        {
+          "note": "B frame win",
+          "time": "2026-05-02T19:14:08.361Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2026-05-02T19:14:08.361Z"
+        },
+        {
+          "note": "frame start",
+          "time": "2026-05-02T19:14:08.361Z"
+        },
+        {
+          "note": "A breaking",
+          "time": "2026-05-02T19:14:08.361Z"
+        },
+        {
+          "note": "A frame win",
+          "time": "2026-05-02T19:19:35.834Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2026-05-02T19:19:35.834Z"
+        },
+        {
+          "note": "frame start",
+          "time": "2026-05-02T19:19:35.834Z"
+        },
+        {
+          "note": "B breaking",
+          "time": "2026-05-02T19:19:35.834Z"
+        },
+        {
+          "note": "B frame win",
+          "time": "2026-05-02T19:24:12.081Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2026-05-02T19:24:12.081Z"
+        },
+        {
+          "note": "frame start",
+          "time": "2026-05-02T19:24:12.081Z"
+        },
+        {
+          "note": "A breaking",
+          "time": "2026-05-02T19:24:12.081Z"
+        },
+        {
+          "note": "B frame win",
+          "time": "2026-05-02T19:30:07.867Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2026-05-02T19:30:07.867Z"
+        },
+        {
+          "note": "match end",
+          "time": "2026-05-02T19:30:12.225Z"
+        }
+      ],
+      "matchType": 0,
+      "videoLink": "",
+      "comment": "",
+      "winnerNext": "",
+      "loserNext": ""
+    },
+    {
+      "matchId": 81017335,
+      "matchno": 5,
+      "roundName": "Round 1",
+      "roundCode": "roundX",
+      "round": 1,
+      "playerA": {
+        "playerId": 9394723,
+        "name": "Laurent BUZZI",
+        "firstname": "Laurent",
+        "lastname": "BUZZI",
+        "url": "https://cuescore.com/player/Laurent+BUZZI/9394723",
+        "image": "https://img.cuescore.com/image/3/4/321b8ae73b8744ab7712172dcb2b7704.png?t=1666449653",
+        "country": {
+          "name": "France",
+          "alpha3": "FRA",
+          "image": "https://cuescore.com/img/flags/png-country-4x2-none/res-640x480/fr.png",
+          "continent": "Europe"
+        },
+        "livesIn": {
+          "city": "",
+          "country": "France"
+        },
+        "represents": []
+      },
+      "playerB": {
+        "playerId": 14819872,
+        "name": "David Cros",
+        "firstname": "David",
+        "lastname": "Cros",
+        "url": "https://cuescore.com/player/David+Cros/14819872",
+        "image": "https://img.cuescore.com/image/6/4/6281af7b49f241f0de8a0adec290e15a.png?t=1771843223",
+        "country": {
+          "name": "France",
+          "alpha3": "FRA",
+          "image": "https://cuescore.com/img/flags/png-country-4x2-none/res-640x480/fr.png",
+          "continent": "Europe"
+        },
+        "livesIn": {
+          "city": "",
+          "country": "France"
+        },
+        "represents": []
+      },
+      "scoreA": 5,
+      "scoreB": 4,
+      "raceTo": 5,
+      "discipline": "Blackball",
+      "disciplineId": 301,
+      "branch": 2,
+      "penalty": 0,
+      "groupNo": 6,
+      "inningsPlayerA": 0,
+      "inningsPlayerB": 0,
+      "highBreaksA": "",
+      "highBreaksB": "",
+      "runoutsA": 0,
+      "runoutsB": 0,
+      "lagWinner": "B",
+      "table": {
+        "tableId": 12812818,
+        "name": "13",
+        "manufacturer": "Optima",
+        "model": "Elite",
+        "branch": "Anglais",
+        "branchId": 2,
+        "size": 7,
+        "cloth": "",
+        "pockets": "",
+        "slate": "",
+        "description": "Billard 13",
+        "venue": {
+          "venueId": 12812767,
+          "name": "Parc BB LBARA",
+          "image": "https://img.cuescore.com/image/d/3/d93a0f12945263a55729e1f3b6a15aaa.png?t=1546596159",
+          "url": "https://cuescore.com/venue/Parc+BB+LBARA/12812767",
+          "owner": {
+            "organizationId": 34342744,
+            "stub": "lbarablackball",
+            "name": "LBARA Blackball",
+            "url": "https://cuescore.com/lbarablackball",
+            "logo": "https://img.cuescore.com/image/0/3/0338989cafdd922c63cb57acd7be0329.png?t=1698431852",
+            "seasonStart": 1,
+            "profileColor": ""
+          }
+        }
+      },
+      "tournamentId": 69035710,
+      "challengeId": 0,
+      "starttime": "2026-05-02T18:09:15Z",
+      "stoptime": "2026-05-02T20:08:40Z",
+      "matchstatus": "finished",
+      "matchstatusCode": 2,
+      "bestOfSets": 0,
+      "useInnings": false,
+      "frames": [],
+      "properties": {
+        "runoutsA": 0,
+        "runoutsB": 0,
+        "lagWinsA": 0,
+        "lagWinsB": 1
+      },
+      "sets": [],
+      "curVersion": 47,
+      "notes": [
+        {
+          "note": "frame start",
+          "time": "2026-05-02T18:11:19.382Z"
+        },
+        {
+          "note": "B breaking",
+          "time": "2026-05-02T18:11:19.382Z"
+        },
+        {
+          "note": "A frame win",
+          "time": "2026-05-02T18:11:22.294Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2026-05-02T18:11:22.294Z"
+        },
+        {
+          "note": "frame start",
+          "time": "2026-05-02T18:11:22.294Z"
+        },
+        {
+          "note": "A breaking",
+          "time": "2026-05-02T18:11:22.294Z"
+        },
+        {
+          "note": "B frame win",
+          "time": "2026-05-02T18:30:29.261Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2026-05-02T18:30:29.261Z"
+        },
+        {
+          "note": "frame start",
+          "time": "2026-05-02T18:30:29.261Z"
+        },
+        {
+          "note": "B breaking",
+          "time": "2026-05-02T18:30:29.261Z"
+        },
+        {
+          "note": "A frame win",
+          "time": "2026-05-02T18:36:59.070Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2026-05-02T18:36:59.070Z"
+        },
+        {
+          "note": "frame start",
+          "time": "2026-05-02T18:36:59.070Z"
+        },
+        {
+          "note": "A breaking",
+          "time": "2026-05-02T18:36:59.070Z"
+        },
+        {
+          "note": "B frame win",
+          "time": "2026-05-02T18:49:29.459Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2026-05-02T18:49:29.459Z"
+        },
+        {
+          "note": "frame start",
+          "time": "2026-05-02T18:49:29.459Z"
+        },
+        {
+          "note": "B breaking",
+          "time": "2026-05-02T18:49:29.459Z"
+        },
+        {
+          "note": "A frame win",
+          "time": "2026-05-02T19:03:37.482Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2026-05-02T19:03:37.482Z"
+        },
+        {
+          "note": "frame start",
+          "time": "2026-05-02T19:03:37.482Z"
+        },
+        {
+          "note": "A breaking",
+          "time": "2026-05-02T19:03:37.482Z"
+        },
+        {
+          "note": "A frame win",
+          "time": "2026-05-02T19:16:14.408Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2026-05-02T19:16:14.408Z"
+        },
+        {
+          "note": "frame start",
+          "time": "2026-05-02T19:16:14.408Z"
+        },
+        {
+          "note": "B breaking",
+          "time": "2026-05-02T19:16:14.408Z"
+        },
+        {
+          "note": "B frame win",
+          "time": "2026-05-02T19:29:22.004Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2026-05-02T19:29:22.004Z"
+        },
+        {
+          "note": "frame start",
+          "time": "2026-05-02T19:29:22.004Z"
+        },
+        {
+          "note": "A breaking",
+          "time": "2026-05-02T19:29:22.004Z"
+        },
+        {
+          "note": "B frame win",
+          "time": "2026-05-02T19:46:50.146Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2026-05-02T19:46:50.146Z"
+        },
+        {
+          "note": "frame start",
+          "time": "2026-05-02T19:46:50.146Z"
+        },
+        {
+          "note": "B breaking",
+          "time": "2026-05-02T19:46:50.146Z"
+        },
+        {
+          "note": "A frame win",
+          "time": "2026-05-02T20:08:37.025Z"
+        },
+        {
+          "note": "frame end",
+          "time": "2026-05-02T20:08:37.025Z"
+        },
+        {
+          "note": "match end",
+          "time": "2026-05-02T20:08:38.216Z"
+        }
+      ],
+      "matchType": 0,
+      "videoLink": "",
+      "comment": "",
+      "winnerNext": "",
+      "loserNext": ""
+    }
+  ],
+  "rankings": [
+    {
+      "rankingId": 63112078,
+      "name": "BB - LBARA LISTE JOUEURS (EUSES) LIGUE BLACKBALL (PRESTIGE,EXCELLENCE,PROMOTION,DISTRICT, COMITES) expérimental",
+      "url": "https://cuescore.com/ranking/BB+-+LBARA+LISTE+JOUEURS+%28EUSES%29+LIGUE+BLACKBALL+%28PRESTIGE%2CEXCELLENCE%2CPROMOTION%2CDISTRICT%2C+COMITES%29+exp%C3%A9rimental/63112078",
+      "branch": 2,
+      "bestOf": 7,
+      "season": 2025
+    },
+    {
+      "rankingId": 63113035,
+      "name": "BB - LBARA PRESTIGE BLACKBALL (REGIONAL 1)",
+      "url": "https://cuescore.com/ranking/BB+-+LBARA+PRESTIGE+BLACKBALL+%28REGIONAL+1%29/63113035",
+      "branch": 2,
+      "bestOf": 0,
+      "season": 2025
+    }
+  ],
+  "preseeds": {
+    "6311859": 9,
+    "7971295": 6,
+    "8068067": 10,
+    "9394723": 2,
+    "9667438": 1,
+    "14819872": 11,
+    "16672831": 4,
+    "34282213": 3,
+    "47036602": 7,
+    "48567484": 5,
+    "49043854": 8
+  },
+  "videos": [],
+  "settings": {
+    "participationRestriction": {
+      "tournaments": [],
+      "count": 1
+    },
+    "format": 4,
+    "drawPerRound": 0,
+    "maxParticipants": 11,
+    "ratingRestriction": [],
+    "commentSection": true,
+    "scoreboard": {
+      "runouts": true,
+      "break": true,
+      "breakrule": "alternate",
+      "notes": {
+        "logLevel": 1,
+        "shotclock": {
+          "active": false,
+          "length": 30,
+          "extensions": 1,
+          "extensionLength": 30
+        }
+      },
+      "handicapAsInitialScore": false,
+      "timeout": {
+        "timeoutsAvailable": 1,
+        "timeoutDuration": 5
+      }
+    },
+    "entryRestriction": {
+      "join_manager": true
+    },
+    "roundRaceTo": {
+      "4-870": {
+        "1": "5"
+      },
+      "4-860": {
+        "1": "5"
+      }
+    }
+  },
+  "access": [
+    6523135
+  ]
+}
