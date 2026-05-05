@@ -794,6 +794,48 @@ const tournaments = [
         event: 7,
         draw: 'handi',
         live: false
+    },
+
+
+
+
+    // FFB - TN8
+    {
+        id: 66028096,
+        organization: 'ffb',
+        event: 8,
+        draw: 'bbm',
+        live: true
+    }, {
+        id: 66028087,
+        organization: 'ffb',
+        event: 8,
+        draw: 'national',
+        live: true
+    }, {
+        id: 66028066,
+        organization: 'ffb',
+        event: 8,
+        draw: 'women',
+        live: true
+    }, {
+        id: 66028081,
+        organization: 'ffb',
+        event: 8,
+        draw: 'veteran',
+        live: true
+    }, {
+        id: 66028471,
+        organization: 'ffb',
+        event: 8,
+        draw: 'junior',
+        live: true
+    }, {
+        id: 66028057,
+        organization: 'ffb',
+        event: 8,
+        draw: 'espoir',
+        live: true
     }
 
 ];
